@@ -1,0 +1,5185 @@
+0 HEAD
+1 GEDC
+2 VERS 5.5.1
+2 FORM LINEAGE-LINKED
+1 CHAR UTF-8
+1 SOUR FAMILIO
+2 VERS 1.0.1
+2 CORP Familio.org
+1 DEST FAMILIO
+1 DATE 9 JUN 2025
+0 @I1@ INDI
+1 _UID 0834757a-c924-409b-8637-57641e1b6a9b
+1 NAME Варвара Иоановна /Никитяева/
+2 GIVN Варвара Иоановна
+2 _MARNM Никитяева
+1 SEX F
+1 BIRT
+2 DATE ABT 1855
+2 _UID e60d5526-1506-4c03-8d46-96dead0a77bd
+1 DEAT
+2 _UID c5e8ff22-795a-49b9-9eac-8a907dd9e8df
+1 FAMS @F1@
+0 @I2@ INDI
+1 _UID 2ebdcd29-440d-4c62-8977-302571045d75
+1 NAME Евдокия Адрианова //
+2 GIVN Евдокия Адрианова
+1 SEX F
+1 BIRT
+2 PLAC Тульская губерния, Крапивенский район , Драгунский сельсовет, деревня Казачьи Выселки
+3 MAP
+4 LATI N53.874886
+4 LONG E37.2696072
+3 NOTE https://familio.org/settlements/f922d553-a3bb-44f1-8982-385b95d38a98
+3 _FAMILIO_GUID f922d553-a3bb-44f1-8982-385b95d38a98
+2 _UID cc03a884-5c20-42ca-af4a-85212dd2b8ea
+1 DEAT
+2 _UID 8b7d8259-d9b5-4871-8ae7-be763df96fda
+1 FAMC @F70@
+0 @I3@ INDI
+1 _UID 08bcb820-3b78-4391-a8a4-7e7aed4d086c
+1 NAME Харитина Тимофеева //
+2 GIVN Харитина Тимофеева
+1 SEX F
+1 BIRT
+2 _UID 5acc95d5-3180-4d94-9791-1eccba45afad
+1 DEAT
+2 _UID e0d6df8f-0b97-4604-9f38-3dbcb5b5b5ef
+1 FAMS @F2@
+0 @I4@ INDI
+1 _UID 655dde43-e299-4219-ac25-eef4215b0d16
+1 NAME Акилина Егорова //
+2 GIVN Акилина Егорова
+1 SEX F
+1 BIRT
+2 _UID a175b414-805c-49d3-963b-874bece1de8a
+1 DEAT
+2 _UID 9ca67a8a-02a6-477d-9f87-c8dde2344b85
+1 FAMS @F3@
+0 @I5@ INDI
+1 _UID d92f3f51-f93d-4ef8-ad64-2a8b55538b12
+1 NAME Адриан Дмитриев //
+2 GIVN Адриан Дмитриев
+1 SEX M
+1 NOTE Государственный крестьянин 1859г.		В это время проживал в селе Казачьи выселки (рядом с селом Драгуны).		ГАТО-3-15-392
+2 CONC -с257 -- рождение дочери
+1 BIRT
+2 _UID 33a4952b-651b-4dfb-a53a-87292573071e
+1 DEAT
+2 _UID 71adfd53-8c28-41c4-8bdf-4914202d21ef
+1 FAMS @F3@
+0 @I6@ INDI
+1 _UID 0567f84f-7629-4be6-b057-4592ddb06d23
+1 NAME Иван /Кривцов/
+2 GIVN Иван
+1 SEX M
+1 BIRT
+2 _UID 6b8cc38d-eb52-406e-82e7-f02faab7bce8
+1 DEAT
+2 DATE ABT 1994
+2 _UID 7b44b8b1-13a5-44b7-89a6-fd04a92d78f6
+1 FAMS @F4@
+0 @I7@ INDI
+1 _UID 5ed86928-9c0e-4515-8d66-d505a241fead
+1 NAME Семен Андреев /Аниконов/
+2 GIVN Семен Андреев
+1 SEX M
+1 BIRT
+2 _UID ab5939f3-f743-48c7-8a46-6af8afd1df83
+1 FAMS @F80@
+0 @I8@ INDI
+1 _UID ffee0e7d-996a-4b13-b591-cb00b0c3c606
+1 NAME Роман Владимирович /Уколов/
+2 GIVN Роман Владимирович
+1 SEX M
+1 BIRT
+2 _UID fea7ac8d-0efc-4346-b04f-0912907db4db
+1 FAMC @F81@
+0 @I9@ INDI
+1 _UID 92162dae-0ee0-4b65-a5a3-ef7f184c4b89
+1 NAME Никита Филиппов //
+2 GIVN Никита Филиппов
+1 SEX M
+1 BIRT
+2 DATE 1858
+2 _UID 363c6b61-e9aa-42e7-997e-95539851a00d
+1 DEAT
+2 _UID a92d1f9c-f272-4d33-aca7-a639b2a42049
+1 FAMC @F5@
+0 @I10@ INDI
+1 _UID 8a012473-e39c-41e1-adac-e44c6d85ff86
+1 NAME Мария Филиппова //
+2 GIVN Мария Филиппова
+1 SEX F
+1 BIRT
+2 DATE 1848
+2 _UID 91ba3612-7cb0-4550-af3f-5b6bbc44fc93
+1 DEAT
+2 _UID eb64152c-46ac-487a-ab02-671f4036fe2d
+1 FAMC @F5@
+0 @I11@ INDI
+1 _UID 2f0d8e14-e30a-4ff8-ac48-9451d7da5bc9
+1 NAME Домна Михаилова //
+2 GIVN Домна Михаилова
+1 SEX F
+1 BIRT
+2 DATE ABT 1811
+2 _UID eff93376-a981-4a77-a157-95684af0cff4
+1 DEAT
+2 _UID 563131f0-2ec3-45cf-9e17-2726daae51f4
+1 FAMS @F5@
+0 @I12@ INDI
+1 _UID fa632366-8d6e-41ce-819c-e6648cfcf783
+1 NAME Евтей Филиппов //
+2 GIVN Евтей Филиппов
+1 SEX M
+1 BIRT
+2 DATE 1846
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, деревня Буландино
+3 MAP
+4 LATI N53.8868044
+4 LONG E36.9392476
+3 NOTE https://familio.org/settlements/c4dc3325-6d40-4668-9472-349e188c6f3a
+3 _FAMILIO_GUID c4dc3325-6d40-4668-9472-349e188c6f3a
+2 _UID b0d1f4b0-4bda-450b-a224-db758117667a
+1 DEAT
+2 _UID 7d9a9b3a-7dae-4007-8199-9d44b35bc1ba
+1 FAMC @F82@
+0 @I13@ INDI
+1 _UID f1ceff86-42a8-47c2-b761-3a3cc2214d6f
+1 NAME Тимофей Филиппов //
+2 GIVN Тимофей Филиппов
+1 SEX M
+1 BIRT
+2 DATE ABT 1844
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, деревня Буландино
+3 MAP
+4 LATI N53.8868044
+4 LONG E36.9392476
+3 NOTE https://familio.org/settlements/c4dc3325-6d40-4668-9472-349e188c6f3a
+3 _FAMILIO_GUID c4dc3325-6d40-4668-9472-349e188c6f3a
+2 _UID 1a5a5aef-b917-4747-8b6b-d769c195d9e8
+1 FAMC @F82@
+0 @I14@ INDI
+1 _UID a5c64174-8136-4662-96dc-0a6d1c6bf2bb
+1 NAME Миланья Николаева //
+2 GIVN Миланья Николаева
+1 SEX F
+1 BIRT
+2 DATE ABT 1787
+2 _UID d0ea1bad-6acf-4643-bf39-004daabbd090
+1 DEAT
+2 _UID da9dd836-9776-4ced-aa13-d6c698e59422
+1 FAMS @F6@
+0 @I15@ INDI
+1 _UID d9f8634b-a5fd-4875-ba18-efa5643682f6
+1 NAME Марк Евтеев //
+2 GIVN Марк Евтеев
+1 SEX M
+1 BIRT
+2 DATE ABT 1788
+2 _UID aba18c14-c7b8-4b46-8b30-3e16b3f89e94
+1 DEAT
+2 _UID 8edf2e89-9035-4ec0-81c4-891868935ce6
+1 FAMC @F83@
+1 FAMS @F6@
+0 @I16@ INDI
+1 _UID ecc28adc-7ba6-4811-9c98-7c622e1eb558
+1 NAME Филипп Евдокимов //
+2 GIVN Филипп Евдокимов
+1 SEX M
+1 BIRT
+2 DATE ABT 1800
+2 _UID b16603e3-f8ce-44d5-95c2-6bdc8e7936b0
+1 DEAT
+2 _UID ff21e197-ad63-4c2a-89c5-0711f0bdcc78
+1 FAMC @F84@
+1 FAMS @F5@
+1 FAMS @F82@
+0 @I17@ INDI
+1 _UID 463a122a-e17a-4fbb-b54b-4b8328e601ff
+1 NAME Марья Васильева //
+2 GIVN Марья Васильева
+1 SEX F
+1 BIRT
+2 DATE ABT 1854
+2 _UID be9c2629-10f2-4af9-987e-96be20cdcbe9
+1 DEAT
+2 _UID 0b61cbfd-1c3d-48c6-b807-9d319fe45a3d
+1 FAMC @F85@
+0 @I18@ INDI
+1 _UID ce07d185-c2d5-4d3e-bf43-2a422df63854
+1 NAME Василий Васильев //
+2 GIVN Василий Васильев
+1 SEX M
+1 BIRT
+2 DATE 1848
+2 _UID 73ca8ca7-0e1d-47f8-9456-972c75687a18
+1 DEAT
+2 _UID a8c94182-0d63-4f2e-b4e5-a7928f974de0
+1 FAMC @F85@
+0 @I19@ INDI
+1 _UID fb40e74b-5f10-4b0e-98b2-9e4087af9220
+1 NAME Василий Андреев //
+2 GIVN Василий Андреев
+1 SEX M
+1 BIRT
+2 DATE ABT 1818
+2 _UID 68f1181c-9f85-4741-a086-608bc624ff32
+1 DEAT
+2 _UID ac1175f6-4a2a-4b31-a85c-69bad5cacb7f
+1 FAMC @F86@
+1 FAMS @F7@
+1 FAMS @F85@
+0 @I20@ INDI
+1 _UID af5b10e4-98ab-45b8-bccc-3fc9fdec2c47
+1 NAME Евдоким Евтеев //
+2 GIVN Евдоким Евтеев
+1 SEX M
+1 BIRT
+2 _UID 53b8c5d0-0fff-4c96-b1b8-458c9a07aca1
+1 DEAT
+2 _UID 5792889d-ad5c-4b9c-8f9d-839060ce325e
+1 FAMC @F83@
+1 FAMS @F84@
+0 @I21@ INDI
+1 _UID 5700b8f1-2601-4746-a6b2-f976164df0fe
+1 NAME Евтей //
+2 GIVN Евтей
+1 SEX M
+1 BIRT
+2 _UID f1364716-1faf-49c5-b31c-ad39060e8dad
+1 FAMS @F83@
+0 @I22@ INDI
+1 _UID 84b6dfae-08b5-4410-a9dd-11a96d73bcce
+1 NAME Андрей Евтеев //
+2 GIVN Андрей Евтеев
+1 SEX M
+1 BIRT
+2 _UID b9b731da-c334-4f2f-a232-b3f74b496e04
+1 DEAT
+2 _UID 0792f3cc-06a9-4354-accf-15471cd6ff6e
+1 FAMC @F83@
+1 FAMS @F86@
+0 @I23@ INDI
+1 _UID 93035d71-78a1-486a-9d59-be593a6861fd
+1 NAME Домника Алексеева /Бусурина/
+2 GIVN Домника Алексеева
+2 _MARNM Бусурина
+1 SEX F
+1 BIRT
+2 DATE @#DJULIAN@ 1 JAN 1872
+2 PLAC Тульская губерния, Одоевский уезд, деревня Осиновка
+3 MAP
+4 LATI N53.8596289
+4 LONG E36.9250274
+3 NOTE https://familio.org/settlements/29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+3 _FAMILIO_GUID 29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+2 _UID fcac8600-9631-455c-b8da-36cccb38370a
+1 DEAT
+2 _UID 24733d88-4816-427d-b386-5ec72cf30f9b
+1 FAMC @F47@
+0 @I24@ INDI
+1 _UID 46439b79-81b7-40f2-84e9-37f8674a46bd
+1 NAME Мартин Антонов //
+2 GIVN Мартин Антонов
+1 SEX M
+1 BIRT
+2 DATE ABT 1839
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Рылево
+3 MAP
+4 LATI N53.849151
+4 LONG E36.8372152
+3 NOTE https://familio.org/settlements/86ec040b-d707-4ae0-9097-11a0a875047d
+3 _FAMILIO_GUID 86ec040b-d707-4ae0-9097-11a0a875047d
+2 _UID 0197186d-41d3-4346-8d8c-3e9ceb3a7138
+1 DEAT
+2 _UID eee939dc-ecd7-4db1-8f12-9b81c63cb255
+1 FAMC @F9@
+0 @I25@ INDI
+1 _UID d9dc6729-21ad-4ef0-842e-2888438a7c9d
+1 NAME Пелагея Александрова //
+2 GIVN Пелагея Александрова
+1 SEX F
+1 BIRT
+2 DATE ABT @#DJULIAN@ 1810
+2 _UID d806fcce-286c-4f51-8337-8b50f45022e2
+1 DEAT
+2 _UID 17ddd617-1129-4710-bfb3-8841062fe7bd
+1 FAMS @F8@
+0 @I26@ INDI
+1 _UID ac022a26-2b63-43f0-85bb-0e9fc1edf315
+1 NAME Параскева Васильева //
+2 GIVN Параскева Васильева
+1 SEX F
+1 BIRT
+2 DATE 1797
+2 _UID c2243b51-81d9-400f-b14b-23a98ad8d6ff
+1 DEAT
+2 DATE FROM 1847 TO 1861
+2 _UID 3c430fd5-a4ee-4d10-8417-6c0f64072dac
+1 FAMS @F9@
+0 @I27@ INDI
+1 _UID de2344a8-99fa-40a7-bc9e-42cb733ec5f4
+1 NAME Марина Никифорова //
+2 GIVN Марина Никифорова
+1 SEX F
+1 BIRT
+2 DATE ABT 1859
+2 _UID fd0d1d2f-69f7-4bb6-8245-1a937451b774
+1 DEAT
+2 _UID 09dd5b37-3eab-445c-89cc-68d932dbe04a
+1 FAMC @F10@
+0 @I28@ INDI
+1 _UID f73c2d4d-ce71-452d-a2ce-658d6c4d9f4e
+1 NAME Феврония Сергеева //
+2 GIVN Феврония Сергеева
+1 SEX F
+1 BIRT
+2 DATE ABT 1833
+2 _UID ed45a2db-54e1-4cd7-a5b7-9be17c202b0f
+1 DEAT
+2 _UID 6a95be37-bf8a-4063-b194-c1dd148f3b65
+1 FAMS @F10@
+0 @I29@ INDI
+1 _UID 77123127-6230-4ad7-b0f0-00348d0806a0
+1 NAME Никифор Антонов //
+2 GIVN Никифор Антонов
+1 SEX M
+1 BIRT
+2 DATE ABT 1832
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Рылево
+3 MAP
+4 LATI N53.849151
+4 LONG E36.8372152
+3 NOTE https://familio.org/settlements/86ec040b-d707-4ae0-9097-11a0a875047d
+3 _FAMILIO_GUID 86ec040b-d707-4ae0-9097-11a0a875047d
+2 _UID 63cd7747-bca8-4407-8727-0dbfb04895f1
+1 DEAT
+2 _UID 16799ce2-0c35-4d5b-9861-1144929a2cea
+1 FAMC @F9@
+1 FAMS @F10@
+0 @I30@ INDI
+1 _UID 4451fff4-5039-47e9-8bad-8d4c264950ec
+1 NAME Антон Гаврилов //
+2 GIVN Антон Гаврилов
+1 SEX M
+1 NOTE В 1861 временно-обязаннеые крестьяне села Рылево помещика Свинтицкаго
+1 BIRT
+2 DATE 1796
+2 _UID 434ace55-72cd-4faf-b97e-01bc44fcf4bd
+1 DEAT
+2 _UID 17c07322-0c74-410a-b6fc-a81fa11dbf7f
+1 FAMS @F9@
+0 @I31@ INDI
+1 _UID 33d0158a-b367-4f91-a31f-7f33339d14dc
+1 NAME Елена Вдадимировна //
+2 GIVN Елена Вдадимировна
+1 SEX F
+1 BIRT
+2 DATE ABT 1858
+2 _UID 826668d8-d0ea-4023-be1e-6d36308702e6
+1 DEAT
+2 _UID 3ade9e21-aac0-4087-871b-6b3dd6aa5ef9
+1 FAMC @F87@
+0 @I32@ INDI
+1 _UID 02bea58f-8f4b-493e-a40d-ed65d4d34428
+1 NAME Анисия Абрамиева //
+2 GIVN Анисия Абрамиева
+1 SEX F
+1 BIRT
+2 DATE ABT 1851
+2 _UID b0931b93-6ada-45c0-a7b3-dfe030a16f16
+1 DEAT
+2 _UID a3ab2813-58a5-4711-8184-d2514ed9cbe0
+1 FAMC @F8@
+0 @I33@ INDI
+1 _UID 35bf7046-aeb0-4045-82e4-5a0b9c2b54fc
+1 NAME Вера Абрамиева //
+2 GIVN Вера Абрамиева
+1 SEX F
+1 BIRT
+2 DATE ABT 1849
+2 _UID ff424cbc-2880-4ef8-9142-ca6ff5fbb002
+1 DEAT
+2 _UID c67ac46a-2e81-47f2-a343-d8f2cede3327
+1 FAMC @F8@
+0 @I34@ INDI
+1 _UID 8df20fb9-653c-4383-aec2-481b397d3d46
+1 NAME Агрипина Финогеновна //
+2 GIVN Агрипина Финогеновна
+1 SEX F
+1 BIRT
+2 DATE ABT 1830
+2 _UID c9b98455-0f93-4548-bfe5-bc94a088de35
+1 DEAT
+2 _UID cfb1cb32-b50a-4687-be99-1f837743d127
+1 FAMS @F11@
+1 FAMS @F87@
+0 @I35@ INDI
+1 _UID b133ae88-2266-437e-a1df-15c91ca142f1
+1 NAME Абрам (Аврамий) Антонов //
+2 GIVN Абрам (Аврамий) Антонов
+1 SEX M
+1 BIRT
+2 DATE ABT 1815
+2 _UID 5bd9e9a5-b803-4d6f-bbc1-97dd8ac34121
+1 DEAT
+2 _UID 99bd7797-e21d-4495-9552-66c1386164cd
+1 FAMC @F9@
+1 FAMS @F8@
+1 FAMS @F11@
+0 @I36@ INDI
+1 _UID e295da2c-046a-4c7d-81e5-df614d0d5362
+1 NAME Татьяна Дмитриева /Никитяева/
+2 GIVN Татьяна Дмитриева
+2 _MARNM Никитяева
+1 SEX F
+1 BIRT
+2 DATE ABT @#DJULIAN@ 1852
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, деревня Буландино
+3 MAP
+4 LATI N53.8868044
+4 LONG E36.9392476
+3 NOTE https://familio.org/settlements/c4dc3325-6d40-4668-9472-349e188c6f3a
+3 _FAMILIO_GUID c4dc3325-6d40-4668-9472-349e188c6f3a
+2 _UID 1d60de7d-c5b3-4136-8470-656b29b43fb3
+1 DEAT
+2 _UID 7ada995c-66ae-4872-a58e-bb48dd8f8053
+1 FAMC @F12@
+0 @I37@ INDI
+1 _UID c8b4dbcd-fb49-402a-9186-3f4f4892c1db
+1 NAME Федосья Васильевна //
+2 GIVN Федосья Васильевна
+1 SEX F
+1 BIRT
+2 DATE ABT 1832
+2 _UID aa3decaf-e50d-49db-aaf3-f11b9946a428
+1 DEAT
+2 _UID 79fcabf7-4a46-475d-8f5e-e696d30bd166
+1 FAMS @F12@
+0 @I38@ INDI
+1 _UID aca91951-b9dd-4f84-b85b-4ebb08e5b880
+1 NAME Акилина Дмитриева //
+2 GIVN Акилина Дмитриева
+1 SEX F
+1 BIRT
+2 DATE @#DJULIAN@ 1810
+2 _UID c0a7b06e-93d0-48fc-9b2e-2d359776c7cc
+1 DEAT
+2 _UID 06a7e585-7268-4d57-bdbe-0643b2af3352
+1 FAMS @F13@
+0 @I39@ INDI
+1 _UID 97b5881a-a2e4-420f-ae89-fa0689ce02c9
+1 NAME Агафья Илларионова /Бусурина/
+2 GIVN Агафья Илларионова
+2 _MARNM Бусурина
+1 SEX F
+1 BIRT
+2 DATE ABT @#DJULIAN@ 1860
+2 PLAC Тульская губерния, Одоевский уезд, деревня Осиновка
+3 MAP
+4 LATI N53.8596289
+4 LONG E36.9250274
+3 NOTE https://familio.org/settlements/29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+3 _FAMILIO_GUID 29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+2 _UID e6de63ac-4180-4aed-8ec8-eca005c17abc
+1 DEAT
+2 _UID bbeb666b-638c-4b83-b3aa-5c133d8fe97f
+1 FAMC @F44@
+0 @I40@ INDI
+1 _UID e10b2d33-868e-485a-b86c-a3f3e60ae6d0
+1 NAME Анна Илларионова /Бусурина/
+2 GIVN Анна Илларионова
+2 _MARNM Бусурина
+1 SEX F
+1 BIRT
+2 DATE ABT 1858
+2 PLAC Тульская губерния, Одоевский уезд, деревня Осиновка
+3 MAP
+4 LATI N53.8596289
+4 LONG E36.9250274
+3 NOTE https://familio.org/settlements/29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+3 _FAMILIO_GUID 29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+2 _UID de4ffd6a-6892-41af-ae60-cbe6253f29e0
+1 FAMC @F44@
+0 @I41@ INDI
+1 _UID 8e4a7d68-fc81-47a8-b84f-bb9211e6e904
+1 NAME Николай Алексеевич /Никитяев/
+2 GIVN Николай Алексеевич
+1 SEX M
+1 BIRT
+2 DATE ABT 1915
+2 _UID e7718969-7682-45f1-a613-d15e638fbaa2
+1 DEAT
+2 _UID e50418bf-183a-4ecd-8786-7d12637e3a11
+1 FAMC @F14@
+0 @I42@ INDI
+1 _UID a14db4a3-c793-4602-bd06-fd5e6f75f30f
+1 NAME Филлипп Алексеевич /Никитяев/
+2 GIVN Филлипп Алексеевич
+1 SEX M
+1 BIRT
+2 DATE 1914
+2 _UID 0258759f-1836-4ad1-a6c9-3fc1a7dcae62
+1 EVEN
+2 TYPE Пропал без вести
+2 DATE DEC 1941
+2 _UID e99ed472-9d80-4bae-9bab-ef2eb8207cfe
+1 DEAT
+2 DATE 1941
+2 _UID 3bdfaa40-395b-4a61-addb-071073274c4c
+1 FAMC @F14@
+0 @I43@ INDI
+1 _UID ca1f4bdc-c168-4762-ad7f-87ccd5e7482a
+1 NAME Дмитрий Алексеевич /Никитяев/
+2 GIVN Дмитрий Алексеевич
+1 SEX M
+1 BIRT
+2 DATE ABT 1882
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, деревня Буландино
+3 MAP
+4 LATI N53.8868044
+4 LONG E36.9392476
+3 NOTE https://familio.org/settlements/c4dc3325-6d40-4668-9472-349e188c6f3a
+3 _FAMILIO_GUID c4dc3325-6d40-4668-9472-349e188c6f3a
+2 _UID 6fd39b5b-beea-4c2b-bc32-3d0caea57cf8
+1 DEAT
+2 _UID 2ab0f534-0ac6-4f18-b0d6-badee99f7c44
+1 FAMC @F57@
+0 @I44@ INDI
+1 _UID bcc2d155-7248-4ecf-b142-3f40bd6347a4
+1 NAME Мария Иоановна /Никитяева/
+2 GIVN Мария Иоановна
+2 _MARNM Никитяева
+1 SEX F
+1 BIRT
+2 DATE ABT 1891
+2 _UID d92b0854-7919-4e17-8724-c601e1bc8556
+1 DEAT
+2 _UID 02008060-4ed0-404b-a1f9-ad6061f6396e
+1 FAMS @F14@
+0 @I45@ INDI
+1 _UID 3352461b-f169-487a-a838-ac9772e81687
+1 NAME Леонтий Маркович /Никитяев/
+2 GIVN Леонтий Маркович
+1 SEX M
+1 BIRT
+2 _UID e74bff5c-f725-4732-9667-8eca75e425bd
+1 DEAT
+2 _UID 1f337c3b-e219-45c7-9c18-c5074e77ea4f
+1 FAMC @F15@
+0 @I46@ INDI
+1 _UID 2a51772f-dbe9-43d0-bb7c-5965b1b1ac74
+1 NAME Екатерина Афанасьевна /Никитяева/
+2 GIVN Екатерина Афанасьевна
+2 _MARNM Никитяева
+1 SEX F
+1 BIRT
+2 DATE ABT @#DJULIAN@ 1914
+2 _UID ed2b3cb2-fa5a-43e0-816c-0f8a537a35eb
+1 DEAT
+2 _UID e250dfbd-b9aa-468f-ad6d-f64ee0be2c88
+1 FAMC @F15@
+0 @I47@ INDI
+1 _UID fb62568e-6540-4834-9e41-86d8e6bca326
+1 NAME Иван (Иоанн) Афанасьевич /Никитяев/
+2 GIVN Иван (Иоанн) Афанасьевич
+1 SEX M
+1 BIRT
+2 DATE 1911
+2 _UID 230b6b59-ba68-441f-880d-34352f1f8f6f
+1 DEAT
+2 _UID 02c6a99c-7eab-4b26-a4c0-5b073d5ee652
+1 FAMC @F15@
+0 @I48@ INDI
+1 _UID 3161707b-232e-4bfb-8fbf-c5ec439ddbba
+1 NAME Георгий Афанасьевич /Никитяев/
+2 GIVN Георгий Афанасьевич
+1 SEX M
+1 BIRT
+2 DATE ABT 1909
+2 _UID 5e17de52-07ce-4d54-b3d1-a16e0a337e2a
+1 DEAT
+2 _UID 67a23a38-e987-4b52-babc-e6c3859afd5e
+1 FAMC @F15@
+0 @I49@ INDI
+1 _UID 7e4a136a-e677-4baa-bbcd-24da33f019ea
+1 NAME Анастасия Петрова /Никитяева/
+2 GIVN Анастасия Петрова
+2 _MARNM Никитяева
+1 SEX F
+1 BIRT
+2 DATE ABT 1890
+2 _UID 5d4b7a66-f716-4157-8027-6780b91e00fc
+1 DEAT
+2 _UID d41ed92e-fefa-487f-bb4e-62f9ac67c7ab
+1 FAMS @F15@
+0 @I50@ INDI
+1 _UID 6c8bf394-400a-4124-a116-3b15b2350bd5
+1 NAME Агафья Васильева /Никитяева/
+2 GIVN Агафья Васильева
+2 _MARNM Никитяева
+1 SEX F
+1 BIRT
+2 DATE ABT 1891
+2 _UID 54dcdaa3-5b92-45ea-bce4-902f3ee0891c
+1 DEAT
+2 _UID e02bfa18-ed2e-4699-a1e0-195ef82ec209
+1 FAMS @F16@
+0 @I51@ INDI
+1 _UID 73e0b626-d389-4ef6-80ec-5b62001becaa
+1 NAME Федор Ильич /Никитяев/
+2 GIVN Федор Ильич
+1 SEX M
+1 BIRT
+2 DATE ABT 1891
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, деревня Буландино
+3 MAP
+4 LATI N53.8868044
+4 LONG E36.9392476
+3 NOTE https://familio.org/settlements/c4dc3325-6d40-4668-9472-349e188c6f3a
+3 _FAMILIO_GUID c4dc3325-6d40-4668-9472-349e188c6f3a
+2 _UID 94dd7d3c-021d-470f-a101-e1939c587855
+1 DEAT
+2 _UID 1be719d2-2265-4145-80bb-9158bc57a31a
+1 FAMC @F70@
+1 FAMS @F16@
+0 @I52@ INDI
+1 _UID 758bfd6f-9d03-437c-a004-c6d58c126ff7
+1 NAME Пелагея Петровна /Никитяева/
+2 GIVN Пелагея Петровна
+2 _MARNM Никитяева
+1 SEX F
+1 BIRT
+2 DATE 1911
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, деревня Буландино
+3 MAP
+4 LATI N53.8868044
+4 LONG E36.9392476
+3 NOTE https://familio.org/settlements/c4dc3325-6d40-4668-9472-349e188c6f3a
+3 _FAMILIO_GUID c4dc3325-6d40-4668-9472-349e188c6f3a
+2 _UID 33004281-1276-4579-bc9d-148fda02aad1
+1 DEAT
+2 _UID b44622ee-4d7d-488a-af39-931b5ed46eff
+1 FAMC @F53@
+0 @I53@ INDI
+1 _UID 314b82b8-4c57-47fb-aa61-1db828238179
+1 NAME Павел Емельянович /Никитяев/
+2 GIVN Павел Емельянович
+1 SEX M
+1 BIRT
+2 DATE ABT @#DJULIAN@ 1916
+2 _UID 4bf4aeb8-2880-46e0-8035-a0d73090cdc6
+1 FAMC @F17@
+0 @I54@ INDI
+1 _UID ca9812a1-7d59-4749-be1b-d6dcea001a60
+1 NAME Дмитрий Емельянович /Никитяев/
+2 GIVN Дмитрий Емельянович
+1 SEX M
+1 BIRT
+2 DATE ABT @#DJULIAN@ 1906
+2 _UID ef26a883-becb-414f-91a3-07af06ee20e8
+1 DEAT
+2 _UID 9f71701f-e0c2-4d0a-9b30-c6f67d66c082
+1 FAMC @F17@
+0 @I55@ INDI
+1 _UID 84a51294-622a-4247-953f-729c558d5f1d
+1 NAME Мария Емельяновна /Никитяева/
+2 GIVN Мария Емельяновна
+2 _MARNM Никитяева
+1 SEX F
+1 BIRT
+2 DATE ABT 1908
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, деревня Буландино
+3 MAP
+4 LATI N53.8868044
+4 LONG E36.9392476
+3 NOTE https://familio.org/settlements/c4dc3325-6d40-4668-9472-349e188c6f3a
+3 _FAMILIO_GUID c4dc3325-6d40-4668-9472-349e188c6f3a
+2 _UID 6d2785e0-d403-4e4e-8db4-42e6818aceb6
+1 DEAT
+2 _UID 3c220a2e-2dc6-4376-a171-7739741fc68e
+1 FAMC @F17@
+0 @I56@ INDI
+1 _UID 41b32f77-0ab5-4304-aed6-f2884fa12ec4
+1 NAME Илларион Емельянович /Никитяев/
+2 GIVN Илларион Емельянович
+1 SEX M
+1 BIRT
+2 DATE 1903
+2 _UID 0b129a7f-6d33-4843-a468-b6dfdb795dfa
+1 DEAT
+2 _UID 08c811bb-d779-4b1f-9a99-28c38c5dd659
+1 FAMC @F17@
+0 @I57@ INDI
+1 _UID 96f5fbcc-b1e5-48e4-9a7a-f43939915291
+1 NAME Мария Лаврентьева /Никитяева/
+2 GIVN Мария Лаврентьева
+2 _MARNM Никитяева
+1 SEX F
+1 BIRT
+2 DATE ABT 1895
+2 _UID 6ad2a70c-1950-4797-a6e4-f7eb4aed3fcf
+1 DEAT
+2 DATE AFT 1917
+2 _UID 965e421b-83ce-46c7-9ef8-a66c3b6a4776
+1 FAMS @F17@
+0 @I58@ INDI
+1 _UID b5b70103-f6bd-48ac-b326-ef32f36e59e7
+1 NAME Федор Владимирович /Никитяев/
+2 GIVN Федор Владимирович
+1 SEX M
+1 BIRT
+2 DATE ABT 1915
+2 _UID 861ad4f6-432b-4a39-a557-130bf7564e75
+1 DEAT
+2 _UID c7bc7a72-b829-40e0-9a02-67985bfb7a44
+1 FAMC @F79@
+0 @I59@ INDI
+1 _UID 493ea1d4-1ca3-40fc-8563-6dc0f5d49202
+1 NAME Марина Владимировна /Никитяева/
+2 GIVN Марина Владимировна
+2 _MARNM Никитяева
+1 SEX F
+1 BIRT
+2 DATE ABT @#DJULIAN@ 1906
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, деревня Буландино
+3 MAP
+4 LATI N53.8868044
+4 LONG E36.9392476
+3 NOTE https://familio.org/settlements/c4dc3325-6d40-4668-9472-349e188c6f3a
+3 _FAMILIO_GUID c4dc3325-6d40-4668-9472-349e188c6f3a
+2 _UID feb649d9-883f-4145-981e-44bfb9a112ed
+1 DEAT
+2 _UID 04639817-c858-465e-b460-5ffa816be94d
+1 FAMC @F79@
+0 @I60@ INDI
+1 _UID 8f79abb3-9c4c-48cb-bc6c-23a559c364b0
+1 NAME Алексей /Бусурин/
+2 GIVN Алексей
+1 SEX M
+1 BIRT
+2 _UID 761c0c50-6297-42e6-9a82-0f1c38980a99
+1 FAMS @F88@
+0 @I61@ INDI
+1 _UID e80df579-be8a-4bc1-93e8-1bf500ca6981
+1 NAME Ефросинья Ивановна /Бусурина/
+2 GIVN Ефросинья Ивановна
+2 _MARNM Бусурина
+1 SEX F
+1 BIRT
+2 DATE ABT 1916
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID 9fb8840b-f54a-49de-b30e-8c35aeb9ea11
+1 DEAT
+2 _UID 714e046b-5932-4ba8-a225-177a5de25a7a
+1 FAMC @F18@
+0 @I62@ INDI
+1 _UID 141d64f1-1605-4713-9b72-febf461375f7
+1 NAME Иван (Иоанн) Иванович /Бусурин/
+2 GIVN Иван (Иоанн) Иванович
+1 SEX M
+1 BIRT
+2 DATE ABT @#DJULIAN@ 1912
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID a17e01d3-fa74-43f3-9683-92d7ae5c2a82
+1 DEAT
+2 _UID 242f2b26-4142-4290-9f55-403ac9f5b235
+1 FAMC @F18@
+0 @I63@ INDI
+1 _UID dd513e30-3133-4871-a1eb-9a2898cdf59f
+1 NAME Ефросинья Карповна /Бусурина/
+2 GIVN Ефросинья Карповна
+2 _MARNM Бусурина
+1 SEX F
+1 BIRT
+2 DATE ABT 1888
+2 _UID 5b98fd18-fd9a-4d7b-b189-dc33132cd712
+1 DEAT
+2 _UID 52bb677f-6645-4464-b751-1d10b29b0a8a
+1 FAMS @F18@
+0 @I64@ INDI
+1 _UID aa48d666-2538-4a86-8bb5-433e85db3370
+1 NAME Любовь Дмитриевна /Бусурина/
+2 GIVN Любовь Дмитриевна
+2 _MARNM Бусурина
+1 SEX F
+1 BIRT
+2 DATE ABT 1913
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID 05a11c1a-4dbe-4fe7-a18a-229fd6af0708
+1 FAMC @F20@
+0 @I65@ INDI
+1 _UID e66a251c-82ae-4b8d-8508-b245a91c1d2a
+1 NAME Агриппина (Агрофена) Симеоновна /Бусурина (Аниконовна)/
+2 GIVN Агриппина (Агрофена) Симеоновна
+2 SURN Аниконовна
+2 _MARNM Бусурина
+1 SEX F
+1 BIRT
+2 DATE ABT 1896
+2 PLAC Тульская губерния, Одоевский уезд, деревня Новая Слобода
+3 MAP
+4 LATI N53.8610754
+4 LONG E37.0200027
+3 NOTE https://familio.org/settlements/5cfbba0c-76e1-4ec2-8836-faafe4196d6a
+3 _FAMILIO_GUID 5cfbba0c-76e1-4ec2-8836-faafe4196d6a
+2 _UID 560f479e-e290-4fd5-8467-7cf5e7778249
+1 DEAT
+2 _UID 77a67478-63c3-4783-86bf-9976f84ccb09
+1 FAMC @F80@
+1 FAMS @F19@
+0 @I66@ INDI
+1 _UID 782bf577-b9ec-4d21-896f-632280fca5cd
+1 NAME Марфа Геогриевна /Бусурина/
+2 GIVN Марфа Геогриевна
+2 _MARNM Бусурина
+1 SEX F
+1 BIRT
+2 DATE ABT 1886
+2 _UID 0d77e8b4-19d7-4705-b3f1-352c21273024
+1 DEAT
+2 _UID dc2cdde0-d493-4620-9287-432291137854
+1 FAMS @F20@
+0 @I67@ INDI
+1 _UID 853e8323-aa70-4e54-86f6-8e0d78de31c0
+1 NAME Марина Ильина /Бусурина/
+2 GIVN Марина Ильина
+2 _MARNM Бусурина
+1 SEX F
+1 BIRT
+2 DATE 1897
+2 _UID 01891d7a-2d7d-4bcc-bc45-a6d8ea1d0aaa
+1 DEAT
+2 _UID 54501d9b-1e05-40a5-b85a-272e4244d3f7
+1 FAMS @F21@
+0 @I68@ INDI
+1 _UID 27a6c39b-022f-4da1-884f-60e8b76b601d
+1 NAME Петр Дмитриевич /Бусурин/
+2 GIVN Петр Дмитриевич
+1 SEX M
+1 BIRT
+2 DATE ABT @#DJULIAN@ 1916
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID 2b47270b-92d6-41b2-9512-8bb31b4e0bf9
+1 DEAT
+2 _UID 0c8b4f82-86df-4519-ab17-fd1ba9f5074d
+1 FAMC @F67@
+0 @I69@ INDI
+1 _UID a7c2b8b4-5a51-4610-8cd6-386b89a65ca3
+1 NAME Прокопий Дмитриевич /Бусурин/
+2 GIVN Прокопий Дмитриевич
+1 SEX M
+1 BIRT
+2 DATE 1915
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID dca58af4-5abb-4858-a47a-fd0b431d30cb
+1 DEAT
+2 _UID 4fc1c78b-287d-43f5-a4c9-c56e65767899
+1 FAMC @F67@
+0 @I70@ INDI
+1 _UID bfa363b7-7542-48f4-b4e9-b36602278d05
+1 NAME Григорий Дмитриевич /Бусурин/
+2 GIVN Григорий Дмитриевич
+1 SEX M
+1 BIRT
+2 DATE 1913
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID 324931e5-b0f5-4635-95dd-1b101e7bbbc1
+1 DEAT
+2 _UID 3eacd877-1b38-4b13-8000-ee3f586c25bd
+1 FAMC @F67@
+0 @I71@ INDI
+1 _UID 3a8d05f2-2b17-4030-bccf-083f0754449a
+1 NAME Наталья Дмитриевна /Бусурина/
+2 GIVN Наталья Дмитриевна
+2 _MARNM Бусурина
+1 SEX F
+1 BIRT
+2 DATE @#DJULIAN@ 1911
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID 8e60d201-c5eb-404d-ac47-920e76a1cd1d
+1 DEAT
+2 _UID 9e10f63f-e181-4f8f-bb5c-2039ae1eb8b2
+1 FAMC @F67@
+0 @I72@ INDI
+1 _UID 104903e2-f013-4068-b67c-2b2852e2e842
+1 NAME Василиса Дмитриевна /Бусурина/
+2 GIVN Василиса Дмитриевна
+2 _MARNM Бусурина
+1 SEX F
+1 BIRT
+2 DATE 1906
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID d8dd4c33-cefc-4e57-a352-d5d6c913e4a8
+1 DEAT
+2 _UID 2459a61f-f746-44f8-b633-a8e1de69b936
+1 FAMC @F67@
+0 @I73@ INDI
+1 _UID 909dc901-bd64-468e-b6b3-a34b16bcc98d
+1 NAME Павел Дмитриевич /Бусурин/
+2 GIVN Павел Дмитриевич
+1 SEX M
+1 BIRT
+2 DATE 1883
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID 3308063f-c493-430a-9a33-da5e921a7f23
+1 DEAT
+2 _UID 4d9922bc-cf21-4291-a3fb-1f25b8d9c959
+1 FAMC @F67@
+1 FAMS @F21@
+0 @I74@ INDI
+1 _UID b7a1843e-42e8-4464-9a2d-56700eeb3626
+1 NAME Даниил Емельянович /Бусурин/
+2 GIVN Даниил Емельянович
+1 SEX M
+1 BIRT
+2 DATE 1910
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID 2703d903-b85c-4ab4-9593-fde39818ba0d
+1 DEAT
+2 _UID bca96f3d-5cfe-4935-bc32-d3ab11d5f9be
+1 FAMC @F63@
+0 @I75@ INDI
+1 _UID c958fdf5-12a7-4a44-adf3-b83f84ecdff5
+1 NAME Василий Емельянович /Бусурин/
+2 GIVN Василий Емельянович
+1 SEX M
+1 BIRT
+2 DATE 1906
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID 63499a19-bbbd-4e6e-8b25-ca6a2eeb6711
+1 DEAT
+2 _UID 235d1b2d-9956-47f2-a0d4-cee6cfa36a7e
+1 FAMC @F63@
+0 @I76@ INDI
+1 _UID 0392f35c-5e2d-4ee9-af51-eecc325cc685
+1 NAME Анна Филлиповна /Бусурина/
+2 GIVN Анна Филлиповна
+2 _MARNM Бусурина
+1 SEX F
+1 BIRT
+2 DATE 28 FEB 1911
+2 PLAC город федерального значения Москва, город Москва
+3 MAP
+4 LATI N55.7504461
+4 LONG E37.6174943
+3 NOTE https://familio.org/settlements/811e618b-b9de-497b-ac26-f95629ffd562
+3 _FAMILIO_GUID 811e618b-b9de-497b-ac26-f95629ffd562
+2 _UID 2052a65f-3320-43f7-abd2-a0c956046b24
+1 DEAT
+2 _UID dc09059c-02b8-46c5-ae33-da1655fdcb43
+1 FAMC @F54@
+0 @I77@ INDI
+1 _UID da5a7d5a-8399-4228-a823-84f83e287489
+1 NAME Анна Филлиповна /Бусурина/
+2 GIVN Анна Филлиповна
+2 _MARNM Бусурина
+1 SEX F
+1 BIRT
+2 DATE @#DJULIAN@ 11 FEB 1911
+2 PLAC город федерального значения Москва, город Москва
+3 MAP
+4 LATI N55.7504461
+4 LONG E37.6174943
+3 NOTE https://familio.org/settlements/811e618b-b9de-497b-ac26-f95629ffd562
+3 _FAMILIO_GUID 811e618b-b9de-497b-ac26-f95629ffd562
+2 _UID a7cd8e98-11b7-4f19-96bb-e841333c5ca8
+1 DEAT
+2 _UID fd85270f-9bb7-4264-a1eb-0b129095b072
+1 FAMC @F54@
+0 @I78@ INDI
+1 _UID 3045f80c-9272-4e72-8fd4-0088867c47a5
+1 NAME Ефросинья Ивановна /Бусурина/
+2 GIVN Ефросинья Ивановна
+2 _MARNM Бусурина
+1 SEX F
+1 BIRT
+2 _UID 0985f3c9-aca3-426a-83ef-5fe6620945db
+1 DEAT
+2 _UID f763edfb-3978-4847-b76b-11d95f96d7a0
+1 EVEN
+2 TYPE Восприемник
+2 DATE 1905
+2 PLAC Московская область, Серпухов, город Серпухов
+3 MAP
+4 LATI N54.9202
+4 LONG E37.4098
+3 NOTE https://familio.org/settlements/f63b8063-5d21-4498-9458-89ba47732cf5
+3 _FAMILIO_GUID f63b8063-5d21-4498-9458-89ba47732cf5
+2 _UID ad810015-5c91-47c4-b61c-2caa31cffe3d
+0 @I79@ INDI
+1 _UID 11a33060-9160-41ae-bdce-1bc1bc593e5c
+1 NAME Агриппина Егоровна /Бусурина/
+2 GIVN Агриппина Егоровна
+2 _MARNM Бусурина
+1 SEX F
+1 BIRT
+2 _UID f60b45e3-a587-4503-af72-3f27e5bb6fcb
+1 EVEN
+2 TYPE Восприемник
+2 DATE 1915
+2 PLAC город федерального значения Москва, город Москва
+3 MAP
+4 LATI N55.7504461
+4 LONG E37.6174943
+3 NOTE https://familio.org/settlements/811e618b-b9de-497b-ac26-f95629ffd562
+3 _FAMILIO_GUID 811e618b-b9de-497b-ac26-f95629ffd562
+2 _UID eeeb3814-45e4-404d-bb78-8dc442c3b486
+0 @I80@ INDI
+1 _UID 5fd383ad-e70e-407e-a6c2-18845dc7e30f
+1 NAME Агриппина Онисимовна /Бусурина/
+2 GIVN Агриппина Онисимовна
+2 _MARNM Бусурина
+1 SEX F
+1 BIRT
+2 DATE @#DJULIAN@ 16 JUL 1914
+2 PLAC город федерального значения Москва, город Москва
+3 MAP
+4 LATI N55.7504461
+4 LONG E37.6174943
+3 NOTE https://familio.org/settlements/811e618b-b9de-497b-ac26-f95629ffd562
+3 _FAMILIO_GUID 811e618b-b9de-497b-ac26-f95629ffd562
+2 _UID 2b79109b-248a-4633-8646-e9e329fcd750
+1 DEAT
+2 _UID 048d5374-2d0c-4b5f-b6b3-dba85ead1368
+1 FAMC @F23@
+0 @I81@ INDI
+1 _UID eb8b8e27-da76-4022-bafe-b8b553e71395
+1 NAME Анисия Филипповна /Бусурина/
+2 GIVN Анисия Филипповна
+2 _MARNM Бусурина
+1 SEX F
+1 BIRT
+2 DATE @#DJULIAN@ 19 DEC 1907
+2 PLAC город федерального значения Москва, город Москва
+3 MAP
+4 LATI N55.7504461
+4 LONG E37.6174943
+3 NOTE https://familio.org/settlements/811e618b-b9de-497b-ac26-f95629ffd562
+3 _FAMILIO_GUID 811e618b-b9de-497b-ac26-f95629ffd562
+2 _UID 5af86dc6-9d62-4288-b1b8-efd0a97ed3aa
+1 DEAT
+2 DATE @#DJULIAN@ 20 SEP 1909
+2 _UID 6c6e07c6-c7cb-4102-b84f-66a2b8211482
+1 FAMC @F54@
+0 @I82@ INDI
+1 _UID ed459378-29ad-4088-992f-0c64f187f497
+1 NAME Екатерина Дмитриевна /Ефимова/
+2 GIVN Екатерина Дмитриевна
+2 _MARNM Ефимова
+1 SEX F
+1 BIRT
+2 DATE @#DJULIAN@ 12 NOV 1915
+2 PLAC город федерального значения Москва, город Москва
+3 MAP
+4 LATI N55.7504461
+4 LONG E37.6174943
+3 NOTE https://familio.org/settlements/811e618b-b9de-497b-ac26-f95629ffd562
+3 _FAMILIO_GUID 811e618b-b9de-497b-ac26-f95629ffd562
+2 _UID cefe3bb0-478d-4405-88ff-84a95fc19e2f
+1 DEAT
+2 _UID 97a5b71b-f3b4-47c8-8440-a4cac75975d9
+1 FAMC @F22@
+0 @I83@ INDI
+1 _UID 7b4c3493-4879-4dba-8dbb-307f92db77f0
+1 NAME Дмитрий Иванович /Ефимов/
+2 GIVN Дмитрий Иванович
+1 SEX M
+1 BIRT
+2 PLAC Тульская область, Веневский муниципальный район, Центральное сельское поселение, деревня Борозденки
+3 MAP
+4 LATI N54.4831638
+4 LONG E38.2843573
+3 NOTE https://familio.org/settlements/3b108e8d-8b6f-4a94-b451-fbf3c3c9794b
+3 _FAMILIO_GUID 3b108e8d-8b6f-4a94-b451-fbf3c3c9794b
+2 _UID 615f7b77-0a6b-4b75-90c9-6c910afd6c66
+1 DEAT
+2 _UID 596b86fb-93cd-4c11-b8a0-db6192c4fa10
+1 FAMS @F22@
+0 @I84@ INDI
+1 _UID a2299bb1-16bd-4a3b-a4d7-b21de9f8c315
+1 NAME Татьяна Иосифовна /Бусурина/
+2 GIVN Татьяна Иосифовна
+2 _MARNM Бусурина
+1 SEX F
+1 BIRT
+2 _UID 4dec8a59-7223-47e2-af60-d8d40d3218e8
+1 EVEN
+2 TYPE Восприемник
+2 DATE 1910
+2 PLAC город федерального значения Москва, город Москва
+3 MAP
+4 LATI N55.7504461
+4 LONG E37.6174943
+3 NOTE https://familio.org/settlements/811e618b-b9de-497b-ac26-f95629ffd562
+3 _FAMILIO_GUID 811e618b-b9de-497b-ac26-f95629ffd562
+2 _UID f4c49baf-187b-4562-8819-6aebcfa12470
+1 DEAT
+2 _UID 876a7e5b-130d-476e-a575-ae0556a33b4d
+0 @I85@ INDI
+1 _UID 2738019a-d56d-4213-ab0f-918454b3b50c
+1 NAME Анна Онисимовна /Бусурина/
+2 GIVN Анна Онисимовна
+2 _MARNM Бусурина
+1 SEX F
+1 BIRT
+2 DATE @#DJULIAN@ 15 FEB 1910
+2 PLAC город федерального значения Москва, город Москва
+3 MAP
+4 LATI N55.7504461
+4 LONG E37.6174943
+3 NOTE https://familio.org/settlements/811e618b-b9de-497b-ac26-f95629ffd562
+3 _FAMILIO_GUID 811e618b-b9de-497b-ac26-f95629ffd562
+2 _UID 3bd6c8a3-64b1-4e67-85a4-b7e06eb9334d
+1 DEAT
+2 _UID 55be1d10-0b92-4710-8f8e-ccb37737f050
+1 FAMC @F23@
+0 @I86@ INDI
+1 _UID 7ac5cc09-3623-4525-a527-c6ddb5f5980c
+1 NAME Сергей Онисимович /Бусурин/
+2 GIVN Сергей Онисимович
+1 SEX M
+1 BIRT
+2 DATE @#DJULIAN@ 19 MAR 1912
+2 PLAC город федерального значения Москва, город Москва
+3 MAP
+4 LATI N55.7504461
+4 LONG E37.6174943
+3 NOTE https://familio.org/settlements/811e618b-b9de-497b-ac26-f95629ffd562
+3 _FAMILIO_GUID 811e618b-b9de-497b-ac26-f95629ffd562
+2 _UID 6b8e6508-caa7-4e1a-ae97-f43750100fe1
+1 DEAT
+2 _UID dbd861fc-aab0-4167-91cd-201cbaa219b4
+1 FAMC @F23@
+0 @I87@ INDI
+1 _UID 4bb9b518-54b4-46c5-bd43-31bbf286afc2
+1 NAME Евдокия Михайловна /Бусурина/
+2 GIVN Евдокия Михайловна
+2 _MARNM Бусурина
+1 SEX F
+1 BIRT
+2 _UID fab627ad-046b-4f2e-9553-3b931cba7f8e
+1 DEAT
+2 _UID e02466eb-c36a-434d-999a-8cf59204e0f2
+1 FAMS @F23@
+0 @I88@ INDI
+1 _UID cafb7559-77e1-4487-b329-a0e60095f242
+1 NAME Николай Дмитриевич /Бусурин/
+2 GIVN Николай Дмитриевич
+1 SEX M
+1 BIRT
+2 DATE @#DJULIAN@ 1915
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID 85ac2af9-ba91-4324-aa3a-bd8adff602e5
+1 DEAT
+2 DATE 1917
+2 _UID 010d40e5-58de-4232-acef-e1a11a1354b9
+1 FAMC @F20@
+0 @I89@ INDI
+1 _UID 36bacae7-a702-4ee3-9a4b-eabb90caaa7b
+1 NAME Даниил Осипович /Бусурин/
+2 GIVN Даниил Осипович
+1 SEX M
+1 BIRT
+2 DATE 1892
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID 61b2c55c-5f5e-441e-a328-cfc83c7e90ca
+1 DEAT
+2 _UID 4ebec8ff-bbc2-4629-8632-42f0ee8aa23a
+1 FAMC @F60@
+1 SOUR @S0@
+0 @I90@ INDI
+1 _UID 43487508-7467-423a-90f8-027d24fb1cd6
+1 NAME Дмитрий Осипович /Бусурин/
+2 GIVN Дмитрий Осипович
+1 SEX M
+1 BIRT
+2 DATE 1879
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID e63898ca-000a-4470-ab17-05838057d063
+1 DEAT
+2 DATE @#DJULIAN@ 23 JAN 1915
+2 _UID 678465d7-055f-45bd-a4eb-208c79f1060b
+1 FAMC @F60@
+1 FAMS @F20@
+0 @I91@ INDI
+1 _UID e858eaf5-f07b-46fb-94d0-dc6635849be5
+1 NAME Анисим (Онисим) Иосифович /Бусурин/
+2 GIVN Анисим (Онисим) Иосифович
+1 SEX M
+1 NOTE http://online.archives.ru/search/1002/10000122513002/10000122927002/10001935187002/#!		Работал в ГУГС ВСНХ СССР гдле-т
+2 CONC о в промежутке 1918-1924
+1 BIRT
+2 _UID 014cdd8f-1280-4f21-8a9d-e27574ccffbf
+1 DEAT
+2 _UID 432624b7-8c44-44d6-9858-e690518a1fe1
+1 FAMS @F23@
+0 @I92@ INDI
+1 _UID d6d5ecf5-321a-4a27-8f5c-58f1ae1c1af5
+1 NAME Георгий Абрамиев /Стрыжов/
+2 GIVN Георгий Абрамиев
+1 SEX M
+1 BIRT
+2 DATE ABT 1847
+2 _UID fa89ab3d-7c4c-43ab-9a67-aada983f813d
+1 DEAT
+2 _UID e513a712-9e2d-4c52-a4e5-eeb2cd301343
+1 FAMC @F8@
+1 FAMS @F89@
+0 @I93@ INDI
+1 _UID 363e33c2-7fa5-4fb3-9cd4-2103253b6779
+1 NAME Прокопий Емельянович /Бусурин/
+2 GIVN Прокопий Емельянович
+1 SEX M
+1 BIRT
+2 DATE @#DJULIAN@ 1894
+2 _UID c1066e79-fd32-45fc-93a6-105c0e8d2b68
+1 DEAT
+2 DATE 1898
+2 _UID caa9bfc3-9853-4dff-a1a4-0b74bee262b4
+1 FAMC @F63@
+0 @I94@ INDI
+1 _UID 7cca4a01-2fc8-404a-ac81-598b74aaa483
+1 NAME Антон Андреевич /Макридчев/
+2 GIVN Антон Андреевич
+1 SEX M
+1 BIRT
+2 DATE @#DJULIAN@ 1879
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID 66212953-5780-40ee-b6b5-10c19e264312
+1 DEAT
+2 _UID 77d88c32-106b-4a79-aa27-ec479f86d68d
+1 FAMS @F24@
+0 @I95@ INDI
+1 _UID b18e3478-7cd8-4782-a87c-1c1fc234b6f5
+1 NAME Антон Андреевич /Макридчев/
+2 GIVN Антон Андреевич
+1 SEX M
+1 BIRT
+2 DATE 1877
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID f9d01280-55b8-442e-8585-fc8b84ab789f
+1 DEAT
+2 _UID 5e84ea28-38ec-4068-9fd5-2951b6fd500f
+0 @I96@ INDI
+1 _UID 3f90ec4c-5e72-4d05-b385-8a54af6d8f8b
+1 NAME Антон Андреевич /Макридчев/
+2 GIVN Антон Андреевич
+1 SEX M
+1 BIRT
+2 DATE 1877
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID 47a8712d-e5d0-46b1-ae4c-46d01fda6929
+0 @I97@ INDI
+1 _UID 108a9798-4b6b-43c9-9df3-ba2258a56891
+1 NAME Наталья Ивановна /Макридчева (Бусурина)/
+2 GIVN Наталья Ивановна
+2 SURN Бусурина
+2 _MARNM Макридчева
+1 SEX F
+1 BIRT
+2 DATE 1878
+2 _UID f06a70ab-ceac-43de-9fac-20ebd6605c9b
+1 DEAT
+2 _UID f9b936e4-de24-49d8-906e-0a3f05a4e103
+1 FAMC @F65@
+1 FAMS @F24@
+1 FAMS @F25@
+0 @I98@ INDI
+1 _UID 282b232e-fb6a-4f3e-9209-f0f4abe3ce19
+1 NAME Матфей Васильевич /Малариевич/
+2 GIVN Матфей Васильевич
+1 SEX M
+1 BIRT
+2 DATE 1868
+2 _UID 64439154-d2ff-452e-a09d-ed924159aa2e
+1 DEAT
+2 _UID 38342b6b-9fa1-486c-873b-897a9d42dfb4
+1 FAMS @F26@
+0 @I99@ INDI
+1 _UID e48591d4-0a2e-4c81-927b-f4769dab97ed
+1 NAME Васса Сергеевнав /Малариевич (Бусурина)/
+2 GIVN Васса Сергеевнав
+2 SURN Бусурина
+2 _MARNM Малариевич
+1 SEX F
+1 BIRT
+2 DATE @#DJULIAN@ 1877
+2 PLAC Тульская губерния, Одоевский уезд, деревня Осиновка
+3 MAP
+4 LATI N53.8596289
+4 LONG E36.9250274
+3 NOTE https://familio.org/settlements/29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+3 _FAMILIO_GUID 29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+2 _UID ced36fd2-c647-4f46-8620-157cdf5f2d5d
+1 DEAT
+2 _UID 4f8a8369-9fd6-4705-97dc-313d60d49cc9
+1 FAMC @F90@
+1 FAMS @F26@
+0 @I100@ INDI
+1 _UID 2c5d4262-23d0-4f0e-9086-ea6a43886462
+1 NAME Анастасия Михайловна /Бусурина/
+2 GIVN Анастасия Михайловна
+2 _MARNM Бусурина
+1 SEX F
+1 BIRT
+2 DATE @#DJULIAN@ 18 DEC 1895
+2 PLAC Тульская губерния, Одоевский уезд, деревня Осиновка
+3 MAP
+4 LATI N53.8596289
+4 LONG E36.9250274
+3 NOTE https://familio.org/settlements/29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+3 _FAMILIO_GUID 29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+2 _UID db4f1a08-4c29-488d-90a7-9b3115a175e8
+1 DEAT
+2 DATE @#DJULIAN@ 28 DEC 1895
+2 PLAC Тульская губерния, Одоевский уезд, деревня Осиновка
+3 MAP
+4 LATI N53.8596289
+4 LONG E36.9250274
+3 NOTE https://familio.org/settlements/29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+3 _FAMILIO_GUID 29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+2 _UID f8fdf42f-e45b-4af5-990f-035c5d22dd7d
+1 FAMC @F62@
+0 @I101@ INDI
+1 _UID 0e63bb2a-d073-4162-9d67-6cb67a272b1a
+1 NAME Федот Иванович /Бусурин/
+2 GIVN Федот Иванович
+1 SEX M
+1 BIRT
+2 DATE 1885
+2 _UID 74a3a4cb-a818-4266-a319-9df4b933665f
+1 DEAT
+2 DATE DEC 1895
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID 4b262674-fee4-4d13-be55-a64360406d1e
+1 FAMC @F65@
+0 @I102@ INDI
+1 _UID 3eec8ff8-98d7-43c8-8ed4-71946380198a
+1 NAME Иоанн Иосифович /Бусурин/
+2 GIVN Иоанн Иосифович
+1 SEX M
+1 BIRT
+2 DATE 1894
+2 _UID 147f2e0f-948e-47aa-a261-948fb69b089a
+1 DEAT
+2 DATE 1895
+2 _UID 7b7946f1-a640-41b4-ad08-23f5616572d1
+1 FAMC @F60@
+0 @I103@ INDI
+1 _UID a24f0538-43b8-44b2-8b57-a2e39d3db751
+1 NAME Марфа Марковна /Бусурина/
+2 GIVN Марфа Марковна
+2 _MARNM Бусурина
+1 SEX F
+1 BIRT
+2 DATE ABT 1795
+2 _UID 5321d5f3-e2b8-4576-8491-6810a084d1ed
+1 DEAT
+2 DATE 27 JAN 1895
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID 398effa5-803d-48e7-b0fb-e4406fca6d3c
+0 @I104@ INDI
+1 _UID 3bd5eeee-8a12-492d-bd7c-86bc4e2e49f5
+1 NAME Никита Петрович /Бабков/
+2 GIVN Никита Петрович
+1 SEX M
+1 BIRT
+2 _UID e8ec10b0-9234-472b-bab8-201856e1479d
+1 DEAT
+2 _UID 1607dddd-ad59-49b9-b127-744bcf4cc64b
+1 FAMS @F91@
+0 @I105@ INDI
+1 _UID 5eaa48d3-0e8d-49c6-b578-2787fd36f400
+1 NAME Дарья Никитина /Бусурина (Бабкова)/
+2 GIVN Дарья Никитина
+2 SURN Бабкова
+2 _MARNM Бусурина
+1 SEX F
+1 BIRT
+2 DATE 1870
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, деревня Андрейчищево
+3 MAP
+4 LATI N53.899473
+4 LONG E36.9701704
+3 NOTE https://familio.org/settlements/2a85e903-314f-4af1-a2ca-b7d78bb578c1
+3 _FAMILIO_GUID 2a85e903-314f-4af1-a2ca-b7d78bb578c1
+2 _UID 235c2856-160b-4534-805b-375cbdd21ee7
+1 DEAT
+2 _UID b96cd0fb-b053-41fb-bb74-b21ece7b0ea8
+1 FAMC @F91@
+1 FAMS @F27@
+0 @I106@ INDI
+1 _UID 6963c32a-032b-46cd-9e4e-bec86a32d1f3
+1 NAME Иона Илларионович /Бусурин/
+2 GIVN Иона Илларионович
+1 SEX M
+1 BIRT
+2 DATE ABT 1867
+2 PLAC Тульская губерния, Одоевский уезд, деревня Осиновка
+3 MAP
+4 LATI N53.8596289
+4 LONG E36.9250274
+3 NOTE https://familio.org/settlements/29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+3 _FAMILIO_GUID 29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+2 _UID 6fabb7f8-d3c3-4247-8f87-8aef13efdfd6
+1 DEAT
+2 _UID f95db5ec-62d1-4b25-9ec7-1303bdb96c48
+1 FAMC @F44@
+1 FAMS @F27@
+0 @I107@ INDI
+1 _UID e56e1783-9122-4b23-9d47-495497af6a4f
+1 NAME Иосиф Антонович /Абрамов/
+2 GIVN Иосиф Антонович
+1 SEX M
+1 BIRT
+2 DATE @#DJULIAN@ 1872
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID 135ba29e-d70a-48ed-8221-4a80646438cd
+1 DEAT
+2 _UID 9da43a8e-ccab-4946-b969-a9062f9d702d
+1 FAMS @F28@
+0 @I108@ INDI
+1 _UID 8083dc67-372f-4901-bc6a-cbae25639450
+1 NAME Ксения Алексеевна /Абрамова (Сучатова)/
+2 GIVN Ксения Алексеевна
+2 SURN Сучатова
+2 _MARNM Абрамова
+1 SEX F
+1 BIRT
+2 DATE ABT @#DJULIAN@ 1877
+2 _UID c2e615fc-edfc-478f-898b-0cd74b49dbf6
+1 DEAT
+2 _UID 4dc55dce-5b05-4c73-b0e9-938c60048f31
+1 FAMC @F92@
+1 FAMS @F28@
+1 FAMS @F29@
+0 @I109@ INDI
+1 _UID 22c41e0a-15f9-46f8-9cfb-065b7bb7e603
+1 NAME Марфа Гавриловна /Сучатова (Рогожкина)/
+2 GIVN Марфа Гавриловна
+2 SURN Рогожкина
+2 _MARNM Сучатова
+1 SEX F
+1 BIRT
+2 DATE ABT 1878
+2 PLAC Тульская губерния, Одоевский район , Алехинский сельсовет, деревня Алехино
+3 MAP
+4 LATI N53.8276582
+4 LONG E36.7549372
+3 NOTE https://familio.org/settlements/da983e22-ef91-4fc0-8c24-c3fb59e810a9
+3 _FAMILIO_GUID da983e22-ef91-4fc0-8c24-c3fb59e810a9
+2 _UID c1b01dee-369c-4df7-ab5d-bcba23f6e6ed
+1 FAMS @F30@
+0 @I110@ INDI
+1 _UID cffa8b4f-b86e-4afa-9d0a-f5c86bfd9f65
+1 NAME Самуил Стефанович /Сучатов/
+2 GIVN Самуил Стефанович
+1 SEX M
+1 BIRT
+2 DATE ABT @#DJULIAN@ 1873
+2 PLAC Тульская губерния, Одоевский уезд, деревня Осиновка
+3 MAP
+4 LATI N53.8596289
+4 LONG E36.9250274
+3 NOTE https://familio.org/settlements/29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+3 _FAMILIO_GUID 29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+2 _UID 3ee5ffcb-0feb-473a-9fe3-0f2f84a4cc58
+1 DEAT
+2 _UID a610dc1d-864b-4a67-abea-0e196790bbce
+1 FAMC @F93@
+1 FAMS @F30@
+0 @I111@ INDI
+1 _UID c72056f1-c583-4140-83e1-9ddad886060c
+1 NAME Стефан /Сучатов/
+2 GIVN Стефан
+1 SEX M
+1 BIRT
+2 _UID a39f42aa-51b6-4baf-a123-6ae93e5db369
+1 FAMS @F93@
+0 @I112@ INDI
+1 _UID 826a3a70-fc37-4491-9ff7-0fac991bb8aa
+1 NAME Алексей Стефанович /Сучатов/
+2 GIVN Алексей Стефанович
+1 SEX M
+1 BIRT
+2 _UID db067bd1-e8c5-4193-82a0-0f142b1675e8
+1 DEAT
+2 _UID 6a929628-1984-4c9a-9128-6c1c5937c67e
+1 FAMC @F93@
+1 FAMS @F92@
+0 @I113@ INDI
+1 _UID b3682000-dac8-4a51-aa73-8ee290ba6751
+1 NAME Савелий /Бусурин/
+2 GIVN Савелий
+1 SEX M
+1 BIRT
+2 _UID 1cb66f8a-b77c-4320-ba99-4589b9896fcc
+1 DEAT
+2 _UID 5d9b0601-5869-4d20-ba96-c71bd018b4bb
+1 FAMS @F94@
+0 @I114@ INDI
+1 _UID c9d8972f-0b05-43d5-ae5e-68281475ba75
+1 NAME Татьяна Иоановна /Бусурина (Робкова)/
+2 GIVN Татьяна Иоановна
+2 SURN Робкова
+2 _MARNM Бусурина
+1 SEX F
+1 BIRT
+2 DATE 1854
+2 _UID 3db12acf-0600-4b03-b021-fca068ab488c
+1 DEAT
+2 _UID e4f72ab8-b9ea-4507-a7c1-a77113c8c8d9
+1 FAMS @F31@
+1 FAMS @F32@
+0 @I115@ INDI
+1 _UID ff93168e-c0a2-4e84-b333-e32a9afd4f76
+1 NAME Михаил Федорович /Кузнецов/
+2 GIVN Михаил Федорович
+1 SEX M
+1 BIRT
+2 DATE 1870
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, деревня Буландино
+3 MAP
+4 LATI N53.8868044
+4 LONG E36.9392476
+3 NOTE https://familio.org/settlements/c4dc3325-6d40-4668-9472-349e188c6f3a
+3 _FAMILIO_GUID c4dc3325-6d40-4668-9472-349e188c6f3a
+2 _UID 00afa9f3-cfd4-4448-b44a-c54c8baed5f6
+1 DEAT
+2 _UID f7b54485-d730-4a06-a2fb-dd5f9025c048
+1 FAMS @F33@
+0 @I116@ INDI
+1 _UID 7629a267-adf5-4a64-bc26-5f4af534395c
+1 NAME Татьяна Марковна /Кузнецова (Никитяева)/
+2 GIVN Татьяна Марковна
+2 SURN Никитяева
+2 _MARNM Кузнецова
+1 SEX F
+1 BIRT
+2 DATE @#DJULIAN@ 1874
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, деревня Буландино
+3 MAP
+4 LATI N53.8868044
+4 LONG E36.9392476
+3 NOTE https://familio.org/settlements/c4dc3325-6d40-4668-9472-349e188c6f3a
+3 _FAMILIO_GUID c4dc3325-6d40-4668-9472-349e188c6f3a
+2 _UID 79d265c3-a1de-490c-a7d7-acc999b013fd
+1 DEAT
+2 _UID 42d407cc-c3eb-4ca8-a286-3beae489ab43
+1 FAMC @F1@
+1 FAMS @F33@
+1 FAMS @F34@
+0 @I117@ INDI
+1 _UID 01a2a538-3080-4f60-9a05-e77903de72e9
+1 NAME Максим Герасимович /Лагутин/
+2 GIVN Максим Герасимович
+1 SEX M
+1 BIRT
+2 _UID 57612a46-c0a5-40df-b5bc-2592c330f2b0
+1 FAMS @F95@
+0 @I118@ INDI
+1 _UID f70ee5e8-0f24-4035-8824-e7aebccbca66
+1 NAME Петр /Бусурин/
+2 GIVN Петр
+1 SEX M
+1 BIRT
+2 _UID 411d6929-9cdc-4dcd-8e74-b86904454046
+1 DEAT
+2 DATE BEF 1862
+2 _UID bf535763-4353-433d-adca-79a2e8b0c60e
+1 FAMS @F13@
+1 FAMS @F96@
+0 @I119@ INDI
+1 _UID 56176cec-8276-4bc0-bd27-4b8e5279439f
+1 NAME Ефим (Евфимий) Васильевич /Андреянов/
+2 GIVN Ефим (Евфимий) Васильевич
+1 SEX M
+1 BIRT
+2 DATE @#DJULIAN@ 1871
+2 PLAC Тульская губерния, Одоевский район , Алехинский сельсовет, деревня Алехино
+3 MAP
+4 LATI N53.8276582
+4 LONG E36.7549372
+3 NOTE https://familio.org/settlements/da983e22-ef91-4fc0-8c24-c3fb59e810a9
+3 _FAMILIO_GUID da983e22-ef91-4fc0-8c24-c3fb59e810a9
+2 _UID 57afdf4b-060c-4724-90aa-bcde7487219e
+1 DEAT
+2 _UID 4fce2c23-6a26-4618-9cc7-9655eaadc473
+1 FAMS @F35@
+0 @I120@ INDI
+1 _UID e6c936e3-8a62-4b31-8466-ade74ef58a61
+1 NAME Анастасия Сергеевна /Андреянова (Бусурина)/
+2 GIVN Анастасия Сергеевна
+2 SURN Бусурина
+2 _MARNM Андреянова
+1 SEX F
+1 BIRT
+2 DATE 1873
+2 _UID 14dd679e-aae1-4a28-a91d-99b6a75d24d8
+1 DEAT
+2 _UID 0a41c62a-6295-49d3-ac8c-a3c52d2613cf
+1 FAMC @F90@
+1 FAMS @F35@
+1 FAMS @F36@
+0 @I121@ INDI
+1 _UID ec138c55-5dde-40c1-8c0d-829fa4ce9362
+1 NAME Сергей Петрович /Бусурин/
+2 GIVN Сергей Петрович
+1 SEX M
+1 BIRT
+2 DATE 1840
+2 _UID 82bd3510-16cc-44b4-8adb-8539d25a54d4
+1 DEAT
+2 _UID 86d8642c-a622-46e6-b149-0802890f2e92
+1 FAMC @F13@
+1 FAMS @F90@
+0 @I122@ INDI
+1 _UID 574e66b3-8d8a-482f-89d6-e6e2ae73ff8f
+1 NAME Григорий Андреевич /Родивонов/
+2 GIVN Григорий Андреевич
+1 SEX M
+1 BIRT
+2 DATE 1871
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID 1ede2717-2b05-4ef0-9056-faa80e6ddb42
+1 DEAT
+2 _UID bed488d9-b79b-43a9-8a74-cd1a5daa72f1
+1 FAMS @F37@
+0 @I123@ INDI
+1 _UID c2679ce6-1f28-47c4-ae2e-df735da285ea
+1 NAME Елена Илларионовна /Родиовонова (Бусурина)/
+2 GIVN Елена Илларионовна
+2 SURN Бусурина
+2 _MARNM Родиовонова
+1 SEX F
+1 BIRT
+2 DATE @#DJULIAN@ 1871
+2 PLAC Тульская губерния, Одоевский уезд, деревня Осиновка
+3 MAP
+4 LATI N53.8596289
+4 LONG E36.9250274
+3 NOTE https://familio.org/settlements/29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+3 _FAMILIO_GUID 29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+2 _UID b5d1a5e4-8452-4020-bb63-18007adf13b4
+1 DEAT
+2 _UID e46c7111-78af-4674-ba19-4ebac54c6d63
+1 FAMC @F44@
+1 FAMS @F37@
+1 FAMS @F38@
+0 @I124@ INDI
+1 _UID a4bc1e72-dca9-4e0a-8776-9619fb56f3b6
+1 NAME Семён Васильевич /Бусурин/
+2 GIVN Семён Васильевич
+1 SEX M
+1 BIRT
+2 DATE @#DJULIAN@ 14 AUG 1887
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID 9e5b8208-7a3e-4f91-abef-e16b53fa8eba
+1 DEAT
+2 DATE @#DJULIAN@ 16 JUL 1891
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID d9f9ad19-2f1f-440d-85a9-8e77061a3e57
+1 FAMC @F66@
+0 @I125@ INDI
+1 _UID 491b4341-15e7-40bd-aeaf-d5400f5c20d0
+1 NAME Анна Андреевна /Никитяева/
+2 GIVN Анна Андреевна
+2 _MARNM Никитяева
+1 SEX F
+1 BIRT
+2 DATE @#DJULIAN@ 1818
+2 _UID 6aceaead-f2cd-4e9d-834a-6f705ceef5ac
+1 DEAT
+2 DATE @#DJULIAN@ 8 AUG 1885
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, деревня Буландино
+3 MAP
+4 LATI N53.8868044
+4 LONG E36.9392476
+3 NOTE https://familio.org/settlements/c4dc3325-6d40-4668-9472-349e188c6f3a
+3 _FAMILIO_GUID c4dc3325-6d40-4668-9472-349e188c6f3a
+2 _UID c8c91050-a841-4531-b0ff-210dc65cae0f
+1 FAMS @F85@
+0 @I126@ INDI
+1 _UID abd920e2-09a2-40a9-bfb1-70e30630c238
+1 NAME Петр Афанасьевич /Немухин/
+2 GIVN Петр Афанасьевич
+1 SEX M
+1 BIRT
+2 DATE 1867
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, деревня Буландино
+3 MAP
+4 LATI N53.8868044
+4 LONG E36.9392476
+3 NOTE https://familio.org/settlements/c4dc3325-6d40-4668-9472-349e188c6f3a
+3 _FAMILIO_GUID c4dc3325-6d40-4668-9472-349e188c6f3a
+2 _UID 08ad7328-d96c-47c8-ab5a-67174df87150
+1 DEAT
+2 _UID 0f3ea413-4ea6-48aa-bbbf-b21cf620fa0e
+1 FAMS @F39@
+0 @I127@ INDI
+1 _UID b9ef3ccb-3b7e-4f1b-8299-273abe2a2ec2
+1 NAME Наталия Петровна /Немухина (Бусурина)/
+2 GIVN Наталия Петровна
+2 SURN Бусурина
+2 _MARNM Немухина
+1 SEX F
+1 BIRT
+2 DATE 1867
+2 PLAC Тульская губерния, Одоевский уезд, деревня Осиновка
+3 MAP
+4 LATI N53.8596289
+4 LONG E36.9250274
+3 NOTE https://familio.org/settlements/29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+3 _FAMILIO_GUID 29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+2 _UID 53d6c1aa-058c-4d12-869b-8c1bf2f8e4d2
+1 DEAT
+2 _UID f0b35280-eda1-41e1-8994-e7f0a5c3be89
+1 FAMC @F42@
+1 FAMS @F39@
+0 @I128@ INDI
+1 _UID 697d56e2-caa5-4f2b-b269-3cc636503b26
+1 NAME Ефросинья Васильевна /Бусурина/
+2 GIVN Ефросинья Васильевна
+2 _MARNM Бусурина
+1 SEX F
+1 BIRT
+2 DATE @#DJULIAN@ 14 SEP 1885
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID 1173f30b-e1ae-47d7-9f39-e44347cc255b
+1 DEAT
+2 _UID d596ad29-5c9c-4cfb-8276-41c8c843317f
+1 FAMC @F66@
+0 @I129@ INDI
+1 _UID d95f4898-d12e-47b0-bfae-8936764dbea1
+1 NAME Наталия Марковна /Никитяева/
+2 GIVN Наталия Марковна
+2 _MARNM Никитяева
+1 SEX F
+1 BIRT
+2 DATE 19 AUG 1885
+2 _UID 48c41758-eb48-433c-863b-06037fb9a348
+1 DEAT
+2 DATE @#DJULIAN@ 3 DEC 1887
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, деревня Буландино
+3 MAP
+4 LATI N53.8868044
+4 LONG E36.9392476
+3 NOTE https://familio.org/settlements/c4dc3325-6d40-4668-9472-349e188c6f3a
+3 _FAMILIO_GUID c4dc3325-6d40-4668-9472-349e188c6f3a
+2 _UID d4ffac89-7ad1-48f3-b63e-0d0326897d55
+1 FAMC @F1@
+0 @I130@ INDI
+1 _UID 072208a1-8b1c-4cab-9acc-f85bfa23bb1e
+1 NAME Антон Филиппович /Бусурин/
+2 GIVN Антон Филиппович
+1 SEX M
+1 BIRT
+2 DATE 1905
+2 PLAC город федерального значения Москва, город Москва
+3 MAP
+4 LATI N55.7504461
+4 LONG E37.6174943
+3 NOTE https://familio.org/settlements/811e618b-b9de-497b-ac26-f95629ffd562
+3 _FAMILIO_GUID 811e618b-b9de-497b-ac26-f95629ffd562
+2 _UID 7731c50f-2a8f-4327-b03c-b4a388c6a625
+1 DEAT
+2 DATE 29 JAN 1909
+2 PLAC город федерального значения Москва, город Москва
+3 MAP
+4 LATI N55.7504461
+4 LONG E37.6174943
+3 NOTE https://familio.org/settlements/811e618b-b9de-497b-ac26-f95629ffd562
+3 _FAMILIO_GUID 811e618b-b9de-497b-ac26-f95629ffd562
+2 _UID 5daee9bf-0c0a-4440-a2b3-2339a431b43c
+1 FAMC @F54@
+0 @I131@ INDI
+1 _UID 9b8eb7a5-6d97-4c01-85c8-943ce0208443
+1 NAME Мария Филипповна /Бусурина/
+2 GIVN Мария Филипповна
+2 _MARNM Бусурина
+1 SEX F
+1 BIRT
+2 DATE @#DJULIAN@ 30 MAR 1909
+2 PLAC город федерального значения Москва, город Москва
+3 MAP
+4 LATI N55.7504461
+4 LONG E37.6174943
+3 NOTE https://familio.org/settlements/811e618b-b9de-497b-ac26-f95629ffd562
+3 _FAMILIO_GUID 811e618b-b9de-497b-ac26-f95629ffd562
+2 _UID eaaa7578-dd88-41de-bd01-aceea6a6282b
+1 DEAT
+2 _UID dcd401c9-d217-491f-846e-da54629613ea
+1 FAMC @F54@
+0 @I132@ INDI
+1 _UID fe2dfdbd-6332-4601-9018-1624bcd6dbbc
+1 NAME Феодосия Михайловна /Бусурина/
+2 GIVN Феодосия Михайловна
+1 SEX M
+1 BIRT
+2 DATE 20 MAY 1885
+2 PLAC Тульская губерния, Одоевский уезд, деревня Осиновка
+3 MAP
+4 LATI N53.8596289
+4 LONG E36.9250274
+3 NOTE https://familio.org/settlements/29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+3 _FAMILIO_GUID 29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+2 _UID 04776f29-fe37-4ab1-bd82-aa902156d4fc
+1 DEAT
+2 DATE 17 MAR 1896
+2 _UID 60b2a9c0-0eba-458e-9c00-ac429f03a334
+1 FAMC @F40@
+0 @I133@ INDI
+1 _UID 070a1b96-dfe5-4a8e-b049-b644f80b6697
+1 NAME Харитина Тимофеевна /Бусурина/
+2 GIVN Харитина Тимофеевна
+2 _MARNM Бусурина
+1 SEX F
+1 BIRT
+2 _UID 17a58b3f-5c74-459e-9429-f11483311467
+1 DEAT
+2 _UID 93ea6f70-ac55-45ba-9347-e45f475b3a78
+1 FAMS @F40@
+0 @I134@ INDI
+1 _UID a6288808-31f8-4531-a2f4-58e1b4ef5621
+1 NAME Константин Маркович /Никитяев/
+2 GIVN Константин Маркович
+1 SEX M
+1 BIRT
+2 DATE @#DJULIAN@ 1882
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, деревня Буландино
+3 MAP
+4 LATI N53.8868044
+4 LONG E36.9392476
+3 NOTE https://familio.org/settlements/c4dc3325-6d40-4668-9472-349e188c6f3a
+3 _FAMILIO_GUID c4dc3325-6d40-4668-9472-349e188c6f3a
+2 _UID aa81c9fd-c51b-4ea6-b891-f7c3191245ab
+1 DEAT
+2 DATE 28 APR 1884
+2 _UID 57126c6f-df16-49fb-88ed-d2d664104fd7
+1 FAMC @F1@
+0 @I135@ INDI
+1 _UID 68b2ca9e-a8e3-4aba-ad83-500d99539f99
+1 NAME Алексеевич Харичев /Роман/
+2 GIVN Алексеевич Харичев
+1 SEX M
+1 BIRT
+2 DATE ABT 1866
+2 _UID 6c68654e-1dde-4b5c-ab9b-ce78150256cf
+1 FAMS @F41@
+0 @I136@ INDI
+1 _UID 5bb9377d-2751-44a5-a770-361fdf536040
+1 NAME Евдокия Алексеевна /Харичева (Бусурина)/
+2 GIVN Евдокия Алексеевна
+2 SURN Бусурина
+2 _MARNM Харичева
+1 SEX F
+1 BIRT
+2 DATE ABT @#DJULIAN@ 1866
+2 PLAC Тульская губерния, Одоевский уезд, деревня Осиновка
+3 MAP
+4 LATI N53.8596289
+4 LONG E36.9250274
+3 NOTE https://familio.org/settlements/29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+3 _FAMILIO_GUID 29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+2 _UID 0c7b581e-0b09-47aa-8402-1b31e5e9e271
+1 DEAT
+2 _UID 0c24983e-b07f-4d73-9f71-c1330a844299
+1 FAMC @F47@
+1 FAMS @F41@
+0 @I137@ INDI
+1 _UID 10d242d1-e60c-4f34-ba82-5758bc62f1b2
+1 NAME Трифон Васильевич /Бусурин/
+2 GIVN Трифон Васильевич
+1 SEX M
+1 BIRT
+2 DATE 25 JAN 1884
+2 _UID 2641d9b1-f9cd-42a6-94d3-9ec6b05c335b
+1 DEAT
+2 DATE @#DJULIAN@ 9 FEB 1884
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID 422091c8-1b00-472e-9175-3560ac588213
+1 FAMC @F66@
+0 @I138@ INDI
+1 _UID f42d904d-5678-4baf-a0d8-ec4a1a4b7ec9
+1 NAME Александра Кирилловна /Бусурина/
+2 GIVN Александра Кирилловна
+2 _MARNM Бусурина
+1 SEX F
+1 BIRT
+2 _UID 4aac2dfe-942c-48bf-b6ec-5468aeba04a6
+1 DEAT
+2 _UID f5506a14-eda9-40de-8225-2ecb7f5fae30
+0 @I139@ INDI
+1 _UID 84b2dcdc-130c-4099-b567-db0fa5b94c7d
+1 NAME Андрей Иосифович /Бусурин/
+2 GIVN Андрей Иосифович
+1 SEX M
+1 BIRT
+2 DATE @#DJULIAN@ 10 AUG 1883
+2 PLAC Тульская губерния, Одоевский уезд, деревня Осиновка
+3 MAP
+4 LATI N53.8596289
+4 LONG E36.9250274
+3 NOTE https://familio.org/settlements/29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+3 _FAMILIO_GUID 29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+2 _UID e6ac9895-46e8-4691-8554-00b7b742df27
+1 DEAT
+2 CAUS от поноса
+2 DATE @#DJULIAN@ 18 OCT 1894
+2 PLAC Тульская губерния, Одоевский уезд, деревня Осиновка
+3 MAP
+4 LATI N53.8596289
+4 LONG E36.9250274
+3 NOTE https://familio.org/settlements/29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+3 _FAMILIO_GUID 29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+2 _UID 6b9d648b-94aa-4b24-8d5b-2bce6ff34a31
+1 FAMC @F60@
+0 @I140@ INDI
+1 _UID 9011a8e8-7ad4-4a47-b5ab-26920877a51f
+1 NAME Анна Петровна /Бусурина/
+2 GIVN Анна Петровна
+2 _MARNM Бусурина
+1 SEX F
+1 BIRT
+2 DATE @#DJULIAN@ 17 JUL 1883
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID 7cec10e5-ba16-4711-9bed-2fbba7444c13
+1 DEAT
+2 _UID bb680da8-8105-472c-9381-1f22adc7478b
+1 FAMC @F42@
+0 @I141@ INDI
+1 _UID 9d7b6256-53b8-4e59-99f8-568853447854
+1 NAME Прасковья (Параскева) Петровна /Бусурина/
+2 GIVN Прасковья (Параскева) Петровна
+2 _MARNM Бусурина
+1 SEX F
+1 BIRT
+2 DATE 1842
+2 _UID b08df62f-e753-475e-990a-a865565eb740
+1 DEAT
+2 _UID c284e47e-c65a-434b-8aab-4237abebb9f4
+1 FAMS @F42@
+0 @I142@ INDI
+1 _UID eed5d798-10e0-48ac-98cf-be8ebae1b1b1
+1 NAME Федор Савельевич /Бусурин/
+2 GIVN Федор Савельевич
+1 SEX M
+1 BIRT
+2 DATE ABT @#DJULIAN@ 1808
+2 _UID 7c749158-a535-4a47-a491-2290b483133e
+1 DEAT
+2 DATE @#DJULIAN@ 14 FEB 1884
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID 00bfd4bb-f7eb-4520-ab62-22488c0b78f5
+1 FAMC @F94@
+1 FAMS @F43@
+0 @I143@ INDI
+1 _UID 7ce7b198-31ce-4a7f-bff2-e010e1c78b04
+1 NAME Пелагея Ксенофонтовна /Бусурина/
+2 GIVN Пелагея Ксенофонтовна
+2 _MARNM Бусурина
+1 SEX F
+1 BIRT
+2 DATE 1832
+2 _UID 85143b72-eb2c-4079-b14a-2c4d5cc9d22b
+1 DEAT
+2 DATE 16 APR 1882
+2 _UID ba8b3cf7-6886-41c9-a809-97c3771872a3
+1 FAMS @F44@
+0 @I144@ INDI
+1 _UID 88001dc5-d6c1-4516-84dc-d84f5d2950d6
+1 NAME Илларион Петрович /Бусурин/
+2 GIVN Илларион Петрович
+1 SEX M
+1 BIRT
+2 DATE ABT @#DJULIAN@ 1829
+2 _UID 9bc7690b-a4cb-48a7-9100-9b0e2cf08ffc
+1 DEAT
+2 DATE @#DJULIAN@ 19 FEB 1890
+2 PLAC Тульская губерния, Одоевский уезд, деревня Осиновка
+3 MAP
+4 LATI N53.8596289
+4 LONG E36.9250274
+3 NOTE https://familio.org/settlements/29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+3 _FAMILIO_GUID 29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+2 _UID 842e4dec-31ae-4a95-bbc9-6615121e1bc2
+1 FAMC @F96@
+1 FAMS @F44@
+0 @I145@ INDI
+1 _UID 61b5084d-ba93-4e59-b2d9-57a3bdd400a3
+1 NAME Михаил Ефимович /Никитяев/
+2 GIVN Михаил Ефимович
+1 SEX M
+1 BIRT
+2 DATE @#DJULIAN@ 14 DEC 1882
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, деревня Буландино
+3 MAP
+4 LATI N53.8868044
+4 LONG E36.9392476
+3 NOTE https://familio.org/settlements/c4dc3325-6d40-4668-9472-349e188c6f3a
+3 _FAMILIO_GUID c4dc3325-6d40-4668-9472-349e188c6f3a
+2 _UID 66d030ad-2025-4eb9-a1c4-f812b2c15611
+1 DEAT
+2 DATE @#DJULIAN@ 19 DEC 1882
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, деревня Буландино
+3 MAP
+4 LATI N53.8868044
+4 LONG E36.9392476
+3 NOTE https://familio.org/settlements/c4dc3325-6d40-4668-9472-349e188c6f3a
+3 _FAMILIO_GUID c4dc3325-6d40-4668-9472-349e188c6f3a
+2 _UID 6358592d-0495-49ab-bf7d-87424f6a02d8
+1 FAMC @F45@
+0 @I146@ INDI
+1 _UID 0d80f274-ed00-4925-8d45-cd3bc07d5c78
+1 NAME Евтихий /Евстюшкин/
+2 GIVN Евтихий
+1 SEX M
+1 BIRT
+2 _UID dd1ed86d-e840-415c-927e-4be892e0910b
+1 FAMS @F97@
+0 @I147@ INDI
+1 _UID 0329d947-e94f-409d-8b6e-e96bc38bc813
+1 NAME Мария Андреевна /Евстюшкина/
+2 GIVN Мария Андреевна
+2 _MARNM Евстюшкина
+1 SEX F
+1 BIRT
+2 _UID 8d1a9c69-a7f0-4c12-b8eb-a8468bbd13ff
+1 DEAT
+2 _UID a210e8c4-12d7-444b-a48f-651e15f47e95
+1 FAMS @F45@
+0 @I148@ INDI
+1 _UID db1a1bab-606d-4ceb-bd1a-8f7aa10bb2f5
+1 NAME Ефим (Евфимий) Евтихиев /Евстюшкин/
+2 GIVN Ефим (Евфимий) Евтихиев
+1 SEX M
+1 BIRT
+2 _UID 03a07f1d-d7f9-4b8f-ad47-8c9c0abe6ecc
+1 DEAT
+2 _UID 7b3b0f10-8377-487b-93c3-8fa950b8e509
+1 FAMC @F97@
+1 FAMS @F45@
+0 @I149@ INDI
+1 _UID 4f30866b-ea6b-4851-b9c4-0927e4aed804
+1 NAME Аврамий Васильевич /Бусурин/
+2 GIVN Аврамий Васильевич
+1 SEX M
+1 BIRT
+2 DATE @#DJULIAN@ 23 OCT 1882
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID 32602885-753d-4e05-99a6-ee8b8700b9bf
+1 DEAT
+2 DATE @#DJULIAN@ 29 OCT 1882
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID 27ef2182-e78e-40d1-b821-6799690bb7d2
+1 FAMC @F66@
+0 @I150@ INDI
+1 _UID eb1cdd28-7c86-410a-b002-45c0d62fbd62
+1 NAME Елена Федоровна /Бусурина/
+2 GIVN Елена Федоровна
+2 _MARNM Бусурина
+1 SEX F
+1 BIRT
+2 DATE ABT 1860
+2 _UID 90bcf210-aad0-45f2-8713-e79cec6f3ed4
+1 DEAT
+2 DATE @#DJULIAN@ 20 SEP 1891
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID 9ac7eef2-3c94-45f7-80ca-84b8a5aa297c
+1 FAMS @F46@
+0 @I151@ INDI
+1 _UID d2df04f9-12b7-4d8f-b07f-fb7661f83dec
+1 NAME Васса Сергеевина /Бусурина/
+2 GIVN Васса Сергеевина
+2 _MARNM Бусурина
+1 SEX F
+1 BIRT
+2 DATE @#DJULIAN@ 11 AUG 1882
+2 PLAC Тульская губерния, Одоевский уезд, деревня Осиновка
+3 MAP
+4 LATI N53.8596289
+4 LONG E36.9250274
+3 NOTE https://familio.org/settlements/29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+3 _FAMILIO_GUID 29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+2 _UID 6b973cb5-4cd5-427e-8ab1-55f3a455c328
+1 DEAT
+2 DATE @#DJULIAN@ 27 MAR 1884
+2 PLAC Тульская губерния, Одоевский уезд, деревня Осиновка
+3 MAP
+4 LATI N53.8596289
+4 LONG E36.9250274
+3 NOTE https://familio.org/settlements/29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+3 _FAMILIO_GUID 29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+2 _UID 6b119e73-7e2d-4c36-b9bf-d5c9066cd981
+1 FAMC @F46@
+0 @I152@ INDI
+1 _UID ed79664e-ee90-4c71-8f94-f8c74ae6c5c1
+1 NAME Прасковья (Параскева) Трофимовна /Бусурина/
+2 GIVN Прасковья (Параскева) Трофимовна
+2 _MARNM Бусурина
+1 SEX F
+1 BIRT
+2 _UID 860f3e1a-c3d0-4264-8a4a-13de5fc0e771
+1 DEAT
+2 _UID eba19305-dc36-4d19-941b-b939e7d9df41
+1 FAMS @F47@
+0 @I153@ INDI
+1 _UID f0c838cb-fd4f-4e2d-a221-a44c29992fcb
+1 NAME Наталья Иосифовна /Бусурина/
+2 GIVN Наталья Иосифовна
+2 _MARNM Бусурина
+1 SEX F
+1 BIRT
+2 DATE @#DJULIAN@ 1878
+2 PLAC Тульская губерния, Одоевский уезд, деревня Осиновка
+3 MAP
+4 LATI N53.8596289
+4 LONG E36.9250274
+3 NOTE https://familio.org/settlements/29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+3 _FAMILIO_GUID 29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+2 _UID 7d6dcac9-7809-499a-b2af-2bbd8929c034
+1 DEAT
+2 DATE @#DJULIAN@ 11 AUG 1881
+2 PLAC Тульская губерния, Одоевский уезд, деревня Осиновка
+3 MAP
+4 LATI N53.8596289
+4 LONG E36.9250274
+3 NOTE https://familio.org/settlements/29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+3 _FAMILIO_GUID 29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+2 _UID ce91da03-2ffe-412b-b8a5-67a7acc66b30
+1 FAMC @F60@
+0 @I154@ INDI
+1 _UID 8e0c6ee9-a8d2-4be2-ae29-63dbe6c142cc
+1 NAME Федор Ильич /Никитяев/
+2 GIVN Федор Ильич
+1 SEX M
+1 BIRT
+2 DATE @#DJULIAN@ 1880
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, деревня Буландино
+3 MAP
+4 LATI N53.8868044
+4 LONG E36.9392476
+3 NOTE https://familio.org/settlements/c4dc3325-6d40-4668-9472-349e188c6f3a
+3 _FAMILIO_GUID c4dc3325-6d40-4668-9472-349e188c6f3a
+2 _UID a9734fa8-d42d-4f94-a43d-ea790e4f1798
+1 DEAT
+2 DATE @#DJULIAN@ 24 JUL 1881
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, деревня Буландино
+3 MAP
+4 LATI N53.8868044
+4 LONG E36.9392476
+3 NOTE https://familio.org/settlements/c4dc3325-6d40-4668-9472-349e188c6f3a
+3 _FAMILIO_GUID c4dc3325-6d40-4668-9472-349e188c6f3a
+2 _UID f8f060d8-7b8d-4127-b312-1c400cdf1e6e
+1 FAMC @F70@
+0 @I155@ INDI
+1 _UID 0b11a817-ff99-4ad2-8d29-d872745890cb
+1 NAME Филипп /Никитяев/
+2 GIVN Филипп
+1 SEX M
+1 BIRT
+2 _UID 6dc8a78b-18d9-4f48-a909-fb4a9bca0173
+1 FAMS @F98@
+0 @I156@ INDI
+1 _UID 89df3edf-9b9f-46f3-a4b3-a3afaae63330
+1 NAME Андрей Антонович /Потапов/
+2 GIVN Андрей Антонович
+1 SEX M
+1 BIRT
+2 DATE @#DJULIAN@ 1864
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, деревня Буландино
+3 MAP
+4 LATI N53.8868044
+4 LONG E36.9392476
+3 NOTE https://familio.org/settlements/c4dc3325-6d40-4668-9472-349e188c6f3a
+3 _FAMILIO_GUID c4dc3325-6d40-4668-9472-349e188c6f3a
+2 _UID 3456c2f6-6f3c-4809-bf86-688fcebac90a
+1 FAMS @F48@
+0 @I157@ INDI
+1 _UID f91ddc95-ca46-4dee-91bc-f59a7c5c81ff
+1 NAME Тимофей Филиппов /Никитяев/
+2 GIVN Тимофей Филиппов
+1 SEX M
+1 BIRT
+2 _UID 2957b529-0482-40a3-b2b4-5ee4ed7ac6f0
+1 DEAT
+2 DATE BEF 1881
+2 _UID 1d75d00a-777c-42d2-a791-3f008b4d543e
+1 FAMC @F98@
+1 FAMS @F99@
+0 @I158@ INDI
+1 _UID 6ec84c28-045d-4c61-b66b-19d52d3ce55f
+1 NAME Фиона Тимофеевна /Потапова (Никитяева)/
+2 GIVN Фиона Тимофеевна
+2 SURN Никитяева
+2 _MARNM Потапова
+1 SEX F
+1 BIRT
+2 DATE 1863
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, деревня Буландино
+3 MAP
+4 LATI N53.8868044
+4 LONG E36.9392476
+3 NOTE https://familio.org/settlements/c4dc3325-6d40-4668-9472-349e188c6f3a
+3 _FAMILIO_GUID c4dc3325-6d40-4668-9472-349e188c6f3a
+2 _UID 41133b31-b05f-4446-b659-f08890de6d34
+1 DEAT
+2 _UID a6d64290-e71b-45cf-9493-063817b05ff1
+1 FAMC @F99@
+1 FAMS @F48@
+0 @I159@ INDI
+1 _UID 9883a8a9-d8ff-4086-a1c3-2e5608a4b4be
+1 NAME Никифор Алексеевич /Бусурин/
+2 GIVN Никифор Алексеевич
+1 SEX M
+1 BIRT
+2 DATE ABT 1831
+2 _UID 5ce3332a-fc6a-4d32-a0f6-ac7045d2cf8b
+1 DEAT
+2 DATE AFT 1917
+2 _UID 977e71b7-4d6d-4e71-8c36-446add217d5a
+1 FAMC @F88@
+1 FAMS @F100@
+0 @I160@ INDI
+1 _UID 9feac9ee-9760-456c-94f9-8caad1b8c6e0
+1 NAME Федор Михайлович /Кузнецов/
+2 GIVN Федор Михайлович
+1 SEX M
+1 BIRT
+2 DATE 1864
+2 _UID c2f11221-31ee-4d76-9782-7b5bc94a11b6
+1 FAMS @F49@
+0 @I161@ INDI
+1 _UID 88a98f05-da22-4ea1-8aa9-ce939add0ea5
+1 NAME Екатерина Никифоровна /Кузнецова (Бусурина)/
+2 GIVN Екатерина Никифоровна
+2 SURN Бусурина
+2 _MARNM Кузнецова
+1 SEX F
+1 BIRT
+2 DATE 1863
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID 593ca33c-8cc3-4982-9278-9145244701fc
+1 FAMC @F100@
+1 FAMS @F49@
+0 @I162@ INDI
+1 _UID 59d092cb-a1e2-440b-8a5e-85576f377f7e
+1 NAME Владимир Маркович /Никитяев/
+2 GIVN Владимир Маркович
+1 SEX M
+1 BIRT
+2 DATE @#DJULIAN@ 8 JUL 1881
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, деревня Буландино
+3 MAP
+4 LATI N53.8868044
+4 LONG E36.9392476
+3 NOTE https://familio.org/settlements/c4dc3325-6d40-4668-9472-349e188c6f3a
+3 _FAMILIO_GUID c4dc3325-6d40-4668-9472-349e188c6f3a
+2 _UID 1fc7d773-b4b7-407c-bd8a-a3b1e7456e9f
+1 DEAT
+2 DATE @#DJULIAN@ 18 NOV 1887
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, деревня Буландино
+3 MAP
+4 LATI N53.8868044
+4 LONG E36.9392476
+3 NOTE https://familio.org/settlements/c4dc3325-6d40-4668-9472-349e188c6f3a
+3 _FAMILIO_GUID c4dc3325-6d40-4668-9472-349e188c6f3a
+2 _UID e6d5369d-b2fc-4903-b322-6186d387f0ab
+1 FAMC @F1@
+0 @I163@ INDI
+1 _UID c5681195-8811-4742-9add-1e268eb79abd
+1 NAME Михаил Иоаннович /Бусурин/
+2 GIVN Михаил Иоаннович
+1 SEX M
+1 BIRT
+2 DATE 4 JUL 1881
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID b3cd82e4-ed18-4469-a55a-f030e03a7d22
+1 DEAT
+2 DATE 29 OCT 1895
+2 _UID c4b69bb1-664b-40d4-aa85-2280a99f714e
+1 FAMC @F65@
+0 @I164@ INDI
+1 _UID 9a389932-e6ab-4dfe-ac85-4abd270e8aad
+1 NAME Ксения Иосифовна /Бусурина/
+2 GIVN Ксения Иосифовна
+2 _MARNM Бусурина
+1 SEX F
+1 BIRT
+2 DATE @#DJULIAN@ 12 JAN 1881
+2 PLAC Тульская губерния, Одоевский уезд, деревня Осиновка
+3 MAP
+4 LATI N53.8596289
+4 LONG E36.9250274
+3 NOTE https://familio.org/settlements/29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+3 _FAMILIO_GUID 29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+2 _UID 80708eed-a6f0-4a31-9a4f-4c15d4b5f483
+1 DEAT
+2 _UID 6268af15-b3d4-448b-a3f3-9290d4d0dc94
+1 FAMC @F60@
+0 @I165@ INDI
+1 _UID a5f83669-4108-4bde-b6fa-edc3a949c541
+1 NAME Павел Васильевич /Бусурин/
+2 GIVN Павел Васильевич
+1 SEX M
+1 BIRT
+2 DATE @#DJULIAN@ 7 JAN 1881
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID 30910c78-5da5-46b3-b7f4-16e2d98f40b2
+1 DEAT
+2 DATE @#DJULIAN@ 3 DEC 1883
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID 39663799-21da-469f-b9a8-0411b05460c0
+1 FAMC @F66@
+0 @I166@ INDI
+1 _UID 2e20a04b-032b-448b-a471-446f8f7ed4e6
+1 NAME Прасковья Трифоновна /Кулешова/
+2 GIVN Прасковья Трифоновна
+2 _MARNM Кулешова
+1 SEX F
+1 BIRT
+2 _UID 57ec7dd8-49cf-4621-9fff-23f8d622e428
+1 FAMC @F51@
+0 @I167@ INDI
+1 _UID 32343a6b-3422-43f3-ad69-917c07a4a75a
+1 NAME Павел Трифонович /Кулешов/
+2 GIVN Павел Трифонович
+1 SEX M
+1 BIRT
+2 _UID fc2e4bec-4646-49f9-bf29-3c075a91824f
+1 FAMC @F51@
+0 @I168@ INDI
+1 _UID b99714bf-36a1-49e1-8971-2e9ac85fa1d1
+1 NAME Леонид Трифонович /Кулешов/
+2 GIVN Леонид Трифонович
+1 SEX M
+1 BIRT
+2 _UID 09bf540e-8943-4e4b-bb3f-c359c692587e
+1 DEAT
+2 _UID 0d9e3bef-9833-42e3-b9ef-44c8c2f70178
+1 FAMC @F51@
+0 @I169@ INDI
+1 _UID 6f635551-d212-464e-a2de-52ea6160dca1
+1 NAME Анна Трифоновна /Кулешова/
+2 GIVN Анна Трифоновна
+2 _MARNM Кулешова
+1 SEX F
+1 BIRT
+2 _UID 9f8d2baf-93b2-4b98-bc90-a86a4fcb2a14
+1 DEAT
+2 _UID d506fdc7-2802-4901-99e7-825f81ec507b
+1 FAMC @F51@
+0 @I170@ INDI
+1 _UID 0afdc78a-ca80-481c-8282-ac8424b4db41
+1 NAME Евдокия /Кулешова/
+2 GIVN Евдокия
+2 _MARNM Кулешова
+1 SEX F
+1 BIRT
+2 _UID eee9b8ac-e5e6-4c52-b605-f73017321e14
+1 DEAT
+2 _UID afac98b1-cefd-4d96-8158-244cc8dadf15
+1 FAMS @F50@
+0 @I171@ INDI
+1 _UID c4630ffd-aecf-459e-897d-8ab46342a2eb
+1 NAME Савелий /Кулешов/
+2 GIVN Савелий
+1 SEX M
+1 BIRT
+2 _UID 2574d15c-70bc-4853-a79b-0f2ccc106808
+1 DEAT
+2 _UID 3a898e79-d4dd-46e1-b8aa-3fc8dd073874
+1 FAMS @F50@
+0 @I172@ INDI
+1 _UID 6727290d-85a9-4219-b9d7-6992abd91b5c
+1 NAME Марина /Кулешова/
+2 GIVN Марина
+2 _MARNM Кулешова
+1 SEX F
+1 BIRT
+2 _UID ebf10c7d-77d3-4541-90a6-55afeecbb57c
+1 DEAT
+2 _UID 6ec255dd-cc1c-4297-b7ad-d99e7c2e5934
+1 FAMS @F51@
+0 @I173@ INDI
+1 _UID 399621a8-e20d-46b3-83d8-f6cd59b5be92
+1 NAME Трифон Савельевич /Кулешов/
+2 GIVN Трифон Савельевич
+1 SEX M
+1 BIRT
+2 _UID 6ea37323-5d1b-4327-9877-9be6d7e3d005
+1 DEAT
+2 _UID 08a64a74-73cd-4f07-aca4-7d4032d5b127
+1 FAMC @F50@
+1 FAMS @F51@
+0 @I174@ INDI
+1 _UID 5503d5d1-c380-462e-b59a-135129946c66
+1 NAME Анна Михайловна /Бусурина/
+2 GIVN Анна Михайловна
+2 _MARNM Бусурина
+1 SEX F
+1 BIRT
+2 DATE @#DJULIAN@ 1806
+2 _UID 8882d3a4-33c0-4717-88ba-29cbb15b7cb6
+1 DEAT
+2 DATE @#DJULIAN@ 8 AUG 1880
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID 8e9e4daa-7937-4ae8-ab21-2afdc3b5496c
+1 FAMS @F43@
+0 @I175@ INDI
+1 _UID f0113653-ed87-4182-af11-7fcf8678b4f2
+1 NAME Анна Афанасьевна /Никитяева/
+2 GIVN Анна Афанасьевна
+2 _MARNM Никитяева
+1 SEX F
+1 BIRT
+2 DATE @#DJULIAN@ 1865
+2 _UID 12e2c6ce-ef71-4633-9c4c-2ea0b6a425c6
+1 DEAT
+2 CAUS от чахотки
+2 DATE @#DJULIAN@ 23 SEP 1888
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, деревня Буландино
+3 MAP
+4 LATI N53.8868044
+4 LONG E36.9392476
+3 NOTE https://familio.org/settlements/c4dc3325-6d40-4668-9472-349e188c6f3a
+3 _FAMILIO_GUID c4dc3325-6d40-4668-9472-349e188c6f3a
+2 _UID 3b54b3f7-51fb-40e5-a504-0522ff57fb16
+1 FAMS @F52@
+0 @I176@ INDI
+1 _UID bf9c9dd1-b582-45ec-ba5b-2d656d39d27d
+1 NAME Прохор Максимович /Акистратов/
+2 GIVN Прохор Максимович
+1 SEX M
+1 BIRT
+2 _UID a21e4a27-18c4-434c-8bb0-4913531f439c
+1 DEAT
+2 _UID f45161a7-8c0f-41a7-8867-18e03b8a3e1d
+1 FAMS @F101@
+0 @I177@ INDI
+1 _UID 47cfe8d1-5885-48a1-b9bc-c07c6ef0fad8
+1 NAME Василий Кириллович /Горшков/
+2 GIVN Василий Кириллович
+1 SEX M
+1 BIRT
+2 _UID 060c065f-94f2-4af4-aa47-2e4c941644e6
+1 DEAT
+2 _UID 7e52a5e0-13a7-49cb-b1a4-d04c1db9b499
+1 FAMS @F102@
+0 @I178@ INDI
+1 _UID c0206cf4-7ad6-4666-a4db-d9f6f4b419aa
+1 NAME Екатерина Михайловна /Никитяева (Рябова)/
+2 GIVN Екатерина Михайловна
+2 SURN Рябова
+2 _MARNM Никитяева
+1 SEX F
+1 BIRT
+2 DATE @#DJULIAN@ 1886
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, деревня Никольское
+3 MAP
+4 LATI N53.8951879
+4 LONG E36.8573801
+3 NOTE https://familio.org/settlements/b3faa6bd-0a78-45fe-a8d5-d64f668bb0b8
+3 _FAMILIO_GUID b3faa6bd-0a78-45fe-a8d5-d64f668bb0b8
+2 _UID 276439dd-8c38-422a-8e4f-ba169fbf5a93
+1 DEAT
+2 _UID 45218ba3-8942-408f-8c17-d1065afa4458
+1 FAMS @F53@
+0 @I179@ INDI
+1 _UID 9edb602c-a1e2-41a7-9bae-50d89b3c6bdc
+1 NAME Ульяна Борисовна /Иванцова/
+2 GIVN Ульяна Борисовна
+2 _MARNM Иванцова
+1 SEX F
+1 BIRT
+2 _UID fec6a4be-1268-432d-9c96-b8266caace2d
+1 FAMS @F103@
+0 @I180@ INDI
+1 _UID a2b66e91-65d9-43c0-81db-cc3534cc3e59
+1 NAME Дарья Ивановна /Бусурина (Иванцова)/
+2 GIVN Дарья Ивановна
+2 SURN Иванцова
+2 _MARNM Бусурина
+1 SEX F
+1 BIRT
+2 DATE @#DJULIAN@ 1885
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 NOTE Незаконнорожденная от вдовы
+2 _UID bb90997a-3beb-4aff-b671-d2abdc23c5aa
+1 DEAT
+2 _UID 4d7183ce-f184-4f70-99bf-36ca466a33bb
+1 FAMC @F103@
+1 FAMS @F54@
+0 @I181@ INDI
+1 _UID fdb9ab4b-310a-41c0-91d9-19656a04e221
+1 NAME Филипп Алексеевич /Бусурин/
+2 GIVN Филипп Алексеевич
+1 SEX M
+1 BIRT
+2 DATE @#DJULIAN@ 7 NOV 1884
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID ebcf2b64-d81f-4b6e-87ae-c72f1ce8cd7d
+1 DEAT
+2 _UID 71ba5f0f-1ee7-42cd-9910-13bf7b7faac1
+1 EVEN
+2 TYPE Восприемник
+2 DATE 1913
+2 PLAC город федерального значения Москва, город Москва
+3 MAP
+4 LATI N55.7504461
+4 LONG E37.6174943
+3 NOTE https://familio.org/settlements/811e618b-b9de-497b-ac26-f95629ffd562
+3 _FAMILIO_GUID 811e618b-b9de-497b-ac26-f95629ffd562
+2 _UID df7418cf-3f59-4bf4-aeff-49d4d72a8013
+1 FAMC @F47@
+1 FAMS @F54@
+0 @I182@ INDI
+1 _UID e1f1dacc-c64e-4075-8e25-369028bdc91b
+1 NAME Анастасия Дмитриевна /Бусурина/
+2 GIVN Анастасия Дмитриевна
+2 _MARNM Бусурина
+1 SEX F
+1 BIRT
+2 DATE @#DJULIAN@ 28 OCT 1903
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID 5643acd0-d3a8-4f6a-86e2-c185942e12ea
+1 DEAT
+2 _UID 48fcf6c2-ee7d-426f-af4e-3992f16c39e9
+1 FAMC @F67@
+0 @I183@ INDI
+1 _UID a95e8a0a-4fb1-4483-a04d-a9aafb5ad24d
+1 NAME Ульяна Ивановна /Бусурина/
+2 GIVN Ульяна Ивановна
+2 _MARNM Бусурина
+1 SEX F
+1 BIRT
+2 DATE @#DJULIAN@ 21 SEP 1889
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID 0b3dc31f-633b-4bff-b6a1-07abf7f07ef1
+1 DEAT
+2 _UID 7c759d88-5d03-455d-a614-29e30953bed2
+1 FAMC @F65@
+0 @I184@ INDI
+1 _UID 85dec30d-c57b-43ed-b150-527aef5e5d3a
+1 NAME Емельян Иосифович /Бусурин/
+2 GIVN Емельян Иосифович
+1 SEX M
+1 BIRT
+2 DATE @#DJULIAN@ 31 JUL 1889
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID 3e3b6147-7df7-4b89-b3e6-9c15880d38b4
+1 DEAT
+2 _UID 4b5ec35e-b4fe-43f3-92a9-930e3cda953b
+1 FAMC @F60@
+0 @I185@ INDI
+1 _UID 5b6ab443-f9cf-4df1-8e7a-49caa7392646
+1 NAME Леонтий Иосифович /Бусурин/
+2 GIVN Леонтий Иосифович
+1 SEX M
+1 BIRT
+2 DATE @#DJULIAN@ 11 JUL 1888
+2 PLAC Тульская губерния, Одоевский уезд, деревня Осиновка
+3 MAP
+4 LATI N53.8596289
+4 LONG E36.9250274
+3 NOTE https://familio.org/settlements/29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+3 _FAMILIO_GUID 29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+2 _UID 4d4ba2af-74bb-4ed2-8adb-9ce24c3143fa
+1 DEAT
+2 DATE @#DJULIAN@ 15 DEC 1889
+2 PLAC Тульская губерния, Одоевский уезд, деревня Осиновка
+3 MAP
+4 LATI N53.8596289
+4 LONG E36.9250274
+3 NOTE https://familio.org/settlements/29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+3 _FAMILIO_GUID 29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+2 _UID b8aa4cdd-8e73-4079-984d-34d2309fc068
+1 FAMC @F60@
+0 @I186@ INDI
+1 _UID 7e18f96e-e891-4853-96b2-785650ad90b4
+1 NAME Ирина Алексеевна /Бусурина/
+2 GIVN Ирина Алексеевна
+2 _MARNM Бусурина
+1 SEX F
+1 BIRT
+2 _UID 4d8b6c91-1b9a-4786-8baa-4eb72e9f00e9
+1 DEAT
+2 _UID 40e0c693-aae2-49a9-a1f3-37c0c4251400
+1 FAMS @F55@
+0 @I187@ INDI
+1 _UID fbe17b16-d15a-4a45-b942-52afaca06414
+1 NAME Алексей Петрович /Бусурин/
+2 GIVN Алексей Петрович
+1 SEX M
+1 BIRT
+2 DATE ABT 1830
+2 PLAC Тульская губерния, Одоевский уезд, деревня Осиновка
+3 MAP
+4 LATI N53.8596289
+4 LONG E36.9250274
+3 NOTE https://familio.org/settlements/29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+3 _FAMILIO_GUID 29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+2 _UID 9c920213-92bc-4aeb-a42b-b02d4d77888a
+1 DEAT
+2 DATE 23 AUG 1885
+2 PLAC Тульская губерния, Одоевский уезд, деревня Осиновка
+3 MAP
+4 LATI N53.8596289
+4 LONG E36.9250274
+3 NOTE https://familio.org/settlements/29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+3 _FAMILIO_GUID 29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+2 _UID f517f2eb-cc37-41fa-b4d2-7c6152afbbab
+1 FAMC @F13@
+1 FAMS @F47@
+0 @I188@ INDI
+1 _UID 90a58ab9-cd18-42e4-b214-6bf006a04481
+1 NAME Василий Алексеевич /Бусурин/
+2 GIVN Василий Алексеевич
+1 SEX M
+1 BIRT
+2 DATE 28 JUL 1882
+2 PLAC Тульская губерния, Одоевский уезд, деревня Осиновка
+3 MAP
+4 LATI N53.8596289
+4 LONG E36.9250274
+3 NOTE https://familio.org/settlements/29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+3 _FAMILIO_GUID 29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+2 _UID 157aeabf-2cc8-4dd9-b04d-4ac8ce8540ad
+1 FAMC @F47@
+1 FAMS @F55@
+0 @I189@ INDI
+1 _UID ff1330c7-072c-42cd-9237-64e4a6aaef06
+1 NAME Михаил Васильевич /Бусурин/
+2 GIVN Михаил Васильевич
+1 SEX M
+1 BIRT
+2 DATE @#DJULIAN@ 1 NOV 1902
+2 PLAC Тульская губерния, Одоевский уезд, деревня Осиновка
+3 MAP
+4 LATI N53.8596289
+4 LONG E36.9250274
+3 NOTE https://familio.org/settlements/29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+3 _FAMILIO_GUID 29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+2 _UID 8fe9d774-5d94-4c7e-a2cc-1dad8e09781d
+1 DEAT
+2 _UID a37d60d1-d168-46d5-889f-dbd1451eb37e
+1 FAMC @F55@
+0 @I190@ INDI
+1 _UID 88438157-6bca-4631-8d0c-d008cf02e4fd
+1 NAME Анна Иосифовна /Бусурина/
+2 GIVN Анна Иосифовна
+2 _MARNM Бусурина
+1 SEX F
+1 BIRT
+2 DATE @#DJULIAN@ 20 JUL 1902
+2 PLAC Тульская губерния, Одоевский уезд, деревня Осиновка
+3 MAP
+4 LATI N53.8596289
+4 LONG E36.9250274
+3 NOTE https://familio.org/settlements/29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+3 _FAMILIO_GUID 29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+2 _UID 9cce931c-7a84-459d-be39-7bf8c0b08878
+1 DEAT
+2 _UID 74235ed1-d95d-4fba-adad-ba662e46e4d7
+1 FAMC @F56@
+0 @I191@ INDI
+1 _UID 7da68a2d-a58d-44f0-96f2-2f4b40eba60d
+1 NAME Евдокия Владимировна /Никитяева/
+2 GIVN Евдокия Владимировна
+2 _MARNM Никитяева
+1 SEX F
+1 BIRT
+2 DATE @#DJULIAN@ 1 JAN 1902
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, деревня Буландино
+3 MAP
+4 LATI N53.8868044
+4 LONG E36.9392476
+3 NOTE https://familio.org/settlements/c4dc3325-6d40-4668-9472-349e188c6f3a
+3 _FAMILIO_GUID c4dc3325-6d40-4668-9472-349e188c6f3a
+2 _UID 04af9e96-065d-4907-81a5-7b32052dc82a
+1 DEAT
+2 _UID 81828d19-83bd-4ea9-96dc-af2048218775
+1 FAMC @F79@
+0 @I192@ INDI
+1 _UID e1b9c114-a39f-4c3d-b647-1c417425f24f
+1 NAME Яков Емельянович /Бусурин/
+2 GIVN Яков Емельянович
+1 SEX M
+1 BIRT
+2 DATE @#DJULIAN@ 2 OCT 1901
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID 9afa9f93-3d2a-4517-bc1f-01f9ca096b62
+1 DEAT
+2 _UID c4bb0dd7-c2ca-495a-997c-89888cbfc069
+1 FAMC @F63@
+0 @I193@ INDI
+1 _UID cc159dac-dda0-4785-9d4a-f3e0e4c26303
+1 NAME Василий Дмитриевич /Бусурин/
+2 GIVN Василий Дмитриевич
+1 SEX M
+1 BIRT
+2 DATE @#DJULIAN@ 1 APR 1901
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID 2d9f14f9-bf0a-441b-8eef-e3f5dd9713da
+1 DEAT
+2 _UID 6830d8d5-c4f5-470c-8df7-6701bd700725
+1 FAMC @F67@
+0 @I194@ INDI
+1 _UID 6815c461-fa20-485c-91be-deb0c36764d9
+1 NAME Даниил Емельянович /Никитяев/
+2 GIVN Даниил Емельянович
+1 SEX M
+1 BIRT
+2 DATE @#DJULIAN@ 3 DEC 1900
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, деревня Буландино
+3 MAP
+4 LATI N53.8868044
+4 LONG E36.9392476
+3 NOTE https://familio.org/settlements/c4dc3325-6d40-4668-9472-349e188c6f3a
+3 _FAMILIO_GUID c4dc3325-6d40-4668-9472-349e188c6f3a
+2 _UID b799c4e0-2077-477e-bfa8-75229b1b075d
+1 DEAT
+2 DATE @#DJULIAN@ 9 FEB 1903
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, деревня Буландино
+3 MAP
+4 LATI N53.8868044
+4 LONG E36.9392476
+3 NOTE https://familio.org/settlements/c4dc3325-6d40-4668-9472-349e188c6f3a
+3 _FAMILIO_GUID c4dc3325-6d40-4668-9472-349e188c6f3a
+2 _UID ea116c63-d520-4ab1-9c20-ae074ccf771c
+1 FAMC @F59@
+0 @I195@ INDI
+1 _UID 164af699-4d17-4f34-80c5-33089c7b665f
+1 NAME Иоанн /Бусурин/
+2 GIVN Иоанн
+1 SEX M
+1 BIRT
+2 _UID d9b24bec-a4fb-4524-a696-5ecef0c5138c
+1 DEAT
+2 _UID 0aa093ce-1d1c-4d3d-853f-04193827e662
+1 FAMS @F104@
+0 @I196@ INDI
+1 _UID cff6d59f-48a6-425a-8ed3-e46df3f738d2
+1 NAME Дмитрий Емельянович /Бусурин/
+2 GIVN Дмитрий Емельянович
+1 SEX M
+1 BIRT
+2 DATE @#DJULIAN@ 19 SEP 1900
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID e0b927c8-a09a-4726-b254-81177d882dd7
+1 DEAT
+2 _UID f2307611-18fa-465b-899b-6b6c8a946750
+1 FAMC @F63@
+0 @I197@ INDI
+1 _UID 9fa57ba6-88c6-42d1-b72b-c2a68fc1ee60
+1 NAME Параскева Емельяновна /Бусурина/
+2 GIVN Параскева Емельяновна
+2 _MARNM Бусурина
+1 SEX F
+1 BIRT
+2 DATE @#DJULIAN@ 19 SEP 1900
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID 9031b3c7-c6e9-4123-872e-80ca536a793b
+1 DEAT
+2 _UID 3d6be6b1-76ad-46c2-8b4f-f3772bc9d035
+1 FAMC @F63@
+0 @I198@ INDI
+1 _UID 3ea6d22c-3dae-4e15-a46e-1b7993de1cdf
+1 NAME Михаил Петрович /Бусурин/
+2 GIVN Михаил Петрович
+1 SEX M
+1 BIRT
+2 DATE FROM 1842 TO 1845
+2 PLAC Тульская губерния, Одоевский уезд, деревня Осиновка
+3 MAP
+4 LATI N53.8596289
+4 LONG E36.9250274
+3 NOTE https://familio.org/settlements/29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+3 _FAMILIO_GUID 29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+2 _UID 42086f6a-3f0d-4949-a4db-f1dc7af673e7
+1 DEAT
+2 DATE @#DJULIAN@ 1 MAR 1887
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, деревня Буландино
+3 MAP
+4 LATI N53.8868044
+4 LONG E36.9392476
+3 NOTE https://familio.org/settlements/c4dc3325-6d40-4668-9472-349e188c6f3a
+3 _FAMILIO_GUID c4dc3325-6d40-4668-9472-349e188c6f3a
+2 _UID 8577c02f-c58e-4982-bbc7-684300a5a823
+1 FAMC @F13@
+1 FAMS @F2@
+1 FAMS @F40@
+0 @I199@ INDI
+1 _UID 5486332c-da74-4538-b3bf-2418e59706b5
+1 NAME Евдокия Георгиевна /Бусурина (Стрыжова)/
+2 GIVN Евдокия Георгиевна
+2 SURN Стрыжова
+2 _MARNM Бусурина
+1 SEX F
+1 BIRT
+2 DATE 1875
+2 PLAC Рылево
+2 _UID 6b850d59-4e26-4dd6-82f7-147946f33d5f
+1 DEAT
+2 _UID 3c160025-dff2-4b50-b1ab-d0d8d5d134c0
+1 FAMC @F89@
+1 FAMS @F56@
+0 @I200@ INDI
+1 _UID 140e49fc-633b-41e8-b511-c49aee0182a3
+1 NAME Ульяна Емельяновна /Бусурина/
+2 GIVN Ульяна Емельяновна
+2 _MARNM Бусурина
+1 SEX F
+1 BIRT
+2 DATE @#DJULIAN@ 1 MAR 1899
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, деревня Буландино
+3 MAP
+4 LATI N53.8868044
+4 LONG E36.9392476
+3 NOTE https://familio.org/settlements/c4dc3325-6d40-4668-9472-349e188c6f3a
+3 _FAMILIO_GUID c4dc3325-6d40-4668-9472-349e188c6f3a
+2 _UID dea080a2-d0f6-441a-8978-77fe21ab5a5d
+1 DEAT
+2 _UID c57046cd-8ea6-4425-a4ab-3d336527290c
+1 FAMC @F63@
+0 @I201@ INDI
+1 _UID 2c86a0d1-9c0e-493b-9a04-7d4848fcee7a
+1 NAME Карп Иосифович /Бусурин/
+2 GIVN Карп Иосифович
+1 SEX M
+1 BIRT
+2 DATE @#DJULIAN@ 6 OCT 1898
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID 4d4c3467-9c54-420b-bef3-cf4c7b9e7f8a
+1 DEAT
+2 _UID a972310c-f72c-4d9d-8a91-a02b05003e0f
+1 FAMC @F60@
+0 @I202@ INDI
+1 _UID ccc9377a-c0e4-4ef9-9441-21bd83f65305
+1 NAME Никита Дмитриевич /Никитяев/
+2 GIVN Никита Дмитриевич
+1 SEX M
+1 BIRT
+2 DATE @#DJULIAN@ 7 JUL 1898
+2 _UID 9840bd67-269f-4fc8-9556-957fdab1ae92
+1 DEAT
+2 _UID 496685a6-d5f8-443e-85b1-88e5c31ee731
+1 FAMC @F57@
+0 @I203@ INDI
+1 _UID e31d94ff-b1fe-4350-937a-7eb23ebef2dd
+1 NAME Ольга Александровна /Никитяева/
+2 GIVN Ольга Александровна
+2 _MARNM Никитяева
+1 SEX F
+1 BIRT
+2 _UID 77a0bddd-2b69-4cd3-aed0-94c01455a3ad
+1 DEAT
+2 _UID 75205aec-6258-4ba9-998b-77e8e1bd3a7e
+1 FAMS @F57@
+0 @I204@ INDI
+1 _UID f955c296-b72c-4878-b0bc-773230bc4495
+1 NAME Алексей (Алексий) Дмитриевич /Никитяев/
+2 GIVN Алексей (Алексий) Дмитриевич
+1 SEX M
+1 NOTE Военный
+1 BIRT
+2 DATE FROM 1859 TO 1860
+2 _UID 39045b8e-7bc2-4e66-bc46-ab6f2af6fe1f
+1 DEAT
+2 _UID a1332f95-ad36-46bf-9d2a-00a80a6888cb
+1 FAMC @F12@
+1 FAMS @F14@
+1 FAMS @F57@
+1 FAMS @F58@
+0 @I205@ INDI
+1 _UID f6b526dd-8528-4b08-89ad-4b2536dbf41b
+1 NAME Феодосия Дмитриевна /Бусурина/
+2 GIVN Феодосия Дмитриевна
+2 _MARNM Бусурина
+1 SEX F
+1 BIRT
+2 DATE @#DJULIAN@ 26 MAR 1898
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID 348e0cb2-8ff6-4db8-96a3-4d66d8f3d9c7
+1 DEAT
+2 _UID ea247aff-19c4-434d-858d-3422e85e2988
+1 FAMC @F67@
+0 @I206@ INDI
+1 _UID c15b9b4c-37e3-46f9-a65c-79c5c09da3b0
+1 NAME Петр Ильич /Никитяев/
+2 GIVN Петр Ильич
+1 SEX M
+1 BIRT
+2 DATE @#DJULIAN@ 18 AUG 1885
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, деревня Буландино
+3 MAP
+4 LATI N53.8868044
+4 LONG E36.9392476
+3 NOTE https://familio.org/settlements/c4dc3325-6d40-4668-9472-349e188c6f3a
+3 _FAMILIO_GUID c4dc3325-6d40-4668-9472-349e188c6f3a
+2 _UID d9d0b91f-3d38-47a9-bb4a-f0b1911689b4
+1 DEAT
+2 _UID f8dbf9b0-5c0c-448f-9d2c-cb43b1318ef8
+1 FAMC @F70@
+1 FAMS @F53@
+1 SOUR @S1@
+1 SOUR @S2@
+0 @I207@ INDI
+1 _UID 2d34a1d0-174f-44b1-988b-19cb9c0bee49
+1 NAME Варвара Ильинична /Никитяева/
+2 GIVN Варвара Ильинична
+2 _MARNM Никитяева
+1 SEX F
+1 BIRT
+2 DATE @#DJULIAN@ 26 NOV 1882
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, деревня Буландино
+3 MAP
+4 LATI N53.8868044
+4 LONG E36.9392476
+3 NOTE https://familio.org/settlements/c4dc3325-6d40-4668-9472-349e188c6f3a
+3 _FAMILIO_GUID c4dc3325-6d40-4668-9472-349e188c6f3a
+2 _UID 66e109ca-000f-44cb-b2a6-8ed6b459dee6
+1 DEAT
+2 _UID 19a6cfe7-7a6a-4d85-ae00-2bf65c5d44f9
+1 EVEN
+2 TYPE Восприемник
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, деревня Буландино
+3 MAP
+4 LATI N53.8868044
+4 LONG E36.9392476
+3 NOTE https://familio.org/settlements/c4dc3325-6d40-4668-9472-349e188c6f3a
+3 _FAMILIO_GUID c4dc3325-6d40-4668-9472-349e188c6f3a
+2 NOTE Никитяев Афанасий Емельянович
+2 _UID 81607dbd-eed9-43aa-8cf0-841f60b1bab6
+1 FAMC @F70@
+0 @I208@ INDI
+1 _UID 6da48b68-a6d4-4b60-8c52-afba5e45f420
+1 NAME Нина Афанасьевна /Никитяева/
+2 GIVN Нина Афанасьевна
+2 _MARNM Никитяева
+1 SEX F
+1 BIRT
+2 _UID 9a70ff1d-62d7-465a-8d74-2e29626bdeb8
+1 DEAT
+2 _UID 4dc552fa-6a13-4d97-b8d0-109bfbd856a0
+1 FAMC @F76@
+0 @I209@ INDI
+1 _UID 807a58ad-1d7a-4f2a-8316-34df7110b7f4
+1 NAME Ефросинья Васильевна /Никитяева/
+2 GIVN Ефросинья Васильевна
+2 _MARNM Никитяева
+1 SEX F
+1 BIRT
+2 _UID ce52c1fb-4747-46ee-94b7-c79d35c3124e
+1 DEAT
+2 _UID 1a5ee7ad-dbcc-406a-bb8d-fb5e7a6f7b4b
+1 FAMS @F59@
+0 @I210@ INDI
+1 _UID c3abaa46-545b-452a-9cb5-19f60b7ab924
+1 NAME Яков Васильевич /Бусурин/
+2 GIVN Яков Васильевич
+1 SEX M
+1 BIRT
+2 DATE @#DJULIAN@ 15 MAR 1898
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID 2fe3df5f-6b87-44c5-8d21-cf54fc2042b5
+1 DEAT
+2 _UID 34778873-1cc2-4840-9539-410f240e7b71
+1 FAMC @F66@
+0 @I211@ INDI
+1 _UID 426ec51d-ea6f-4490-9ac9-8e98c79bef85
+1 NAME Александра Никитина /Бусурина/
+2 GIVN Александра Никитина
+2 _MARNM Бусурина
+1 SEX F
+1 BIRT
+2 DATE ABT @#DJULIAN@ 1859
+2 _UID 086e28b0-86f3-4e94-9c61-d8631f2c8d53
+1 DEAT
+2 _UID aced20ab-6351-4dd2-be61-d5c480218cad
+1 FAMS @F60@
+0 @I212@ INDI
+1 _UID feb0419b-9afe-4a20-add9-a103e3845784
+1 NAME Иосиф Илларионович /Бусурин/
+2 GIVN Иосиф Илларионович
+1 SEX M
+1 BIRT
+2 DATE ABT 1852
+2 _UID 30d36056-f705-40bb-8bd2-c40573af0f65
+1 DEAT
+2 DATE BEF 1917
+2 _UID 4ce65812-8fed-4c4f-a869-14ba9919fedf
+1 FAMC @F44@
+1 FAMS @F60@
+1 FAMS @F61@
+0 @I213@ INDI
+1 _UID 7c246bcb-55ef-4d9b-a448-ce72a437bbe0
+1 NAME Василий Иосифович /Бусурин/
+2 GIVN Василий Иосифович
+1 SEX M
+1 BIRT
+2 DATE @#DJULIAN@ 23 AUG 1897
+2 PLAC Тульская губерния, Одоевский уезд, деревня Осиновка
+3 MAP
+4 LATI N53.8596289
+4 LONG E36.9250274
+3 NOTE https://familio.org/settlements/29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+3 _FAMILIO_GUID 29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+2 _UID 06aa7796-6894-444d-a05a-4335e6a28e2c
+1 DEAT
+2 _UID 8fdb183a-9c7f-4330-8bae-83d67e0a3dcd
+1 FAMC @F60@
+1 FAMS @F19@
+1 SOUR @S3@
+1 SOUR @S4@
+0 @I214@ INDI
+1 _UID 6a1e396f-6827-4ae0-91c4-2140cdf0f662
+1 NAME Иосиф (Осип) Михайлович /Бусурин/
+2 GIVN Иосиф (Осип) Михайлович
+1 SEX M
+1 BIRT
+2 DATE @#DJULIAN@ 26 NOV 1874
+2 PLAC Тульская губерния, Одоевский уезд, деревня Осиновка
+3 MAP
+4 LATI N53.8596289
+4 LONG E36.9250274
+3 NOTE https://familio.org/settlements/29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+3 _FAMILIO_GUID 29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+2 NOTE Ф. 93 Оп. 1 Д. 3494 с 242		Крестные села Чебышевка Дмитрий матвеев и рядового  бутырсокго крестьянского полка Ивана С
+3 CONC тефанова Сучатова жена Евисеева
+2 _UID 83129dd2-2bad-46a5-a6a4-53300abaec64
+1 EVEN
+2 TYPE Восприемник
+2 DATE 16 JUN 1914
+2 PLAC город федерального значения Москва, город Москва
+3 MAP
+4 LATI N55.7504461
+4 LONG E37.6174943
+3 NOTE https://familio.org/settlements/811e618b-b9de-497b-ac26-f95629ffd562
+3 _FAMILIO_GUID 811e618b-b9de-497b-ac26-f95629ffd562
+2 _UID cbc0b20a-d61d-434c-8ce1-f4b3f9a956c2
+1 EVEN
+2 TYPE Восприемник
+2 DATE FEB 1910
+2 PLAC город федерального значения Москва, город Москва
+3 MAP
+4 LATI N55.7504461
+4 LONG E37.6174943
+3 NOTE https://familio.org/settlements/811e618b-b9de-497b-ac26-f95629ffd562
+3 _FAMILIO_GUID 811e618b-b9de-497b-ac26-f95629ffd562
+2 _UID 2e6d8d17-f6e8-4f89-be4f-4248b52f45f7
+1 DEAT
+2 DATE AFT 1914
+2 _UID c36498f9-4947-431c-b3e0-c75122ba03d8
+1 FAMC @F2@
+1 FAMS @F56@
+1 FAMS @F62@
+0 @I215@ INDI
+1 _UID e632303b-f950-4998-a6d0-c3ab3e6e10a9
+1 NAME Феодосия Марковна /Никитяева/
+2 GIVN Феодосия Марковна
+2 _MARNM Никитяева
+1 SEX F
+1 BIRT
+2 DATE @#DJULIAN@ 22 MAY 1897
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, деревня Буландино
+3 MAP
+4 LATI N53.8868044
+4 LONG E36.9392476
+3 NOTE https://familio.org/settlements/c4dc3325-6d40-4668-9472-349e188c6f3a
+3 _FAMILIO_GUID c4dc3325-6d40-4668-9472-349e188c6f3a
+2 _UID 83ba7989-fa48-4368-bf65-3e8d826aa553
+1 DEAT
+2 DATE @#DJULIAN@ 11 JUL 1897
+2 _UID a2587506-a06d-428c-997c-ee693c033ccc
+1 FAMC @F1@
+0 @I216@ INDI
+1 _UID 16c0c98d-18c6-4de3-b36f-417a9909c0a4
+1 NAME Пелагея Иосифовна /Ефимова (Бусурина)/
+2 GIVN Пелагея Иосифовна
+2 SURN Бусурина
+2 _MARNM Ефимова
+1 SEX F
+1 BIRT
+2 DATE @#DJULIAN@ 23 MAY 1897
+2 PLAC Тульская губерния, Одоевский уезд, деревня Осиновка
+3 MAP
+4 LATI N53.8596289
+4 LONG E36.9250274
+3 NOTE https://familio.org/settlements/29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+3 _FAMILIO_GUID 29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+2 _UID 77a2669c-47f4-4102-a95a-903b0414aa70
+1 DEAT
+2 _UID ee4f4e8d-4487-45d6-ab78-e89fa2302236
+1 FAMC @F62@
+1 FAMS @F22@
+0 @I217@ INDI
+1 _UID 9e39be26-dd1d-47da-8e12-b71fcee4d4cb
+1 NAME Ефросинья Васильевна /Бусурина (Горшкова)/
+2 GIVN Ефросинья Васильевна
+2 SURN Горшкова
+2 _MARNM Бусурина
+1 SEX F
+1 BIRT
+2 DATE @#DJULIAN@ 1871
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID d7687d9d-b71a-460a-aabb-6e79318e644d
+1 DEAT
+2 _UID 60393287-fa00-4876-beaa-0897ac1a86df
+1 FAMC @F102@
+1 FAMS @F63@
+0 @I218@ INDI
+1 _UID 13b31b8e-5a32-424b-8770-3f8a4a10816a
+1 NAME Емельян Иоанович /Бусурин/
+2 GIVN Емельян Иоанович
+1 SEX M
+1 BIRT
+2 DATE @#DJULIAN@ 1868
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID 60252115-89eb-4c01-85a0-7ed1d5c3f80e
+1 DEAT
+2 _UID 5c39b7c2-4f62-4efe-a0fa-b121a5b6120f
+1 FAMC @F104@
+1 FAMS @F63@
+0 @I219@ INDI
+1 _UID 2ebdb396-92ca-4060-8f04-2c8187488397
+1 NAME Анна Емельяновна /Бусурина/
+2 GIVN Анна Емельяновна
+2 _MARNM Бусурина
+1 SEX F
+1 BIRT
+2 DATE 1887
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID e96c4f9c-17c7-4c8f-80fe-0658f71318d4
+1 DEAT
+2 _UID 6c401a4d-ee2c-44e2-b392-20c6c3550756
+1 FAMC @F63@
+0 @I220@ INDI
+1 _UID b1970661-6fe6-477e-a76b-9a6e407e006b
+1 NAME Тихон Васильевич /Бусурин/
+2 GIVN Тихон Васильевич
+1 SEX M
+1 BIRT
+2 DATE @#DJULIAN@ 10 JUN 1986
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID 64bed37e-6723-44d3-879f-b78b6ba08f4b
+1 DEAT
+2 _UID 838d1dc8-802d-4f99-b76e-e164327ae6ac
+1 FAMC @F66@
+0 @I221@ INDI
+1 _UID a5d5dc97-fb12-454d-8888-b8491b7225cb
+1 NAME Тимофей Васильевич /Бусурин/
+2 GIVN Тимофей Васильевич
+1 SEX M
+1 BIRT
+2 DATE @#DJULIAN@ 20 JUN 1894
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID ce80d4de-e25a-4fc1-8e2f-900303b5bedf
+1 DEAT
+2 _UID e5d28048-093f-4046-8f8d-bcf5c61130da
+1 FAMC @F66@
+0 @I222@ INDI
+1 _UID cd6ccd77-be91-4028-8f0f-d23e0d235623
+1 NAME Елена Алексеевна /Бусурина (Сучатова)/
+2 GIVN Елена Алексеевна
+2 SURN Сучатова
+2 _MARNM Бусурина
+1 SEX F
+1 BIRT
+2 DATE 1875
+2 PLAC Ивицы
+2 _UID 4db4ac24-b1d6-47c6-b856-1e0d44daea30
+1 DEAT
+2 DATE 27 MAY 1898
+2 _UID 64a5821c-dcef-4dcb-8152-bd8a47a87826
+1 FAMC @F92@
+1 FAMS @F62@
+0 @I223@ INDI
+1 _UID 2865bddd-af08-4648-8bd3-58a0b403afdb
+1 NAME Иоанн Михайлович /Бусурин/
+2 GIVN Иоанн Михайлович
+1 SEX M
+1 BIRT
+2 _UID 68b1402e-6fe0-49a2-9eeb-b62396a9b983
+0 @I224@ INDI
+1 _UID f705242c-98b8-4b0a-bc0c-006a3ff0a692
+1 NAME Анисия Иосифовна /Бусурина/
+2 GIVN Анисия Иосифовна
+2 _MARNM Бусурина
+1 SEX F
+1 BIRT
+2 DATE @#DJULIAN@ 20 DEC 1894
+2 PLAC Тульская губерния, Одоевский уезд, деревня Осиновка
+3 MAP
+4 LATI N53.8596289
+4 LONG E36.9250274
+3 NOTE https://familio.org/settlements/29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+3 _FAMILIO_GUID 29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+2 _UID 9dbd8664-81a0-453f-ae8c-ab2079239a34
+1 DEAT
+2 DATE @#DJULIAN@ 29 DEC 1894
+2 _UID 5c30646a-1944-4aa2-a6d7-d89963979f60
+1 FAMC @F62@
+0 @I225@ INDI
+1 _UID e27c4d94-95cc-453d-b5f2-b05a1b38482f
+1 NAME Петр Дмитриевич /Бусурин/
+2 GIVN Петр Дмитриевич
+1 SEX M
+1 BIRT
+2 DATE @#DJULIAN@ 13 AUG 1894
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID c01675ff-d047-4d54-a9a0-2b7de2f38c3d
+1 DEAT
+2 DATE 3 DEC 1894
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID 84f938ee-a144-48ae-9cfc-5d0510d4489b
+1 FAMC @F67@
+0 @I226@ INDI
+1 _UID 6fbb6380-67a7-45ab-bb24-404931423e71
+1 NAME Мария Дмитриевна /Бусурина/
+2 GIVN Мария Дмитриевна
+2 _MARNM Бусурина
+1 SEX F
+1 BIRT
+2 DATE @#DJULIAN@ 10 JAN 1896
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID 96ed5c2b-9985-4573-8c83-837e6c259291
+1 DEAT
+2 _UID c2d90c1b-c378-4d7a-a491-ac03afcaf47a
+1 FAMC @F67@
+0 @I227@ INDI
+1 _UID cf1872d5-b83d-485d-8694-94b8e9617c1b
+1 NAME Екатерина Сергеевна /Бусурина/
+2 GIVN Екатерина Сергеевна
+2 _MARNM Бусурина
+1 SEX F
+1 BIRT
+2 DATE @#DJULIAN@ 9 NOV 1893
+2 PLAC Тульская губерния, Одоевский уезд, деревня Осиновка
+3 MAP
+4 LATI N53.8596289
+4 LONG E36.9250274
+3 NOTE https://familio.org/settlements/29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+3 _FAMILIO_GUID 29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+2 _UID f6239525-df3a-4fe8-8dc8-dd8e701456da
+1 DEAT
+2 _UID e5443947-fbbb-478b-9141-42c49c0c6978
+1 FAMC @F32@
+0 @I228@ INDI
+1 _UID 3ed244eb-8ec3-4275-a43b-d0f37f1b5d9a
+1 NAME Сергей Андреевич /Бусурин/
+2 GIVN Сергей Андреевич
+1 SEX M
+1 BIRT
+2 DATE 1851
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID 13a271dd-ee33-4f2c-a24a-f26a2ebb5afe
+1 DEAT
+2 DATE BEF 1917
+2 _UID 2bd3f90d-0b2b-45d7-bf3f-9b4255991b6a
+1 FAMC @F105@
+1 FAMS @F32@
+1 FAMS @F46@
+1 FAMS @F64@
+0 @I229@ INDI
+1 _UID b2db91ac-f0c7-445f-aa69-2c250ca1581c
+1 NAME Мария Феодосиевна /Бусурина/
+2 GIVN Мария Феодосиевна
+2 _MARNM Бусурина
+1 SEX F
+1 BIRT
+2 _UID a9cbba1a-a929-4a0d-8014-05626a9690a1
+1 DEAT
+2 _UID 6398622c-e8c8-4cc8-955c-2c401f91bb27
+1 EVEN
+2 TYPE Восприемник
+2 DATE 1903
+2 PLAC Московская область, Серпухов, город Серпухов
+3 MAP
+4 LATI N54.9202
+4 LONG E37.4098
+3 NOTE https://familio.org/settlements/f63b8063-5d21-4498-9458-89ba47732cf5
+3 _FAMILIO_GUID f63b8063-5d21-4498-9458-89ba47732cf5
+2 _UID b552b7d8-805c-42d8-a10d-fb1f9678169a
+1 FAMS @F65@
+0 @I230@ INDI
+1 _UID 1e9dc98b-55bc-461f-aa66-803060a91d7e
+1 NAME Иоанн Федорович /Бусурин/
+2 GIVN Иоанн Федорович
+1 SEX M
+1 BIRT
+2 DATE ABT @#DJULIAN@ 1847
+2 _UID cfd9407a-3284-4dca-9a39-0eaed243855a
+1 DEAT
+2 DATE @#DJULIAN@ 27 MAR 1893
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID 3aeac3de-8ccd-4f75-aa10-30d019afbf33
+1 FAMC @F43@
+1 FAMS @F65@
+0 @I231@ INDI
+1 _UID 78cf4964-65fc-4604-9849-c97d34a62242
+1 NAME Федор Иванович /Бусурин/
+2 GIVN Федор Иванович
+1 SEX M
+1 BIRT
+2 DATE @#DJULIAN@ 11 FEB 1893
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 NOTE https://www.familysearch.org/ark:/61903/3:1:3QSQ-G966-KK1M?i=954
+2 _UID 890e0fa3-9e28-4199-8401-81da704e39f5
+1 DEAT
+2 _UID d9f27638-b285-49a7-806c-d46a0076f675
+1 FAMC @F65@
+1 SOUR @S5@
+0 @I232@ INDI
+1 _UID 2dd52475-9f01-400c-a76e-5f01641a1b42
+1 NAME Андрей Алексеевич /Бусурин/
+2 GIVN Андрей Алексеевич
+1 SEX M
+1 BIRT
+2 _UID 8db397b6-008d-45df-a78c-98424cc95ab2
+1 DEAT
+2 _UID 9c3712dc-e9a1-46c8-9947-60b548658b24
+1 FAMC @F88@
+1 FAMS @F105@
+0 @I233@ INDI
+1 _UID 3e47f994-77eb-48af-a0cb-d0de5c766371
+1 NAME Яков Васильевич /Бусурин/
+2 GIVN Яков Васильевич
+1 SEX M
+1 BIRT
+2 DATE @#DJULIAN@ 23 APR 1892
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 NOTE https://www.familysearch.org/ark:/61903/3:1:3QS7-8966-KLCB?i=926
+2 _UID 8eb31bf7-7dc6-4a14-a008-1f36d8302893
+1 DEAT
+2 DATE @#DJULIAN@ 15 MAY 1892
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID ac47cdaa-caab-46b4-981d-46660bab75dc
+1 FAMC @F66@
+0 @I234@ INDI
+1 _UID e61af7b6-bd74-485a-b50d-64d6e906884e
+1 NAME София Семеновна /Бусурина/
+2 GIVN София Семеновна
+2 _MARNM Бусурина
+1 SEX F
+1 BIRT
+2 DATE ABT 1858
+2 _UID 7e53f47a-e8f6-49aa-94fc-68a343c683f9
+1 DEAT
+2 _UID 784c4910-7da8-4509-9ab2-0da0c412905d
+1 FAMS @F66@
+0 @I235@ INDI
+1 _UID 979b69cb-0ac2-4eb6-8d19-bfb34489254e
+1 NAME Марфа Максимовна /Бусурина (Лагутина)/
+2 GIVN Марфа Максимовна
+2 SURN Лагутина
+2 _MARNM Бусурина
+1 SEX F
+1 BIRT
+2 DATE 1873
+2 PLAC Ивицы
+2 _UID 649be596-52bf-422d-992f-77d3e90d5868
+1 DEAT
+2 _UID bfff295e-0703-4401-af9a-a72279e84f12
+1 FAMC @F95@
+1 FAMS @F67@
+0 @I236@ INDI
+1 _UID 6dc0ca20-a29b-4fdf-bfd2-2d2f9f309d78
+1 NAME Петр Федорович /Бусурин/
+2 GIVN Петр Федорович
+1 SEX M
+1 BIRT
+2 _UID 366034de-5134-422b-8761-4623647faf52
+1 DEAT
+2 DATE BEF 1917
+2 _UID d0180050-fcc4-4570-b075-b6b7e3430384
+1 FAMC @F43@
+1 FAMS @F42@
+0 @I237@ INDI
+1 _UID 2c246e51-3ae3-438f-97c5-5eb2fe9851ba
+1 NAME Дмитрий Петрович /Бусурин/
+2 GIVN Дмитрий Петрович
+1 SEX M
+1 BIRT
+2 DATE @#DJULIAN@ 1869
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID aa1e95e3-7d79-4d10-b4fb-83154a7683d0
+1 DEAT
+2 _UID 47634bd9-7f96-44e4-933d-df9dc597ac94
+1 FAMC @F42@
+1 FAMS @F67@
+0 @I238@ INDI
+1 _UID 2cbf8bb1-6689-4231-9bf5-0b073872aba5
+1 NAME Петр Дмитриевич /Бусурин/
+2 GIVN Петр Дмитриевич
+1 SEX M
+1 BIRT
+2 DATE @#DJULIAN@ 7 DEC 1891
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID 8886d146-110d-40ce-b54a-849374a6482d
+1 DEAT
+2 _UID 49dd1a2a-137b-4c71-80eb-42a10e80a28e
+1 FAMC @F67@
+0 @I239@ INDI
+1 _UID a3d1e2d1-37b5-484b-a4b4-6d1c2132a83d
+1 NAME Василий Андреевич /Бусурин/
+2 GIVN Василий Андреевич
+1 SEX M
+1 BIRT
+2 _UID 105087d0-d322-458d-8923-17ef7124177c
+1 DEAT
+2 DATE BEF 1917
+2 _UID 7e1f5de5-13a7-4a98-8bc5-55728ea14f74
+1 FAMC @F105@
+1 FAMS @F66@
+1 FAMS @F68@
+0 @I240@ INDI
+1 _UID b9581b1d-9444-4200-acc9-e0029d4938c0
+1 NAME Иоанн Васильевич /Бусурин/
+2 GIVN Иоанн Васильевич
+1 SEX M
+1 BIRT
+2 DATE @#DJULIAN@ 17 FEB 1890
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 NOTE https://www.familysearch.org/ark:/61903/3:1:3QS7-9966-KKMX?i=868
+3 CONT 
+3 CONT ГАТО (Тула), ф. 93, о. 1, д. 3523
+2 _UID d25d51ee-bda4-491c-8fb4-301a480990fb
+1 DEAT
+2 _UID e92e7523-ec94-417e-a3a3-017a1fbc8d3b
+1 FAMC @F66@
+1 FAMS @F18@
+0 @I241@ INDI
+1 _UID 9ada2356-01bf-4260-b588-40ef395c8805
+1 NAME Афанасий Маркович /Никитяев/
+2 GIVN Афанасий Маркович
+1 SEX M
+1 BIRT
+2 DATE @#DJULIAN@ 10 OCT 1890
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, деревня Буландино
+3 MAP
+4 LATI N53.8868044
+4 LONG E36.9392476
+3 NOTE https://familio.org/settlements/c4dc3325-6d40-4668-9472-349e188c6f3a
+3 _FAMILIO_GUID c4dc3325-6d40-4668-9472-349e188c6f3a
+2 _UID 4188960d-9546-4e97-b1b0-e997eaf6fd04
+1 DEAT
+2 _UID b4cd98b0-501e-454b-81d8-d3376f4fca0e
+1 FAMC @F1@
+1 FAMS @F15@
+0 @I242@ INDI
+1 _UID a307be68-1400-4e9c-b648-1e486f49ddca
+1 NAME Филипп /Никитяев/
+2 GIVN Филипп
+1 SEX M
+1 BIRT
+2 _UID 47db9b15-baf5-496d-90ed-3b8a6776faea
+1 DEAT
+2 _UID 4ff28b45-5dea-4bd7-8887-195ebb842f0f
+1 FAMS @F106@
+0 @I243@ INDI
+1 _UID 3c90f88d-d946-482e-b0cf-eb4b033ca857
+1 NAME Ефросинья Сергеевна /Никитяева/
+2 GIVN Ефросинья Сергеевна
+2 _MARNM Никитяева
+1 SEX F
+1 BIRT
+2 DATE @#DJULIAN@ 20 SEP 1889
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, деревня Буландино
+3 MAP
+4 LATI N53.8868044
+4 LONG E36.9392476
+3 NOTE https://familio.org/settlements/c4dc3325-6d40-4668-9472-349e188c6f3a
+3 _FAMILIO_GUID c4dc3325-6d40-4668-9472-349e188c6f3a
+2 NOTE ГАТО (Тула), ф. 93, о. 1, д. 3523
+3 CONT 
+3 CONT https://www.familysearch.org/ark:/61903/3:1:3QS7-8966-KGMY?i=853
+3 CONT 
+3 CONT Запись 26
+2 _UID 9a6d9e25-8f0a-40fe-8eda-987ca4d2a1f8
+1 DEAT
+2 _UID 3ba9dcaa-d7b2-419e-b04f-77b4ee183f9d
+1 FAMC @F69@
+0 @I244@ INDI
+1 _UID 090b9c4c-6453-4b5f-a99b-0a9eecd7c868
+1 NAME Татьяна Прохоровна /Никитяева (Акистратова)/
+2 GIVN Татьяна Прохоровна
+2 SURN Акистратова
+2 _MARNM Никитяева
+1 SEX F
+1 BIRT
+2 DATE @#DJULIAN@ 1869
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, деревня Хмелевичи
+3 MAP
+4 LATI N53.9461823
+4 LONG E36.8079366
+3 NOTE https://familio.org/settlements/dbf16bd5-1671-4ea3-b6c9-75c2b2364c4a
+3 _FAMILIO_GUID dbf16bd5-1671-4ea3-b6c9-75c2b2364c4a
+2 _UID df307466-9f0e-45b8-85d5-4a8e4b3a456b
+1 DEAT
+2 _UID dea017f0-aad8-4624-842d-001f8a3a8f08
+1 FAMC @F101@
+1 FAMS @F69@
+0 @I245@ INDI
+1 _UID 5803e0b7-54ec-4961-b1ea-313506b31aae
+1 NAME Сергей Васильевич /Никитяев/
+2 GIVN Сергей Васильевич
+1 SEX M
+1 BIRT
+2 DATE @#DJULIAN@ 1857
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, деревня Буландино
+3 MAP
+4 LATI N53.8868044
+4 LONG E36.9392476
+3 NOTE https://familio.org/settlements/c4dc3325-6d40-4668-9472-349e188c6f3a
+3 _FAMILIO_GUID c4dc3325-6d40-4668-9472-349e188c6f3a
+2 _UID 8f54aa3a-b60f-455b-81fe-d289a0cdc32b
+1 DEAT
+2 DATE @#DJULIAN@ 16 FEB 1897
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, деревня Буландино
+3 MAP
+4 LATI N53.8868044
+4 LONG E36.9392476
+3 NOTE https://familio.org/settlements/c4dc3325-6d40-4668-9472-349e188c6f3a
+3 _FAMILIO_GUID c4dc3325-6d40-4668-9472-349e188c6f3a
+2 _UID f702734f-ef80-41de-b0dd-d4ddf1fd3aa0
+1 EVEN
+2 TYPE Служба в армии
+2 DATE 1887
+2 NOTE Уволен из 8-го стрелгового батальона в запас
+2 _UID 9b3abc65-a3ee-4787-8ce0-e43ef88f47df
+1 FAMC @F85@
+1 FAMS @F52@
+1 FAMS @F69@
+0 @I246@ INDI
+1 _UID 33148a7a-705b-45a9-8437-3852c00b4537
+1 NAME Евфросинья Адрианова /Никитяева/
+2 GIVN Евфросинья Адрианова
+2 _MARNM Никитяева
+1 SEX F
+1 NOTE МК о рождении ГАТО-3-15-392-с257
+1 BIRT
+2 DATE @#DJULIAN@ 21 JUN 1859
+2 PLAC Тульская губерния, Крапивенский район , Драгунский сельсовет, деревня Казачьи Выселки
+3 MAP
+4 LATI N53.874886
+4 LONG E37.2696072
+3 NOTE https://familio.org/settlements/f922d553-a3bb-44f1-8982-385b95d38a98
+3 _FAMILIO_GUID f922d553-a3bb-44f1-8982-385b95d38a98
+2 _UID f2af499a-4d0d-407c-b903-8d3645a2adc0
+1 DEAT
+2 _UID 5a52629b-9960-426f-b632-ac6d86d5f2a4
+1 FAMC @F3@
+1 FAMS @F70@
+0 @I247@ INDI
+1 _UID 96f20c93-b0c0-4fe6-a1a9-d9dd71880558
+1 NAME Дмитрий Андреев //
+2 GIVN Дмитрий Андреев
+1 SEX M
+1 BIRT
+2 DATE ABT @#DJULIAN@ 1823
+2 _UID cbd949ce-429b-490e-b699-55c02e4b5a38
+1 DEAT
+2 _UID 7474600d-d4b7-4b9e-a682-23d88703128e
+1 FAMC @F86@
+1 FAMS @F12@
+0 @I248@ INDI
+1 _UID dc01e7f7-9dbe-47a6-9dae-c86f5fb687b5
+1 NAME Илья Дмитриевич /Евтюшкин/
+2 GIVN Илья Дмитриевич
+1 SEX M
+1 BIRT
+2 DATE ABT 1858
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, деревня Буландино
+3 MAP
+4 LATI N53.8868044
+4 LONG E36.9392476
+3 NOTE https://familio.org/settlements/c4dc3325-6d40-4668-9472-349e188c6f3a
+3 _FAMILIO_GUID c4dc3325-6d40-4668-9472-349e188c6f3a
+2 _UID 62fcb3f4-c5d8-4b23-8797-cc258a90a923
+1 DEAT
+2 _UID 5d607bcf-a4d5-471f-beab-e390a35669f1
+1 FAMC @F12@
+1 FAMS @F70@
+0 @I249@ INDI
+1 _UID f567c061-166a-47c3-9149-783d91751e95
+1 NAME Матрёна Ильинична /Никитяева/
+2 GIVN Матрёна Ильинична
+2 _MARNM Никитяева
+1 SEX F
+1 BIRT
+2 DATE @#DJULIAN@ 9 JUL 1888
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, деревня Буландино
+3 MAP
+4 LATI N53.8868044
+4 LONG E36.9392476
+3 NOTE https://familio.org/settlements/c4dc3325-6d40-4668-9472-349e188c6f3a
+3 _FAMILIO_GUID c4dc3325-6d40-4668-9472-349e188c6f3a
+2 _UID 1fcd0f77-614d-4ae0-8187-30fa2b28ee7f
+1 DEAT
+2 _UID 6cfaba74-5c1d-4964-a64f-eea30e5815de
+1 FAMC @F70@
+0 @I250@ INDI
+1 _UID 371b6dfd-6854-40cf-99b7-bea9a88f284c
+1 NAME Акулина Никитична /Никитяева/
+2 GIVN Акулина Никитична
+2 _MARNM Никитяева
+1 SEX F
+1 NOTE https://www.familysearch.org/ark:/61903/3:1:3QS7-L966-KLGX?i=824
+2 CONT 
+2 CONT ГАТО (Тула), ф. 93, о. 1, д. 3523
+1 BIRT
+2 DATE @#DJULIAN@ 28 MAY 1888
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, деревня Буландино
+3 MAP
+4 LATI N53.8868044
+4 LONG E36.9392476
+3 NOTE https://familio.org/settlements/c4dc3325-6d40-4668-9472-349e188c6f3a
+3 _FAMILIO_GUID c4dc3325-6d40-4668-9472-349e188c6f3a
+2 _UID 81c9c9d1-1ffe-4153-af8e-d988410f6b17
+1 DEAT
+2 _UID 3c397974-e2e7-4c5f-ac28-9acc32120b02
+1 FAMC @F71@
+0 @I251@ INDI
+1 _UID b580ea34-85f2-4288-b793-14abbbfb3b0b
+1 NAME Марфа Алекстёвна /Никитяева/
+2 GIVN Марфа Алекстёвна
+2 _MARNM Никитяева
+1 SEX F
+1 BIRT
+2 _UID ad80ad3f-e533-41d6-a629-08df559e970e
+1 DEAT
+2 _UID 2b714a09-9433-40c4-9a66-4afe5190c66a
+1 FAMS @F71@
+0 @I252@ INDI
+1 _UID 0f705631-9ef6-494b-8f23-706567102f73
+1 NAME Александра Владимировна /Горшенина (Уколова)/
+2 GIVN Александра Владимировна
+2 SURN Уколова
+2 _MARNM Горшенина
+1 SEX F
+1 BIRT
+2 DATE 10 APR 1991
+2 PLAC город федерального значения Москва, город Москва
+3 MAP
+4 LATI N55.7504461
+4 LONG E37.6174943
+3 NOTE https://familio.org/settlements/811e618b-b9de-497b-ac26-f95629ffd562
+3 _FAMILIO_GUID 811e618b-b9de-497b-ac26-f95629ffd562
+2 _UID dc744eb9-5fb7-4acc-b897-ef27d9281fd4
+1 FAMC @F74@
+1 FAMS @F72@
+1 FAMS @F73@
+1 OBJE
+2 FORM jpg
+2 FILE https://familio.org/api/v1/images/user_files/d3864589-75ef-4ff1-a442-da3c3b040a89/persons/abea9b40-aac8-43e0-a67a-07e71ef4e896.jpg
+0 @I253@ INDI
+1 _UID 73092e1e-8528-4580-b217-90f3934508cd
+1 NAME Владимир Иванович /Уколов/
+2 GIVN Владимир Иванович
+1 SEX M
+1 BIRT
+2 DATE 29 JAN 1952
+2 PLAC Тульская область, Щекинский муниципальный район, Крапивенское сельское поселение, село Крапивна
+3 MAP
+4 LATI N53.940987
+4 LONG E37.154839
+3 NOTE https://familio.org/settlements/d6720276-162e-4b9f-9e33-335dcae2c222
+3 _FAMILIO_GUID d6720276-162e-4b9f-9e33-335dcae2c222
+2 _UID 7cb23106-9725-46ca-9654-a4ea061c1d64
+1 FAMC @F4@
+1 FAMS @F74@
+1 FAMS @F81@
+0 @I254@ INDI
+1 _UID 6d83a7c7-c601-4db8-8bdf-66d9dcc01f9d
+1 NAME Елена Васильевна /Уколова (Кулешова)/
+2 GIVN Елена Васильевна
+2 SURN Кулешова
+2 _MARNM Уколова
+1 SEX F
+1 BIRT
+2 DATE 10 MAY 1964
+2 _UID 70d55daf-cc0f-43b3-8238-fa580cae032f
+1 FAMC @F75@
+1 FAMS @F74@
+0 @I255@ INDI
+1 _UID ab660490-8db3-4ed9-b767-ce97923baff6
+1 NAME Зинаида Ивановна /Кулешова (Савенкова)/
+2 GIVN Зинаида Ивановна
+2 SURN Савенкова
+2 _MARNM Кулешова
+1 SEX F
+1 BIRT
+2 DATE 10 SEP 1935
+2 _UID e4071203-8fa7-4ff0-9bef-ad302298c32f
+1 DEAT
+2 DATE 14 AUG 2010
+2 PLAC Московская область, Подольск, город Подольск
+3 MAP
+4 LATI N55.434
+4 LONG E37.5528
+3 NOTE https://familio.org/settlements/d5117961-86eb-4f53-9c86-e88fe383bf17
+3 _FAMILIO_GUID d5117961-86eb-4f53-9c86-e88fe383bf17
+2 _UID f7017683-5ab0-40b5-9e98-6dcd6ec0a801
+1 EVEN
+2 TYPE Захоронение (военное)
+2 PLAC город федерального значения Москва, Троицкий административный округ, деревня Товарищево
+3 MAP
+4 LATI N55.354722
+4 LONG E37.28
+3 NOTE https://familio.org/settlements/9eaab386-f001-4f74-b466-4dc361631335
+3 _FAMILIO_GUID 9eaab386-f001-4f74-b466-4dc361631335
+2 _UID ff6c8afb-b1fd-4ce5-b80e-86e69fa88c20
+1 FAMS @F75@
+0 @I256@ INDI
+1 _UID a55a6fa7-7186-4ece-bf14-8b99766605b0
+1 NAME Александра Афанасьевна /Уколова (Никитяева)/
+2 GIVN Александра Афанасьевна
+2 SURN Никитяева
+2 _MARNM Уколова
+1 SEX F
+1 BIRT
+2 DATE 10 SEP 1923
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, деревня Буландино
+3 MAP
+4 LATI N53.8868044
+4 LONG E36.9392476
+3 NOTE https://familio.org/settlements/c4dc3325-6d40-4668-9472-349e188c6f3a
+3 _FAMILIO_GUID c4dc3325-6d40-4668-9472-349e188c6f3a
+2 _UID 4b53eeaf-ba97-4c7f-8a48-19805f371f28
+1 DEAT
+2 DATE ABT 2013
+2 PLAC Тульская область, Щекинский муниципальный район, Крапивенское сельское поселение, село Крапивна
+3 MAP
+4 LATI N53.940987
+4 LONG E37.154839
+3 NOTE https://familio.org/settlements/d6720276-162e-4b9f-9e33-335dcae2c222
+3 _FAMILIO_GUID d6720276-162e-4b9f-9e33-335dcae2c222
+2 _UID d474c66b-d9d4-4df5-8aff-ec2af8a42617
+1 FAMC @F76@
+1 FAMS @F4@
+1 FAMS @F107@
+0 @I257@ INDI
+1 _UID 6e7a8c0a-54de-4446-8c78-dea22c66c715
+1 NAME Александра Иосифовна /Никитяева (Бусурина)/
+2 GIVN Александра Иосифовна
+2 SURN Бусурина
+2 _MARNM Никитяева
+1 SEX F
+1 NOTE Про мать ничего не говорила, родилась предположительно в Москве, росла с отцом, который строил каменные дороги и полу
+2 CONC чал за это хорошие деньги. Отец её оставил у тётки и обеспечивал материальное содержание. Про тетку бабушка никогда не говори
+2 CONC ла, так как верила, что она отравила её отца и забрала его деньги. После чего бабушку отдали нянькой в богатую семью. Потом о
+2 CONC на вышла замуж за Афонасия Никитяева. Родила за всю жизнь 13 детей, только трое дожили до взрослого возраста: Александра, Нин
+2 CONC а и Анатолий.
+1 BIRT
+2 DATE @#DJULIAN@ 8 MAY 1900
+2 PLAC Тульская губерния, Одоевский уезд, деревня Осиновка
+3 MAP
+4 LATI N53.8596289
+4 LONG E36.9250274
+3 NOTE https://familio.org/settlements/29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+3 _FAMILIO_GUID 29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+2 _UID 7c66f232-869f-4490-b1ed-f12eb6e2f3cf
+1 DEAT
+2 _UID 8a03877b-da6a-41ec-9dcd-1e783639b700
+1 FAMC @F56@
+1 FAMS @F76@
+1 FAMS @F77@
+0 @I258@ INDI
+1 _UID c7101d50-fb68-46c5-a14d-d17cac025f0d
+1 NAME Афанасий Емельянович /Никитяев/
+2 GIVN Афанасий Емельянович
+1 SEX M
+1 BIRT
+2 DATE @#DJULIAN@ 24 APR 1898
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, деревня Буландино
+3 MAP
+4 LATI N53.8868044
+4 LONG E36.9392476
+3 NOTE https://familio.org/settlements/c4dc3325-6d40-4668-9472-349e188c6f3a
+3 _FAMILIO_GUID c4dc3325-6d40-4668-9472-349e188c6f3a
+2 _UID bf79970c-fc81-4177-a224-8c25cac5df9e
+1 DEAT
+2 CAUS https://pamyat-naroda.ru/heroes/memorial-chelovek_donesenie51286995/?backurl=%2Fheroes%2F%3Fadv_search%3Dy%26first_nam
+3 CONC e%3D%D0%90%D1%84%D0%B0%D0%BD%D0%B0%D1%81%D0%B8%D0%B9%26static_hash%3D721fd617a76462221f02eb2ba5a80ad3b3573f3600cdbc1aa8742bd4
+3 CONC 94516397v6%26group%3Dall%26types%3Dpamyat_commander%3Anagrady_nagrad_doc%3Anagrady_uchet_kartoteka%3Anagrady_ubilein_kartotek
+3 CONC a%3Apdv_kart_in%3Apdv_kart_in_inostranec%3Apamyat_voenkomat%3Apotery_vpp%3Apamyat_zsp_parts%3Akld_ran%3Akld_bolezn%3Akld_poli
+3 CONC t%3Akld_upk%3Akld_vmf%3Akld_partizan%3Apotery_doneseniya_o_poteryah%3Apotery_gospitali%3Apotery_utochenie_poter%3Apotery_spis
+3 CONC ki_zahoroneniy%3Apotery_voennoplen%3Apotery_iskluchenie_iz_spiskov%3Apotery_kartoteki%3Apotery_rvk_extra%3Apotery_isp_extra%3
+3 CONC Asame_doroga%3Asame_rvk%3Asame_guk%3Apotery_knigi_pamyati%26page%3D1%26grouppersons%3D1%26date_birth_from%3D1890%26date_birth
+3 CONC _to%3D1903%26date_birth_period%3Don%26last_name%3D%D0%9D%D0%B8%D0%BA%D0%B8%D1%82%D1%8F%D0%B5%D0%B2&
+2 DATE 29 AUG 1942
+2 PLAC Калужская область, Ульяновский муниципальный район, Сельское поселение село Волосово-Дудино, деревня Белый Камень
+3 MAP
+4 LATI N53.8470795
+4 LONG E35.6217491
+3 NOTE https://familio.org/settlements/80a40d4e-f7ee-44de-afaf-f262253adca9
+3 _FAMILIO_GUID 80a40d4e-f7ee-44de-afaf-f262253adca9
+2 _UID ea89e2ad-3167-440e-96e0-42361e684dc1
+1 EVEN
+2 TYPE Захоронение (военное)
+2 PLAC Калужская область, Ульяновский муниципальный район, Сельское поселение село Волосово-Дудино, деревня Колосово
+3 MAP
+4 LATI N53.851517
+4 LONG E35.584965
+3 NOTE https://familio.org/settlements/88ea8673-9950-4a2e-9d14-4a795adeaa1f
+3 _FAMILIO_GUID 88ea8673-9950-4a2e-9d14-4a795adeaa1f
+2 NOTE Перезахоронен из д. Белый Камень.
+3 CONT Захоронение: 1153698329
+2 _UID 30fee535-cc04-45cb-9285-dc746d58d207
+1 FAMC @F59@
+1 FAMS @F76@
+0 @I259@ INDI
+1 _UID a7c492fc-8a59-444e-ae81-95904881389e
+1 NAME Нина Ивановна /Чернова/
+2 GIVN Нина Ивановна
+2 _MARNM Чернова
+1 SEX F
+1 BIRT
+2 _UID 5df19c55-e7b7-44bc-9cbb-374906e5ccea
+1 FAMC @F107@
+1 FAMS @F108@
+0 @I260@ INDI
+1 _UID fa7e7029-606b-4ec3-afca-4f9f67151717
+1 NAME Галина /Черрнова/
+2 GIVN Галина
+2 _MARNM Черрнова
+1 SEX F
+1 BIRT
+2 _UID b20a53bd-8f6c-4cee-bb4a-61a543ba8e83
+1 FAMC @F108@
+0 @I261@ INDI
+1 _UID 7714eb26-aed6-4df9-8996-0950e84c9ef3
+1 NAME Владимир /Чернов/
+2 GIVN Владимир
+1 SEX M
+1 BIRT
+2 _UID bcf15d7f-365e-4e82-8ec4-11df05c301d9
+1 FAMC @F108@
+0 @I262@ INDI
+1 _UID c9438acc-0f22-4ef3-af5b-183b91ce4fcf
+1 NAME Анна /Чернова/
+2 GIVN Анна
+2 _MARNM Чернова
+1 SEX F
+1 BIRT
+2 _UID efbca210-248a-45df-8ea0-9196835902f7
+1 FAMC @F108@
+0 @I263@ INDI
+1 _UID 105223e4-b4d6-4826-908a-06648367a821
+1 NAME Виталий /Чернов/
+2 GIVN Виталий
+1 SEX M
+1 BIRT
+2 _UID 94fe1634-cbd3-432f-9f8e-9fb9fc88b83c
+1 FAMC @F108@
+0 @I264@ INDI
+1 _UID 6cf8a27c-4e17-4d26-845d-5734905f6b79
+1 NAME Анатолий Афанасьевич /Никитяев/
+2 GIVN Анатолий Афанасьевич
+1 SEX M
+1 BIRT
+2 DATE ABT 1932
+2 _UID 1a24f6d8-c057-4e65-9117-6825d45687d2
+1 DEAT
+2 _UID 0e298ef6-f925-4e6a-9944-d09c3919a086
+1 FAMC @F76@
+0 @I265@ INDI
+1 _UID 6583894c-2985-4dbd-8748-b983be535faa
+1 NAME Юрий Васильевич /Горшенин/
+2 GIVN Юрий Васильевич
+1 SEX M
+1 BIRT
+2 _UID 90e02095-b33e-43ea-bdaa-0f6718f9123e
+1 FAMS @F72@
+1 FAMS @F73@
+0 @I266@ INDI
+1 _UID 56b681b6-e613-487a-9d00-33c0a42cc6f4
+1 NAME Андрей Юрьевич /Горшенин/
+2 GIVN Андрей Юрьевич
+1 SEX M
+1 BIRT
+2 DATE 15 JAN 2019
+2 _UID d891eb0d-7c80-4efe-ba96-6e4e497c8e57
+1 FAMC @F73@
+0 @I267@ INDI
+1 _UID 3f04fdd1-2d29-4ff5-abcd-75e556d2c524
+1 NAME Екатерина Юрьевна /Горшенина/
+2 GIVN Екатерина Юрьевна
+2 _MARNM Горшенина
+1 SEX F
+1 BIRT
+2 DATE 9 JUL 2022
+2 _UID 55b7196b-9a67-4f4e-bc20-651703440a28
+1 FAMC @F73@
+0 @I268@ INDI
+1 _UID 029ea87e-3e00-4dea-be45-5c5f45c34483
+1 NAME Емельян Ильич /Никитяев (Евтюшкин)/
+2 GIVN Емельян Ильич
+2 SURN Евтюшкин
+2 _MARNM Никитяев
+1 SEX M
+1 BIRT
+2 DATE ABT 1 AUG 1877
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, деревня Буландино
+3 MAP
+4 LATI N53.8868044
+4 LONG E36.9392476
+3 NOTE https://familio.org/settlements/c4dc3325-6d40-4668-9472-349e188c6f3a
+3 _FAMILIO_GUID c4dc3325-6d40-4668-9472-349e188c6f3a
+2 NOTE Ф. 93 Оп. 1 Д. 3494 с 308		Крестные:	Сельца Буландино Иосиф Пантелеймонов	Ярцево жена крестьянина Иустина Яковлева --
+3 CONC Евдокия Адриановна
+2 _UID ff4fef85-aca3-4c7b-9348-027270b0e486
+1 DEAT
+2 _UID 46e7d26c-5037-4aa4-9c26-139ebc7ff972
+1 FAMC @F70@
+1 FAMS @F17@
+1 FAMS @F59@
+1 SOUR @S6@
+0 @I269@ INDI
+1 _UID 672d36f3-bf4d-4957-8cee-00de378f7cff
+1 NAME Василий Трифонович /Кулешов/
+2 GIVN Василий Трифонович
+1 SEX M
+1 BIRT
+2 DATE 1 JAN 1933
+2 _UID 3ddf9f24-0aa6-4f4b-b134-00395d0a5649
+1 DEAT
+2 DATE 1968
+2 _UID 5c97b636-a00a-4451-9e7d-ea542c9c67fc
+1 FAMC @F51@
+1 FAMS @F75@
+0 @I270@ INDI
+1 _UID 75acc42e-3879-4554-92cb-d54acc0b2895
+1 NAME Афанасий Владимирович /Никитяев/
+2 GIVN Афанасий Владимирович
+1 SEX M
+1 BIRT
+2 DATE @#DJULIAN@ 11 JAN 1901
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, деревня Буландино
+3 MAP
+4 LATI N53.8868044
+4 LONG E36.9392476
+3 NOTE https://familio.org/settlements/c4dc3325-6d40-4668-9472-349e188c6f3a
+3 _FAMILIO_GUID c4dc3325-6d40-4668-9472-349e188c6f3a
+2 _UID c0b736d5-6ce0-4f62-af67-634a82eb8424
+1 DEAT
+2 _UID 5723e10f-206b-451e-b066-b61955fe1f87
+1 CHR
+2 DATE @#DJULIAN@ 13 JAN 1901
+2 _UID 94d7f1ff-1c37-4685-9a04-a5da39af7322
+1 FAMC @F79@
+0 @I271@ INDI
+1 _UID 67e41c2f-6234-4144-a525-3b50cb58fbab
+1 NAME Владимир Никитьевич /Никитяев/
+2 GIVN Владимир Никитьевич
+1 SEX M
+1 BIRT
+2 DATE ABT 1870
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, деревня Буландино
+3 MAP
+4 LATI N53.8868044
+4 LONG E36.9392476
+3 NOTE https://familio.org/settlements/c4dc3325-6d40-4668-9472-349e188c6f3a
+3 _FAMILIO_GUID c4dc3325-6d40-4668-9472-349e188c6f3a
+2 _UID fb5bf936-69f7-4a93-8a6d-9c00fdda226e
+1 DEAT
+2 _UID a8180a2f-f00a-414b-8107-12ab61b7467e
+1 FAMC @F71@
+1 FAMS @F78@
+1 FAMS @F79@
+0 @I272@ INDI
+1 _UID fc39839b-49a5-4c6a-89a9-3cc8e231aa37
+1 NAME Елена Матфеевна /Никитяева/
+2 GIVN Елена Матфеевна
+2 _MARNM Никитяева
+1 SEX F
+1 BIRT
+2 _UID 12fb4508-5a46-4ca9-a7ec-f572383f6f36
+1 DEAT
+2 _UID ad03eeb1-7ca5-4ff6-b470-592ed64b4f46
+1 FAMC @F109@
+1 FAMS @F79@
+0 @I273@ INDI
+1 _UID 4dcbc102-8803-4abb-8083-567cdf661344
+1 NAME Никита Филиппович /Никитяев/
+2 GIVN Никита Филиппович
+1 SEX M
+1 BIRT
+2 _UID aa3a58bd-92e0-4f45-99ca-adb3b8894ad8
+1 DEAT
+2 _UID b04ea5c6-7298-41f5-ae6a-0f3067ded574
+1 FAMC @F106@
+1 FAMS @F71@
+0 @I274@ INDI
+1 _UID 350dd223-665b-439c-b4d9-eaed26ec2ee4
+1 NAME Матфей //
+2 GIVN Матфей
+1 SEX M
+1 BIRT
+2 _UID 0623ab7d-2520-4cdd-8428-cea34d5c3ff8
+1 FAMS @F109@
+0 @I275@ INDI
+1 _UID 89132065-361c-46bd-8fea-0be05beda3e7
+1 NAME Елена Марковна /Никитяева/
+2 GIVN Елена Марковна
+2 _MARNM Никитяева
+1 SEX F
+1 BIRT
+2 DATE (@#DJULIAN@ 5  1892)
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, деревня Буландино
+3 MAP
+4 LATI N53.8868044
+4 LONG E36.9392476
+3 NOTE https://familio.org/settlements/c4dc3325-6d40-4668-9472-349e188c6f3a
+3 _FAMILIO_GUID c4dc3325-6d40-4668-9472-349e188c6f3a
+2 _UID 6a242c64-1447-4452-a01a-22675bab483a
+1 DEAT
+2 _UID c344eb80-6131-4ef4-b838-e3cb8a369958
+1 FAMC @F1@
+0 @I276@ INDI
+1 _UID 13c298c3-c56d-4a8c-baf0-27fb69add9e2
+1 NAME Марк Васильевич /Никитяев/
+2 GIVN Марк Васильевич
+1 SEX M
+1 BIRT
+2 DATE ABT 1851
+2 _UID 1d75471a-747a-45ab-8b93-3539ecbe8c57
+1 DEAT
+2 _UID 37aa2880-0e83-4bdd-941b-d3f6234576d0
+1 FAMC @F85@
+1 FAMS @F1@
+0 @F1@ FAM
+1 HUSB @I276@
+1 WIFE @I1@
+1 MARR
+2 _UID 09f9251d-3253-45e0-91a2-d7cb231de4ff
+1 CHIL @I116@
+1 CHIL @I129@
+1 CHIL @I134@
+1 CHIL @I162@
+1 CHIL @I215@
+1 CHIL @I241@
+1 CHIL @I275@
+0 @F2@ FAM
+1 HUSB @I198@
+1 WIFE @I3@
+1 MARR
+2 _UID 0dec6633-c470-4b37-9aed-5f53e5a68c75
+1 CHIL @I214@
+0 @F3@ FAM
+1 HUSB @I5@
+1 WIFE @I4@
+1 MARR
+2 _UID 277cdfe1-e6cd-4a3e-a540-779afb35936c
+1 CHIL @I246@
+0 @F4@ FAM
+1 HUSB @I6@
+1 WIFE @I256@
+1 MARR
+2 _UID dba4f0bf-8229-4f31-ac99-fd0ca7faa5d3
+1 CHIL @I253@
+0 @F5@ FAM
+1 HUSB @I16@
+1 WIFE @I11@
+1 MARR
+2 _UID 66a7d298-a348-450c-82b4-934908485581
+1 CHIL @I9@
+1 CHIL @I10@
+0 @F6@ FAM
+1 HUSB @I15@
+1 WIFE @I14@
+1 MARR
+2 _UID 5fe640bf-ff25-4b4a-9058-de39c2c0873e
+0 @F7@ FAM
+1 HUSB @I19@
+1 MARR
+2 _UID 187b2408-9d5a-4e64-9128-dc8380132d34
+0 @F8@ FAM
+1 HUSB @I35@
+1 WIFE @I25@
+1 MARR
+2 _UID f5f90f33-9e4a-4b30-a636-bbd1608a0d4b
+1 CHIL @I32@
+1 CHIL @I33@
+1 CHIL @I92@
+0 @F9@ FAM
+1 HUSB @I30@
+1 WIFE @I26@
+1 MARR
+2 _UID 93a4c0a8-a783-4aa7-a0be-a52313d90926
+1 CHIL @I24@
+1 CHIL @I29@
+1 CHIL @I35@
+0 @F10@ FAM
+1 HUSB @I29@
+1 WIFE @I28@
+1 MARR
+2 _UID 6e545b9f-c243-4c2f-b29d-447195c12c55
+1 CHIL @I27@
+0 @F11@ FAM
+1 HUSB @I35@
+1 WIFE @I34@
+1 MARR
+2 _UID b5a0ca76-1bd2-4447-bc7b-7a0feef917e9
+0 @F12@ FAM
+1 HUSB @I247@
+1 WIFE @I37@
+1 MARR
+2 _UID 4b444081-1884-4e60-b485-eca655be47e4
+1 CHIL @I36@
+1 CHIL @I204@
+1 CHIL @I248@
+0 @F13@ FAM
+1 HUSB @I118@
+1 WIFE @I38@
+1 MARR
+2 _UID 6c97d07c-48b5-4eee-8b8d-ec1a527da5f7
+1 CHIL @I121@
+1 CHIL @I187@
+1 CHIL @I198@
+0 @F14@ FAM
+1 HUSB @I204@
+1 WIFE @I44@
+1 MARR
+2 _UID 69221ed2-0d6f-4010-8804-a918649ff91b
+1 CHIL @I41@
+1 CHIL @I42@
+0 @F15@ FAM
+1 HUSB @I241@
+1 WIFE @I49@
+1 MARR
+2 _UID 1c852993-b6ad-44e5-bc5d-f4cd516bb291
+1 CHIL @I45@
+1 CHIL @I46@
+1 CHIL @I47@
+1 CHIL @I48@
+0 @F16@ FAM
+1 HUSB @I51@
+1 WIFE @I50@
+1 MARR
+2 _UID 5c8994a2-b9ac-448e-8735-16586f83c64b
+0 @F17@ FAM
+1 HUSB @I268@
+1 WIFE @I57@
+1 MARR
+2 _UID ad6bb846-7fe9-4763-bbc2-a95765846edb
+1 CHIL @I53@
+1 CHIL @I54@
+1 CHIL @I55@
+1 CHIL @I56@
+0 @F18@ FAM
+1 HUSB @I240@
+1 WIFE @I63@
+1 MARR
+2 _UID cbf37e65-8fa3-405c-8695-00c7b4b23fb5
+1 CHIL @I61@
+1 CHIL @I62@
+0 @F19@ FAM
+1 HUSB @I213@
+1 WIFE @I65@
+1 MARR
+2 _UID d1a24804-ba5c-4a89-a6ce-9bbb66aab1c2
+0 @F20@ FAM
+1 HUSB @I90@
+1 WIFE @I66@
+1 MARR
+2 _UID 04be8c85-0c4b-4dd7-b5f3-6db9922a437d
+1 CHIL @I64@
+1 CHIL @I88@
+0 @F21@ FAM
+1 HUSB @I73@
+1 WIFE @I67@
+1 MARR
+2 _UID dad3c1d0-85d4-46c2-8726-34ab65f66d14
+0 @F22@ FAM
+1 HUSB @I83@
+1 WIFE @I216@
+1 MARR
+2 DATE FROM 1913 TO 1915
+2 _UID b5acbc87-bfdc-41ad-9f65-bbfcbe815d6e
+1 CHIL @I82@
+0 @F23@ FAM
+1 HUSB @I91@
+1 WIFE @I87@
+1 MARR
+2 _UID 08262e66-e2e3-49d9-aae6-4796889e24cd
+1 CHIL @I80@
+1 CHIL @I85@
+1 CHIL @I86@
+0 @F24@ FAM
+1 HUSB @I94@
+1 WIFE @I97@
+1 MARR
+2 DATE @#DJULIAN@ 8 JAN 1877
+2 _UID f9b24757-7ed5-43a8-97a9-24d21c421161
+0 @F25@ FAM
+1 WIFE @I97@
+1 MARR
+2 DATE @#DJULIAN@ 8 JAN 1897
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID d1f17213-a0d4-497e-8031-020d35e02605
+0 @F26@ FAM
+1 HUSB @I98@
+1 WIFE @I99@
+1 MARR
+2 DATE 8 APR 1885
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID 89813f69-acf3-4805-84c8-bf8d13028b17
+0 @F27@ FAM
+1 HUSB @I106@
+1 WIFE @I105@
+1 MARR
+2 DATE 29 OCT 1895
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID 26cd8ab2-28af-4249-ba59-b6db7ad39fd9
+0 @F28@ FAM
+1 HUSB @I107@
+1 WIFE @I108@
+1 MARR
+2 _UID 187b0ab3-95bc-49f7-9fa0-26cff556046f
+0 @F29@ FAM
+1 WIFE @I108@
+1 MARR
+2 DATE 29 OCT 1894
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID 6c8d9ca0-f8ef-47ce-854b-c3f71e41b4f3
+0 @F30@ FAM
+1 HUSB @I110@
+1 WIFE @I109@
+1 MARR
+2 DATE 26 OCT 1894
+2 _UID a9c344ba-5e30-4a51-8eaa-7bb4f82b3e64
+0 @F31@ FAM
+1 WIFE @I114@
+1 MARR
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Березово
+3 MAP
+4 LATI N53.8363952
+4 LONG E36.9411153
+3 NOTE https://familio.org/settlements/dbae8151-660f-47a7-8ed5-7a289d475979
+3 _FAMILIO_GUID dbae8151-660f-47a7-8ed5-7a289d475979
+2 _UID 79ce6b86-7203-41c3-8cf3-b8f3bf419a1d
+0 @F32@ FAM
+1 HUSB @I228@
+1 WIFE @I114@
+1 MARR
+2 DATE 26 OCT 1892
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID 76e55615-7774-42bc-8015-3ff90bee3ed0
+1 CHIL @I227@
+0 @F33@ FAM
+1 HUSB @I115@
+1 WIFE @I116@
+1 MARR
+2 _UID da4dc807-8903-43a0-bbcc-165b9395d4d7
+0 @F34@ FAM
+1 WIFE @I116@
+1 MARR
+2 DATE 28 OCT 1891
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, деревня Буландино
+3 MAP
+4 LATI N53.8868044
+4 LONG E36.9392476
+3 NOTE https://familio.org/settlements/c4dc3325-6d40-4668-9472-349e188c6f3a
+3 _FAMILIO_GUID c4dc3325-6d40-4668-9472-349e188c6f3a
+2 _UID 5409179b-29e9-4462-b7ac-b152a47057e8
+0 @F35@ FAM
+1 HUSB @I119@
+1 WIFE @I120@
+1 MARR
+2 _UID 6af6f6e5-674c-4dba-8a22-0ecf66b87435
+0 @F36@ FAM
+1 WIFE @I120@
+1 MARR
+2 DATE @#DJULIAN@ 30 JAN 1889
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID eabb767b-edec-4fe1-bb95-da61b520fdd1
+0 @F37@ FAM
+1 HUSB @I122@
+1 WIFE @I123@
+1 MARR
+2 _UID 56e20ddd-94dd-43ec-9ec3-82fa2ec6495f
+0 @F38@ FAM
+1 WIFE @I123@
+1 MARR
+2 DATE @#DJULIAN@ 1 JAN 1889
+2 PLAC Тульская губерния, Одоевский уезд, деревня Осиновка
+3 MAP
+4 LATI N53.8596289
+4 LONG E36.9250274
+3 NOTE https://familio.org/settlements/29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+3 _FAMILIO_GUID 29ea0ad9-9a7b-4fb2-ab0c-7bacddfddf99
+2 _UID 2bfd3c99-ff68-4c15-b825-4330dd1f766e
+0 @F39@ FAM
+1 HUSB @I126@
+1 WIFE @I127@
+1 MARR
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID 6793f577-f922-4d7d-b2a0-e0472b047174
+0 @F40@ FAM
+1 HUSB @I198@
+1 WIFE @I133@
+1 MARR
+2 _UID 1dd50d38-d4fb-499a-9fd1-77de4752ec9b
+1 CHIL @I132@
+0 @F41@ FAM
+1 HUSB @I135@
+1 WIFE @I136@
+1 MARR
+2 DATE @#DJULIAN@ 29 OCT 1884
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID c2f74efd-9899-4be3-87d0-22decbfca4ea
+0 @F42@ FAM
+1 HUSB @I236@
+1 WIFE @I141@
+1 MARR
+2 _UID c115387e-7cd5-4e8d-8638-8885ff4f427e
+1 CHIL @I127@
+1 CHIL @I140@
+1 CHIL @I237@
+0 @F43@ FAM
+1 HUSB @I142@
+1 WIFE @I174@
+1 MARR
+2 _UID be7702e1-9eb4-4613-8774-6d4d4ba953bc
+1 CHIL @I230@
+1 CHIL @I236@
+0 @F44@ FAM
+1 HUSB @I144@
+1 WIFE @I143@
+1 MARR
+2 _UID 9a696a0d-a05a-4bc5-a90f-606e43730633
+1 CHIL @I39@
+1 CHIL @I40@
+1 CHIL @I106@
+1 CHIL @I123@
+1 CHIL @I212@
+0 @F45@ FAM
+1 HUSB @I148@
+1 WIFE @I147@
+1 MARR
+2 _UID d101de91-cf8e-42fd-9618-449b68b94b9d
+1 CHIL @I145@
+0 @F46@ FAM
+1 HUSB @I228@
+1 WIFE @I150@
+1 MARR
+2 _UID 2b76788d-6f09-4f18-94ad-bd237188cbd3
+1 CHIL @I151@
+0 @F47@ FAM
+1 HUSB @I187@
+1 WIFE @I152@
+1 MARR
+2 _UID cbbe887b-43bb-4c20-92b6-8cf4da9dedea
+1 CHIL @I23@
+1 CHIL @I136@
+1 CHIL @I181@
+1 CHIL @I188@
+0 @F48@ FAM
+1 HUSB @I156@
+1 WIFE @I158@
+1 MARR
+2 DATE @#DJULIAN@ 1 NOV 1881
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID cba5e894-1b1a-4e3b-9dd6-c2abf3c48326
+0 @F49@ FAM
+1 HUSB @I160@
+1 WIFE @I161@
+1 MARR
+2 DATE @#DJULIAN@ 10 MAY 1881
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID 88429039-afec-4df2-acdb-683c01d2b847
+0 @F50@ FAM
+1 HUSB @I171@
+1 WIFE @I170@
+1 MARR
+2 _UID b5abc7e0-04f7-4557-8fdc-1264adfe81e2
+1 CHIL @I173@
+0 @F51@ FAM
+1 HUSB @I173@
+1 WIFE @I172@
+1 MARR
+2 _UID 4a88955a-46e3-4dcc-aa1d-3d6bc10b96f8
+1 CHIL @I166@
+1 CHIL @I167@
+1 CHIL @I168@
+1 CHIL @I169@
+1 CHIL @I269@
+0 @F52@ FAM
+1 HUSB @I245@
+1 WIFE @I175@
+1 MARR
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID 022827a1-d995-467d-8203-e10c4634151f
+0 @F53@ FAM
+1 HUSB @I206@
+1 WIFE @I178@
+1 MARR
+2 DATE @#DJULIAN@ 29 OCT 1903
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID 1a9fd4b6-a654-4499-92c3-03ebe5bf8dc7
+1 CHIL @I52@
+0 @F54@ FAM
+1 HUSB @I181@
+1 WIFE @I180@
+1 MARR
+2 DATE @#DJULIAN@ 31 JAN 1903
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID ad0a6d03-af5e-4735-8a6e-3980c904cec3
+1 CHIL @I76@
+1 CHIL @I77@
+1 CHIL @I81@
+1 CHIL @I130@
+1 CHIL @I131@
+0 @F55@ FAM
+1 HUSB @I188@
+1 WIFE @I186@
+1 MARR
+2 _UID 265272f1-4a7b-4841-a0ff-919f4f27e47a
+1 CHIL @I189@
+0 @F56@ FAM
+1 HUSB @I214@
+1 WIFE @I199@
+1 MARR
+2 DATE @#DJULIAN@ 12 JUL 1898
+2 _UID 86f1e502-9401-4b6c-9e07-4c21d41a5059
+1 CHIL @I190@
+1 CHIL @I257@
+0 @F57@ FAM
+1 HUSB @I204@
+1 WIFE @I203@
+1 MARR
+2 _UID 81dd3478-6e2f-467f-adc8-82e74896662e
+1 CHIL @I43@
+1 CHIL @I202@
+0 @F58@ FAM
+1 HUSB @I204@
+1 MARR
+2 _UID c893939c-2495-4ebe-9cef-59c9e438f664
+0 @F59@ FAM
+1 HUSB @I268@
+1 WIFE @I209@
+1 MARR
+2 _UID f07777e8-a603-4ca0-ad39-cca6c33cf98b
+1 CHIL @I194@
+1 CHIL @I258@
+0 @F60@ FAM
+1 HUSB @I212@
+1 WIFE @I211@
+1 MARR
+2 _UID 2cc75c77-3e26-4c14-8d71-cf563c6af642
+1 CHIL @I89@
+1 CHIL @I90@
+1 CHIL @I102@
+1 CHIL @I139@
+1 CHIL @I153@
+1 CHIL @I164@
+1 CHIL @I184@
+1 CHIL @I185@
+1 CHIL @I201@
+1 CHIL @I213@
+0 @F61@ FAM
+1 HUSB @I212@
+1 MARR
+2 _UID 4d6261ae-887e-44cd-a8ed-67b04507ff6d
+0 @F62@ FAM
+1 HUSB @I214@
+1 WIFE @I222@
+1 MARR
+2 DATE @#DJULIAN@ 29 OCT 1893
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID df561175-d5fb-4418-bdf5-9f704bb2ccd9
+1 CHIL @I100@
+1 CHIL @I216@
+1 CHIL @I224@
+0 @F63@ FAM
+1 HUSB @I218@
+1 WIFE @I217@
+1 MARR
+2 DATE @#DJULIAN@ 28 OCT 1888
+2 _UID 5c87de70-43b1-4f31-89c2-c7864b5a9943
+1 CHIL @I74@
+1 CHIL @I75@
+1 CHIL @I93@
+1 CHIL @I192@
+1 CHIL @I196@
+1 CHIL @I197@
+1 CHIL @I200@
+1 CHIL @I219@
+0 @F64@ FAM
+1 HUSB @I228@
+1 MARR
+2 _UID cb60d481-c05a-4095-b539-d6f2e594a7d8
+0 @F65@ FAM
+1 HUSB @I230@
+1 WIFE @I229@
+1 MARR
+2 _UID ce52f075-ea86-43d6-9767-a2720bd69515
+1 CHIL @I97@
+1 CHIL @I101@
+1 CHIL @I163@
+1 CHIL @I183@
+1 CHIL @I231@
+0 @F66@ FAM
+1 HUSB @I239@
+1 WIFE @I234@
+1 MARR
+2 _UID daae1a07-42f5-4e6c-ae80-d69359f93ce7
+1 CHIL @I124@
+1 CHIL @I128@
+1 CHIL @I137@
+1 CHIL @I149@
+1 CHIL @I165@
+1 CHIL @I210@
+1 CHIL @I220@
+1 CHIL @I221@
+1 CHIL @I233@
+1 CHIL @I240@
+0 @F67@ FAM
+1 HUSB @I237@
+1 WIFE @I235@
+1 MARR
+2 DATE 15 NOV 1890
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID 65ce08cd-d7d8-4a14-bb73-bf62fc9c01b5
+1 CHIL @I68@
+1 CHIL @I69@
+1 CHIL @I70@
+1 CHIL @I71@
+1 CHIL @I72@
+1 CHIL @I73@
+1 CHIL @I182@
+1 CHIL @I193@
+1 CHIL @I205@
+1 CHIL @I225@
+1 CHIL @I226@
+1 CHIL @I238@
+0 @F68@ FAM
+1 HUSB @I239@
+1 MARR
+2 _UID 9b65c40f-f506-4157-ad24-14e23082c5e9
+0 @F69@ FAM
+1 HUSB @I245@
+1 WIFE @I244@
+1 MARR
+2 DATE 13 NOV 1888
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 _UID 252da326-d742-455c-b54b-4b25f075cf17
+1 CHIL @I243@
+0 @F70@ FAM
+1 HUSB @I248@
+1 WIFE @I246@
+1 MARR
+2 DATE (29  1875)
+2 PLAC Тульская область, Одоевский муниципальный район, Восточно-Одоевское сельское поселение, село Ивицы
+3 MAP
+4 LATI N53.8671706
+4 LONG E36.9180112
+3 NOTE https://familio.org/settlements/6f4212c9-44ff-4deb-a46a-2818a7182390
+3 _FAMILIO_GUID 6f4212c9-44ff-4deb-a46a-2818a7182390
+2 NOTE ГАТО  3-15-1173-1007/1011стр
+2 _UID 94fbb273-11d7-4f2e-9318-de3bcfa4c5d7
+1 CHIL @I2@
+1 CHIL @I51@
+1 CHIL @I154@
+1 CHIL @I206@
+1 CHIL @I207@
+1 CHIL @I249@
+1 CHIL @I268@
+0 @F71@ FAM
+1 HUSB @I273@
+1 WIFE @I251@
+1 MARR
+2 _UID 47088f80-4015-4004-a860-0961f716a834
+1 CHIL @I250@
+1 CHIL @I271@
+0 @F72@ FAM
+1 HUSB @I265@
+1 WIFE @I252@
+1 MARR
+2 _UID 13ba19e1-e8a0-4c9e-9463-c5b9023f6987
+0 @F73@ FAM
+1 HUSB @I265@
+1 WIFE @I252@
+1 MARR
+2 _UID 86da1caa-59b2-429a-852a-268c9d290b22
+1 CHIL @I266@
+1 CHIL @I267@
+0 @F74@ FAM
+1 HUSB @I253@
+1 WIFE @I254@
+1 MARR
+2 PLAC город федерального значения Москва, город Москва
+3 MAP
+4 LATI N55.7504461
+4 LONG E37.6174943
+3 NOTE https://familio.org/settlements/811e618b-b9de-497b-ac26-f95629ffd562
+3 _FAMILIO_GUID 811e618b-b9de-497b-ac26-f95629ffd562
+2 _UID 35b6e959-9d0b-4a57-b4de-c0605d8e2c8c
+1 CHIL @I252@
+0 @F75@ FAM
+1 HUSB @I269@
+1 WIFE @I255@
+1 MARR
+2 _UID edc52c62-0a2c-4e86-a4e2-6f72e09f55c7
+1 CHIL @I254@
+0 @F76@ FAM
+1 HUSB @I258@
+1 WIFE @I257@
+1 MARR
+2 _UID 23c463cc-89a4-4e3f-a3a0-0d0764882614
+1 CHIL @I208@
+1 CHIL @I256@
+1 CHIL @I264@
+0 @F77@ FAM
+1 WIFE @I257@
+1 MARR
+2 _UID b1af677e-bffd-436f-a6e3-e34ab844ffba
+0 @F78@ FAM
+1 HUSB @I271@
+1 MARR
+2 DATE ABT 1888
+2 _UID 5fa4003f-68da-4301-872f-008661411e5a
+0 @F79@ FAM
+1 HUSB @I271@
+1 WIFE @I272@
+1 MARR
+2 _UID dd561210-a3b2-45f0-b628-5c2242958d5e
+1 CHIL @I58@
+1 CHIL @I59@
+1 CHIL @I191@
+1 CHIL @I270@
+0 @F80@ FAM
+1 HUSB @I7@
+1 CHIL @I65@
+0 @F81@ FAM
+1 HUSB @I253@
+1 CHIL @I8@
+0 @F82@ FAM
+1 HUSB @I16@
+1 CHIL @I12@
+1 CHIL @I13@
+0 @F83@ FAM
+1 HUSB @I21@
+1 CHIL @I15@
+1 CHIL @I20@
+1 CHIL @I22@
+0 @F84@ FAM
+1 HUSB @I20@
+1 CHIL @I16@
+0 @F85@ FAM
+1 HUSB @I19@
+1 WIFE @I125@
+1 CHIL @I17@
+1 CHIL @I18@
+1 CHIL @I245@
+1 CHIL @I276@
+0 @F86@ FAM
+1 HUSB @I22@
+1 CHIL @I19@
+1 CHIL @I247@
+0 @F87@ FAM
+1 WIFE @I34@
+1 CHIL @I31@
+0 @F88@ FAM
+1 HUSB @I60@
+1 CHIL @I159@
+1 CHIL @I232@
+0 @F89@ FAM
+1 HUSB @I92@
+1 CHIL @I199@
+0 @F90@ FAM
+1 HUSB @I121@
+1 CHIL @I99@
+1 CHIL @I120@
+0 @F91@ FAM
+1 HUSB @I104@
+1 CHIL @I105@
+0 @F92@ FAM
+1 HUSB @I112@
+1 CHIL @I108@
+1 CHIL @I222@
+0 @F93@ FAM
+1 HUSB @I111@
+1 CHIL @I110@
+1 CHIL @I112@
+0 @F94@ FAM
+1 HUSB @I113@
+1 CHIL @I142@
+0 @F95@ FAM
+1 HUSB @I117@
+1 CHIL @I235@
+0 @F96@ FAM
+1 HUSB @I118@
+1 CHIL @I144@
+0 @F97@ FAM
+1 HUSB @I146@
+1 CHIL @I148@
+0 @F98@ FAM
+1 HUSB @I155@
+1 CHIL @I157@
+0 @F99@ FAM
+1 HUSB @I157@
+1 CHIL @I158@
+0 @F100@ FAM
+1 HUSB @I159@
+1 CHIL @I161@
+0 @F101@ FAM
+1 HUSB @I176@
+1 CHIL @I244@
+0 @F102@ FAM
+1 HUSB @I177@
+1 CHIL @I217@
+0 @F103@ FAM
+1 WIFE @I179@
+1 CHIL @I180@
+0 @F104@ FAM
+1 HUSB @I195@
+1 CHIL @I218@
+0 @F105@ FAM
+1 HUSB @I232@
+1 CHIL @I228@
+1 CHIL @I239@
+0 @F106@ FAM
+1 HUSB @I242@
+1 CHIL @I273@
+0 @F107@ FAM
+1 WIFE @I256@
+1 CHIL @I259@
+0 @F108@ FAM
+1 WIFE @I259@
+1 CHIL @I260@
+1 CHIL @I261@
+1 CHIL @I262@
+1 CHIL @I263@
+0 @F109@ FAM
+1 HUSB @I274@
+1 CHIL @I272@
+0 @S0@ SOUR
+1 TITL Списки участников Первой Мировой войны (проект Памяти героев Великой войны 1914–1918)
+1 TEXT Бусурин Данил Осипович | Тульская губерния, Одоевский уезд, Ивицкая волость
+1 NOTE https://familio.org/catalogs/gwarmil/persons/688bc887-9eb8-4596-8967-94f991805d32
+0 @S1@ SOUR
+1 TITL Списки участников Первой Мировой войны (проект СВРТ)
+1 TEXT Никитяев Петр Ил. | Тульская губерния, Одоевский уезд, Ивицкой
+1 NOTE https://familio.org/catalogs/svrt1914/persons/774daf05-142e-416d-98b5-490e989a1806
+0 @S2@ SOUR
+1 TITL Списки участников Первой Мировой войны (проект Памяти героев Великой войны 1914–1918)
+1 TEXT Никитяев Петр Ильич | Тульская губерния, Одоевский уезд, Ивицкая волость
+1 NOTE https://familio.org/catalogs/gwarmil/persons/7256c061-115f-4c33-b727-3e4adb327fe8
+0 @S3@ SOUR
+1 TITL Списки участников Первой Мировой войны (проект Памяти героев Великой войны 1914–1918)
+1 TEXT Бусурин Василий Осипович | Тульская губерния, Одоевский уезд, Ивицкая волость
+1 NOTE https://familio.org/catalogs/gwarmil/persons/0817ab0e-39aa-42d9-b4a8-3e2597cd3f2e
+0 @S4@ SOUR
+1 TITL Списки участников Первой Мировой войны (проект Памяти героев Великой войны 1914–1918)
+1 TEXT Бусурин Василий Осипович | Тульская губерния, Одоевский уезд, Ивицкая волость
+1 NOTE https://familio.org/catalogs/gwarmil/persons/feeef8a9-29a1-443b-a287-2bd3deedf7b5
+0 @S5@ SOUR
+1 TITL Списки участников Первой Мировой войны (проект Памяти героев Великой войны 1914–1918)
+1 TEXT Бусурин Федор Иванович | Тульская губерния, Одоевский уезд, Ивицкая волость
+1 NOTE https://familio.org/catalogs/gwarmil/persons/3f9a528b-528e-4459-8c3a-5e2eea41fee7
+0 @S6@ SOUR
+1 TITL Списки участников Первой Мировой войны (проект Памяти героев Великой войны 1914–1918)
+1 TEXT Никитяев Емельян Платонович | Орловская губерния, Карачевский уезд, Бошинская волость
+1 NOTE https://familio.org/catalogs/gwarmil/persons/3049dc30-2076-46d6-86f7-dc35f7c25855
+0 TRLR
