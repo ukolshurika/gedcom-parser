@@ -1,0 +1,410 @@
+openapi: 3.0.0
+info:
+  title: GEDCOM Parser API
+  description: |
+    API for parsing and querying GEDCOM genealogy files with S3 support.
+
+    This API provides endpoints to:
+    - Generate timelines for individuals
+    - List all persons in a GEDCOM file
+    - Get detailed information about specific persons
+    - Manage file caching
+
+    ## File Storage
+
+    The API supports both local file paths and S3 URLs. Files are automatically cached locally
+    to improve performance.
+
+    ## Configuration
+
+    Environment variables:
+    - `GEDCOM_CACHE_DIR`: Directory for caching files (default: /tmp/gedcom_cache)
+    - `GEDCOM_CACHE_TTL_HOURS`: Cache time-to-live in hours (default: 24)
+    - `GEDCOM_S3_BUCKET`: S3 bucket name for file storage
+    - `GEDCOM_S3_REGION`: S3 region (default: us-east-1)
+    - `GEDCOM_MAX_CACHE_SIZE_MB`: Maximum cache size in MB (default: 1000)
+    - `HOST`: Server host (default: 0.0.0.0)
+    - `PORT`: Server port (default: 8000)
+  version: 1.0.0
+  contact:
+    name: API Support
+  license:
+    name: MIT
+
+servers:
+  - url: http://localhost:8000
+    description: Local development server
+  - url: https://api.example.com
+    description: Production server
+
+tags:
+  - name: Timeline
+    description: Operations for generating person timelines
+  - name: Persons
+    description: Operations for listing and retrieving person information
+  - name: Cache
+    description: Cache management operations
+  - name: Health
+    description: Health check and monitoring
+
+paths:
+  /:
+    get:
+      summary: Root endpoint
+      description: Get API information and available endpoints
+      operationId: getRoot
+      responses:
+        '200':
+          description: API information
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  service:
+                    type: string
+                    example: GEDCOM Parser API
+                  version:
+                    type: string
+                    example: 1.0.0
+                  endpoints:
+                    type: array
+                    items:
+                      type: string
+                    example: ["/timeline", "/persons", "/person"]
+
+  /health:
+    get:
+      summary: Health check
+      description: Check if the API is healthy and running
+      operationId: healthCheck
+      tags:
+        - Health
+      responses:
+        '200':
+          description: Service is healthy
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: healthy
+                  timestamp:
+                    type: string
+                    format: date-time
+                  cache_dir:
+                    type: string
+                    example: /tmp/gedcom_cache
+                  s3_configured:
+                    type: boolean
+
+  /timeline:
+    get:
+      summary: Get person timeline
+      description: |
+        Generate a chronological timeline of events for a specific person.
+
+        The timeline includes birth, death, marriage, residence, occupation changes,
+        and other life events in chronological order.
+      operationId: getPersonTimeline
+      tags:
+        - Timeline
+      parameters:
+        - name: gedcom_id
+          in: query
+          required: true
+          description: Person ID in the GEDCOM file (e.g., @I1@)
+          schema:
+            type: string
+            example: "@I1@"
+        - name: gedcom_file_path
+          in: query
+          required: true
+          description: Path to GEDCOM file (local path or S3 URL like s3://bucket/key)
+          schema:
+            type: string
+            example: "/path/to/file.ged"
+      responses:
+        '200':
+          description: Timeline generated successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TimelineResponse'
+        '404':
+          description: GEDCOM file not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '422':
+          description: Validation error (missing or invalid parameters)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ValidationError'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+  /persons:
+    get:
+      summary: List all persons
+      description: |
+        Get a list of all person IDs in the GEDCOM file.
+
+        This endpoint returns all individual IDs that can be used to query
+        specific person details or timelines.
+      operationId: getAllPersons
+      tags:
+        - Persons
+      parameters:
+        - name: gedcom_file_path
+          in: query
+          required: true
+          description: Path to GEDCOM file (local path or S3 URL)
+          schema:
+            type: string
+            example: "/path/to/file.ged"
+      responses:
+        '200':
+          description: List of persons retrieved successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PersonsResponse'
+        '404':
+          description: GEDCOM file not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '422':
+          description: Validation error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ValidationError'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+  /person:
+    get:
+      summary: Get person details
+      description: |
+        Get detailed information about a specific person including:
+        - Basic details (name, gender, occupation)
+        - Birth and death information (dates and places)
+        - Family relationships (parents, spouses, children)
+      operationId: getPersonDetails
+      tags:
+        - Persons
+      parameters:
+        - name: id
+          in: query
+          required: true
+          description: Person ID in the GEDCOM file (e.g., @I1@)
+          schema:
+            type: string
+            example: "@I1@"
+        - name: gedcom_file_path
+          in: query
+          required: true
+          description: Path to GEDCOM file (local path or S3 URL)
+          schema:
+            type: string
+            example: "/path/to/file.ged"
+      responses:
+        '200':
+          description: Person details retrieved successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PersonDetailResponse'
+        '404':
+          description: Person or GEDCOM file not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '422':
+          description: Validation error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ValidationError'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+  /cache/clean:
+    post:
+      summary: Clean old cached files
+      description: |
+        Remove cached GEDCOM files that are older than the configured TTL.
+
+        This endpoint helps manage disk space by removing stale cached files.
+      operationId: cleanCache
+      tags:
+        - Cache
+      responses:
+        '200':
+          description: Cache cleaned successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: success
+                  message:
+                    type: string
+                    example: Cache cleaned successfully
+        '500':
+          description: Error cleaning cache
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+components:
+  schemas:
+    TimelineResponse:
+      type: object
+      required:
+        - person_id
+        - timeline
+      properties:
+        person_id:
+          type: string
+          description: The person ID
+          example: "@I1@"
+        timeline:
+          type: string
+          description: Formatted timeline of events
+          example: |
+            Timeline for John Doe (@I1@):
+            1950-01-01: Birth - New York, USA
+            1975-06-01: Marriage - Las Vegas, USA
+            2020-01-01: Death - Los Angeles, USA
+
+    PersonsResponse:
+      type: object
+      required:
+        - total
+        - persons
+      properties:
+        total:
+          type: integer
+          description: Total number of persons in the file
+          example: 150
+        persons:
+          type: array
+          description: List of person IDs
+          items:
+            type: string
+            example: "@I1@"
+
+    PersonDetailResponse:
+      type: object
+      required:
+        - id
+        - name
+      properties:
+        id:
+          type: string
+          description: Person ID
+          example: "@I1@"
+        name:
+          type: string
+          description: Full name
+          example: "John Doe"
+        birth_date:
+          type: string
+          nullable: true
+          description: Birth date
+          example: "1 JAN 1950"
+        birth_place:
+          type: string
+          nullable: true
+          description: Birth place
+          example: "New York, USA"
+        death_date:
+          type: string
+          nullable: true
+          description: Death date
+          example: "1 JAN 2020"
+        death_place:
+          type: string
+          nullable: true
+          description: Death place
+          example: "Los Angeles, USA"
+        gender:
+          type: string
+          nullable: true
+          description: Gender (M/F)
+          example: "M"
+          enum: [M, F]
+        occupation:
+          type: string
+          nullable: true
+          description: Occupation
+          example: "Engineer"
+        parents:
+          type: array
+          description: List of parent IDs
+          items:
+            type: string
+          example: ["@I2@", "@I3@"]
+        spouses:
+          type: array
+          description: List of spouse IDs
+          items:
+            type: string
+          example: ["@I4@"]
+        children:
+          type: array
+          description: List of child IDs
+          items:
+            type: string
+          example: ["@I5@", "@I6@"]
+
+    Error:
+      type: object
+      required:
+        - detail
+      properties:
+        detail:
+          type: string
+          description: Error message
+          example: "GEDCOM file not found: /path/to/file.ged"
+
+    ValidationError:
+      type: object
+      properties:
+        detail:
+          type: array
+          items:
+            type: object
+            properties:
+              loc:
+                type: array
+                items:
+                  type: string
+              msg:
+                type: string
+              type:
+                type: string
