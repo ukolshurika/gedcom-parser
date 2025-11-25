@@ -69,13 +69,13 @@ class NodePriority:
         """
         self._birth_year_distance = NO_BIRTH_YEAR_PENALTY
         self._adjusted_distance = float(self.distance)
-    
+
     def init_heuristics(self, gedcom_ctx):
         """
         Calculates the heuristic values using the provided GEDCOM context.
         """
         from .gedcom_utils import extract_birth_year
-        
+
         birth_year = extract_birth_year(self.person_id, gedcom_ctx)
 
         # Calculate the birth year distance heuristic (h_cost)
@@ -120,7 +120,7 @@ class NodePriority:
         """
         if not isinstance(other, NodePriority):
             return NotImplemented
-        
+
         # The sort order is determined by this tuple:
         # 1. Adjusted Distance (f_cost): The primary factor, combining real distance and heuristic.
         # 2. Birth Year Distance (h_cost): A secondary heuristic to guide the search.

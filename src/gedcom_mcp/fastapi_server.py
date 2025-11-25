@@ -17,7 +17,7 @@ from pathlib import Path
 from datetime import datetime, timedelta
 import hashlib
 
-from fastapi import FastAPI, HTTPException, Query
+from fastapi import FastAPI, HTTPException, Query, Header
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel, Field
 import boto3
@@ -31,6 +31,8 @@ from .gedcom_data_access import (
 )
 from .gedcom_analysis import _get_timeline_internal
 from .get_timeline import get_timeline
+from .signature_utils import verify_signature
+from .celery_app import process_gedcom_file
 
 
 # Configure logging
@@ -95,6 +97,19 @@ class PersonDetailResponse(BaseModel):
     parents: List[str] = Field(default_factory=list)
     spouses: List[str] = Field(default_factory=list)
     children: List[str] = Field(default_factory=list)
+
+
+class EventRequest(BaseModel):
+    """Request model for POST /events endpoint"""
+    s3_file_path: str = Field(..., description="S3 path to GEDCOM file (e.g., s3://bucket/file.ged or just key)")
+    user_id: str = Field(..., description="User ID associated with this file")
+
+
+class EventResponse(BaseModel):
+    """Response model for POST /events endpoint"""
+    status: str
+    message: str
+    task_id: Optional[str] = None
 
 
 # ===== File Caching System =====
@@ -266,7 +281,10 @@ async def root():
         "endpoints": [
             "/timeline",
             "/persons",
-            "/person"
+            "/person",
+            "/events",
+            "/cache/clean",
+            "/health"
         ]
     }
 
@@ -409,6 +427,86 @@ async def clean_cache():
         raise HTTPException(
             status_code=500,
             detail=f"Error cleaning cache: {str(e)}"
+        )
+
+
+@app.post("/events", response_model=EventResponse, summary="Process GEDCOM file from S3")
+async def create_event(
+    request: EventRequest,
+    x_signature: str = Header(..., description="HMAC-SHA256 signature of request body")
+):
+    """
+    Receive S3 file path and user ID, validate signature, and trigger background processing.
+
+    The request body must be signed with HMAC-SHA256 using the SECRET_KEY.
+    The signature must be provided in the X-Signature header.
+
+    Args:
+        request: Event request with s3_file_path and user_id
+        x_signature: Signature from X-Signature header
+
+    Returns:
+        Status and task ID for the background job
+    """
+    try:
+        # Validate signature
+        request_data = request.model_dump()
+        if not verify_signature(request_data, x_signature):
+            logger.warning(f"Invalid signature for request: {request_data}")
+            raise HTTPException(
+                status_code=401,
+                detail="Invalid signature"
+            )
+
+        logger.info(f"Signature validated for request: {request_data}")
+
+        # Check if file exists in S3
+        s3_file_path = request.s3_file_path
+        s3_key = s3_file_path.replace("s3://", "").replace(f"{config.S3_BUCKET}/", "")
+
+        if not config.S3_BUCKET:
+            raise HTTPException(
+                status_code=500,
+                detail="S3 bucket not configured"
+            )
+
+        # Verify file exists in S3
+        try:
+            s3_client = boto3.client('s3', region_name=config.S3_REGION)
+            s3_client.head_object(Bucket=config.S3_BUCKET, Key=s3_key)
+            logger.info(f"File found in S3: s3://{config.S3_BUCKET}/{s3_key}")
+        except ClientError as e:
+            error_code = e.response.get('Error', {}).get('Code', '')
+            if error_code == '404':
+                logger.error(f"File not found in S3: s3://{config.S3_BUCKET}/{s3_key}")
+                raise HTTPException(
+                    status_code=404,
+                    detail=f"File not found in S3: {s3_file_path}"
+                )
+            else:
+                logger.error(f"S3 error checking file: {e}")
+                raise HTTPException(
+                    status_code=500,
+                    detail=f"Error checking S3 file: {str(e)}"
+                )
+
+        # Queue background task
+        task = process_gedcom_file.delay(s3_file_path, request.user_id)
+        logger.info(f"Queued background task {task.id} for {s3_file_path}")
+
+        return EventResponse(
+            status="ok",
+            message="File processing started",
+            task_id=task.id
+        )
+
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error(f"Error processing event request: {e}")
+        raise HTTPException(
+            status_code=500,
+            detail=f"Error processing request: {str(e)}"
         )
 
 
