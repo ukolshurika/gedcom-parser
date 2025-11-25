@@ -1,0 +1,86 @@
+version: '3.8'
+
+services:
+  redis:
+    image: redis:7-alpine
+    container_name: gedcom-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis-data:/data
+    command: redis-server --appendonly yes
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: gedcom-api
+    ports:
+      - "8000:8000"
+    environment:
+      - REDIS_URL=redis://redis:6379/0
+      - GEDCOM_S3_BUCKET=${GEDCOM_S3_BUCKET}
+      - GEDCOM_S3_REGION=${GEDCOM_S3_REGION:-us-east-1}
+      - GEDCOM_CACHE_DIR=/tmp/gedcom_cache
+      - GEDCOM_CACHE_TTL_HOURS=${GEDCOM_CACHE_TTL_HOURS:-24}
+      - SECRET_KEY=${SECRET_KEY}
+      - WEBHOOK_URL=${WEBHOOK_URL}
+      - AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID}
+      - AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY}
+    volumes:
+      - gedcom-cache:/tmp/gedcom_cache
+    depends_on:
+      redis:
+        condition: service_healthy
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  celery-worker:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: gedcom-celery-worker
+    command: celery -A src.gedcom_mcp.celery_app worker --loglevel=info --concurrency=2
+    environment:
+      - REDIS_URL=redis://redis:6379/0
+      - GEDCOM_S3_BUCKET=${GEDCOM_S3_BUCKET}
+      - GEDCOM_S3_REGION=${GEDCOM_S3_REGION:-us-east-1}
+      - SECRET_KEY=${SECRET_KEY}
+      - WEBHOOK_URL=${WEBHOOK_URL}
+      - AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID}
+      - AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY}
+    volumes:
+      - gedcom-cache:/tmp/gedcom_cache
+    depends_on:
+      redis:
+        condition: service_healthy
+    restart: unless-stopped
+
+  celery-beat:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: gedcom-celery-beat
+    command: celery -A src.gedcom_mcp.celery_app beat --loglevel=info
+    environment:
+      - REDIS_URL=redis://redis:6379/0
+      - SECRET_KEY=${SECRET_KEY}
+    depends_on:
+      redis:
+        condition: service_healthy
+    restart: unless-stopped
+
+volumes:
+  redis-data:
+  gedcom-cache:
