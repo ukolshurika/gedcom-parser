@@ -101,8 +101,8 @@ class PersonDetailResponse(BaseModel):
 
 class EventRequest(BaseModel):
     """Request model for POST /events endpoint"""
-    s3_file_path: str = Field(..., description="S3 path to GEDCOM file (e.g., s3://bucket/file.ged or just key)")
-    user_id: str = Field(..., description="User ID associated with this file")
+    file: str = Field(..., description="S3 path to GEDCOM file (e.g., s3://bucket/file.ged or just key)")
+    user_id: int = Field(..., description="User ID associated with this file")
 
 
 class EventResponse(BaseModel):
@@ -458,10 +458,9 @@ async def create_event(
                 detail="Invalid signature"
             )
 
-        logger.info(f"Signature validated for request: {request_data}")
 
         # Check if file exists in S3
-        s3_file_path = request.s3_file_path
+        s3_file_path = request.file
         s3_key = s3_file_path.replace("s3://", "").replace(f"{config.S3_BUCKET}/", "")
 
         if not config.S3_BUCKET:
@@ -472,7 +471,7 @@ async def create_event(
 
         # Verify file exists in S3
         try:
-            s3_client = boto3.client('s3', region_name=config.S3_REGION)
+            s3_client = boto3.client('s3', region_name=config.S3_REGION, endpoint_url='https://storage.yandexcloud.net')
             s3_client.head_object(Bucket=config.S3_BUCKET, Key=s3_key)
             logger.info(f"File found in S3: s3://{config.S3_BUCKET}/{s3_key}")
         except ClientError as e:

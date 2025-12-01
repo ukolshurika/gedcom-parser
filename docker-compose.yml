@@ -1,21 +1,6 @@
 version: '3.8'
 
 services:
-  redis:
-    image: redis:7-alpine
-    container_name: gedcom-redis
-    ports:
-      - "6379:6379"
-    volumes:
-      - redis-data:/data
-    command: redis-server --appendonly yes
-    restart: unless-stopped
-    healthcheck:
-      test: ["CMD", "redis-cli", "ping"]
-      interval: 10s
-      timeout: 5s
-      retries: 5
-
   api:
     build:
       context: .
@@ -35,9 +20,8 @@ services:
       - AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY}
     volumes:
       - gedcom-cache:/tmp/gedcom_cache
-    depends_on:
-      redis:
-        condition: service_healthy
+    networks:
+      - history-prism_common
     restart: unless-stopped
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
@@ -62,9 +46,8 @@ services:
       - AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY}
     volumes:
       - gedcom-cache:/tmp/gedcom_cache
-    depends_on:
-      redis:
-        condition: service_healthy
+    networks:
+      - history-prism_common
     restart: unless-stopped
 
   celery-beat:
@@ -76,11 +59,13 @@ services:
     environment:
       - REDIS_URL=redis://redis:6379/0
       - SECRET_KEY=${SECRET_KEY}
-    depends_on:
-      redis:
-        condition: service_healthy
+    networks:
+      - history-prism_common
     restart: unless-stopped
 
+networks:
+  history-prism_common:
+    external: true
+
 volumes:
-  redis-data:
   gedcom-cache:
