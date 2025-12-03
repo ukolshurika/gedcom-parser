@@ -30,23 +30,27 @@ def get_secret_key() -> str:
     return secret_key
 
 
-def generate_signature(data: Dict[str, Any]) -> str:
+def generate_signature(data: Dict[str, Any] | str) -> str:
     secret_key = get_secret_key()
 
-    # Serialize data to JSON with sorted keys for consistency
-    json_data = json.dumps(data, sort_keys=False, separators=(',', ':'))
+    # If data is a string (e.g., URL), use it directly
+    # Otherwise, serialize dict to JSON
+    if isinstance(data, str):
+        message = data
+    else:
+        message = json.dumps(data, sort_keys=False, separators=(',', ':'))
 
     # Generate HMAC-SHA256 signature
     signature = hmac.new(
         secret_key.encode('utf-8'),
-        json_data.encode('utf-8'),
+        message.encode('utf-8'),
         hashlib.sha256
     ).hexdigest()
 
     return signature
 
 
-def verify_signature(data: Dict[str, Any], provided_signature: str) -> bool:
+def verify_signature(data: Dict[str, Any] | str, provided_signature: str) -> bool:
     try:
         expected_signature = generate_signature(data)
         # Use constant-time comparison to prevent timing attacks

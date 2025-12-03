@@ -10,6 +10,8 @@ class PersonDetails(BaseModel):
     """Model for person details"""
     id: str
     name: str
+    givn: Optional[str] = None  # Given name
+    surn: Optional[str] = None  # Surname
     birth_date: Optional[str] = None
     birth_place: Optional[str] = None
     death_date: Optional[str] = None

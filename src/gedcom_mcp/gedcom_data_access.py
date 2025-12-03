@@ -5,6 +5,7 @@ from typing import List, Optional, Dict, Any
 from pathlib import Path
 from gedcom.element.individual import IndividualElement
 from gedcom.parser import Parser
+import chardet
 from .gedcom_context import GedcomContext, _rebuild_lookups
 from .gedcom_models import PersonDetails, PersonRelationships
 from .gedcom_utils import normalize_string, _normalize_genealogy_name, _normalize_genealogy_date, _normalize_genealogy_place, PLACE_UTILS_AVAILABLE
@@ -22,9 +23,57 @@ def load_gedcom_file(file_path: str, gedcom_ctx: GedcomContext) -> bool:
             logger.error(f"GEDCOM file not found: {file_path}")
             return False
 
+        # Read raw data
+        with open(file_path, 'rb') as f:
+            raw_data = f.read()
+
+        # Detect file encoding
+        detected = chardet.detect(raw_data)
+        detected_encoding = detected.get('encoding', 'utf-8')
+        confidence = detected.get('confidence', 0)
+        logger.info(f"Detected encoding: {detected_encoding} (confidence: {confidence})")
+
+        # First, try UTF-8 with error handling (replace invalid bytes)
+        # Most GEDCOM files with Cyrillic are UTF-8, but may have some corruption
+        try:
+            content = raw_data.decode('utf-8', errors='replace')
+            successful_encoding = 'utf-8'
+            logger.info(f"Successfully decoded file with UTF-8 (with error replacement)")
+        except Exception as e:
+            logger.warning(f"UTF-8 with error handling failed: {e}")
+            # Try multiple encodings in order of preference
+            encodings_to_try = ['windows-1251', 'cp1251', 'koi8-r', detected_encoding, 'cp1252', 'iso-8859-5', 'iso-8859-1', 'latin1']
+            # Remove duplicates while preserving order
+            seen = set()
+            encodings_to_try = [x for x in encodings_to_try if x and x.lower() not in seen and not seen.add(x.lower())]
+
+            content = None
+            successful_encoding = None
+
+            for encoding in encodings_to_try:
+                try:
+                    content = raw_data.decode(encoding)
+                    successful_encoding = encoding
+                    logger.info(f"Successfully decoded file with encoding: {encoding}")
+                    break
+                except (UnicodeDecodeError, LookupError) as e:
+                    logger.debug(f"Failed to decode with {encoding}: {e}")
+                    continue
+
+            if content is None:
+                logger.error("Failed to decode file with any known encoding")
+                return False
+
+        # Always write a clean UTF-8 version to ensure consistent parsing
+        utf8_path = file_path + '.utf8'
+        with open(utf8_path, 'w', encoding='utf-8') as f:
+            f.write(content)
+        file_path_to_parse = utf8_path
+        logger.info(f"Created clean UTF-8 file from {successful_encoding}: {utf8_path}")
+
         # Parse the GEDCOM file
         gedcom_ctx.gedcom_parser = Parser()
-        gedcom_ctx.gedcom_parser.parse_file(file_path, False)
+        gedcom_ctx.gedcom_parser.parse_file(file_path_to_parse, False)
         gedcom_ctx.gedcom_file_path = file_path
 
         _rebuild_lookups(gedcom_ctx)
@@ -104,6 +153,8 @@ def _extract_person_details(element: IndividualElement, gedcom_ctx) -> PersonDet
     person_id = element.get_pointer()
 
     name = ""
+    givn = None  # Given name
+    surn = None  # Surname
     birth_date = None
     birth_place = None
     death_date = None
@@ -120,6 +171,17 @@ def _extract_person_details(element: IndividualElement, gedcom_ctx) -> PersonDet
             if tag == "NAME":
                 # Use our enhanced name parsing
                 name = _normalize_genealogy_name(value)
+
+                # Extract GIVN and SURN from child elements of NAME
+                if hasattr(child_elem, 'get_child_elements'):
+                    for name_child in child_elem.get_child_elements():
+                        name_child_tag = name_child.get_tag()
+                        name_child_value = name_child.get_value()
+
+                        if name_child_tag == "GIVN":
+                            givn = name_child_value
+                        elif name_child_tag == "SURN":
+                            surn = name_child_value
 
             elif tag == "BIRT":
                 for birt_child in child_elem.get_child_elements():
@@ -161,6 +223,8 @@ def _extract_person_details(element: IndividualElement, gedcom_ctx) -> PersonDet
     return PersonDetails(
         id=person_id,
         name=name,
+        givn=givn,
+        surn=surn,
         birth_date=birth_date,
         birth_place=birth_place,
         death_date=death_date,

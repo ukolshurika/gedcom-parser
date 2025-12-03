@@ -17,7 +17,7 @@ from pathlib import Path
 from datetime import datetime, timedelta
 import hashlib
 
-from fastapi import FastAPI, HTTPException, Query, Header
+from fastapi import FastAPI, HTTPException, Query, Header, Request
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel, Field
 import boto3
@@ -46,6 +46,14 @@ app = FastAPI(
     version="1.0.0"
 )
 
+# Add middleware to ensure UTF-8 charset in responses
+@app.middleware("http")
+async def add_utf8_charset(request: Request, call_next):
+    response = await call_next(request)
+    if "application/json" in response.headers.get("content-type", ""):
+        response.headers["content-type"] = "application/json; charset=utf-8"
+    return response
+
 
 # ===== Configuration =====
 class Config:
@@ -53,7 +61,8 @@ class Config:
     CACHE_DIR = os.getenv("GEDCOM_CACHE_DIR", "/tmp/gedcom_cache")
     CACHE_TTL_HOURS = int(os.getenv("GEDCOM_CACHE_TTL_HOURS", "24"))
     S3_BUCKET = os.getenv("GEDCOM_S3_BUCKET", "")
-    S3_REGION = os.getenv("GEDCOM_S3_REGION", "us-east-1")
+    S3_REGION = os.getenv("GEDCOM_S3_REGION", "ru-central1")
+    S3_ENDPOINT_URL = os.getenv("GEDCOM_S3_ENDPOINT_URL", "https://storage.yandexcloud.net")
     MAX_CACHE_SIZE_MB = int(os.getenv("GEDCOM_MAX_CACHE_SIZE_MB", "1000"))
 
 
@@ -88,6 +97,8 @@ class PersonDetailResponse(BaseModel):
     """Response model for person detail endpoint"""
     id: str
     name: str
+    givn: Optional[str] = None  # Given name
+    surn: Optional[str] = None  # Surname
     birth_date: Optional[str] = None
     birth_place: Optional[str] = None
     death_date: Optional[str] = None
@@ -97,6 +108,11 @@ class PersonDetailResponse(BaseModel):
     parents: List[str] = Field(default_factory=list)
     spouses: List[str] = Field(default_factory=list)
     children: List[str] = Field(default_factory=list)
+
+    class Config:
+        json_encoders = {
+            str: lambda v: v  # Ensure strings are passed through as-is
+        }
 
 
 class EventRequest(BaseModel):
@@ -122,7 +138,12 @@ class FileCache:
         self.s3_client = None
         if config.S3_BUCKET:
             try:
-                self.s3_client = boto3.client('s3', region_name=config.S3_REGION)
+                self.s3_client = boto3.client(
+                    's3',
+                    region_name=config.S3_REGION,
+                    endpoint_url=config.S3_ENDPOINT_URL
+                )
+                logger.info(f"S3 client initialized with endpoint: {config.S3_ENDPOINT_URL}")
             except Exception as e:
                 logger.warning(f"Failed to initialize S3 client: {e}")
 
@@ -291,22 +312,41 @@ async def root():
 
 @app.get("/timeline", response_model=TimelineResponse, summary="Get person timeline")
 async def get_person_timeline(
+    request: Request,
     gedcom_id: str = Query(..., description="Person ID in the GEDCOM file (e.g., @I1@)"),
-    gedcom_file_path: str = Query(..., description="Path to GEDCOM file (local path or S3 URL)")
+    file: str = Query(..., description="Path to GEDCOM file (local path or S3 URL)"),
+    x_signature: str = Header(..., description="HMAC-SHA256 signature of request URL")
 ):
     """
     Generate a chronological timeline of events for a person.
 
+    The full request URL must be signed with HMAC-SHA256 using the SECRET_KEY.
+    The signature must be provided in the X-Signature header.
+
     Args:
+        request: FastAPI Request object
         gedcom_id: The person ID (e.g., @I1@)
-        gedcom_file_path: Path to GEDCOM file (can be local or s3://bucket/key)
+        file: Path to GEDCOM file (can be local or s3://bucket/key)
+        x_signature: Signature from X-Signature header
 
     Returns:
         Timeline of events for the person
     """
     try:
+        # Validate signature using only path (without host)
+        url_path = request.url.path
+        if request.url.query:
+            url_path += f"?{request.url.query}"
+
+        if not verify_signature(url_path, x_signature):
+            logger.warning(f"Invalid signature for path: {url_path}")
+            raise HTTPException(
+                status_code=401,
+                detail="Invalid signature"
+            )
+
         # Load GEDCOM file
-        gedcom_ctx = get_or_load_gedcom(gedcom_file_path)
+        gedcom_ctx = get_or_load_gedcom(file)
 
         # Generate timeline
         timeline_result = get_timeline(gedcom_id, gedcom_ctx)
@@ -327,24 +367,44 @@ async def get_person_timeline(
 
 @app.get("/persons", response_model=PersonsResponse, summary="List all persons")
 async def get_all_persons(
-    gedcom_file_path: str = Query(..., description="Path to GEDCOM file (local path or S3 URL)")
+    request: Request,
+    file: str = Query(..., description="Path to GEDCOM file (local path or S3 URL)"),
+    x_signature: str = Header(..., description="HMAC-SHA256 signature of request URL")
 ):
     """
     Get a list of all person IDs in the GEDCOM file.
 
+    The full request URL must be signed with HMAC-SHA256 using the SECRET_KEY.
+    The signature must be provided in the X-Signature header.
+
     Args:
-        gedcom_file_path: Path to GEDCOM file (can be local or s3://bucket/key)
+        request: FastAPI Request object
+        file: Path to GEDCOM file (can be local or s3://bucket/key)
+        x_signature: Signature from X-Signature header
 
     Returns:
         List of all person IDs
     """
     try:
+        # Validate signature using only path (without host)
+        url_path = request.url.path
+        if request.url.query:
+            url_path += f"?{request.url.query}"
+
+        if not verify_signature(url_path, x_signature):
+            logger.warning(f"Invalid signature for path: {url_path}")
+            raise HTTPException(
+                status_code=401,
+                detail="Invalid signature"
+            )
+
         # Load GEDCOM file
-        gedcom_ctx = get_or_load_gedcom(gedcom_file_path)
+        gedcom_ctx = get_or_load_gedcom(file)
+        logger.warning(f"CONTEXT: {gedcom_ctx}")
 
         # Get all person IDs
         person_ids = list(gedcom_ctx.individual_lookup.keys())
-
+        logger.info(f"Found {len(person_ids)} persons in GEDCOM file")
         return PersonsResponse(
             total=len(person_ids),
             persons=person_ids
@@ -362,21 +422,21 @@ async def get_all_persons(
 @app.get("/person", response_model=PersonDetailResponse, summary="Get person details")
 async def get_person_details(
     id: str = Query(..., description="Person ID in the GEDCOM file (e.g., @I1@)"),
-    gedcom_file_path: str = Query(..., description="Path to GEDCOM file (local path or S3 URL)")
+    file: str = Query(..., description="Path to GEDCOM file (local path or S3 URL)")
 ):
     """
     Get detailed information about a specific person.
 
     Args:
         id: The person ID (e.g., @I1@)
-        gedcom_file_path: Path to GEDCOM file (can be local or s3://bucket/key)
+        file: Path to GEDCOM file (can be local or s3://bucket/key)
 
     Returns:
         Detailed information about the person
     """
     try:
         # Load GEDCOM file
-        gedcom_ctx = get_or_load_gedcom(gedcom_file_path)
+        gedcom_ctx = get_or_load_gedcom(file)
 
         # Get person details
         person = get_person_record(id, gedcom_ctx)
@@ -391,6 +451,8 @@ async def get_person_details(
         return PersonDetailResponse(
             id=person.id,
             name=person.name,
+            givn=person.givn,
+            surn=person.surn,
             birth_date=person.birth_date,
             birth_place=person.birth_place,
             death_date=person.death_date,
