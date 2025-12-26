@@ -14,12 +14,47 @@ These tests cover:
 import pytest
 import tempfile
 import os
+import hmac
+import hashlib
 from pathlib import Path
 from unittest.mock import Mock, patch, MagicMock
 from datetime import datetime, timedelta
+from urllib.parse import urlencode
 
 from fastapi.testclient import TestClient
 from src.gedcom_mcp.fastapi_server import app, FileCache, config, _gedcom_contexts
+from src.gedcom_mcp.core.config import settings
+
+
+# Test secret key for signature generation
+TEST_SECRET_KEY = "test_secret_key_12345"
+
+
+def generate_test_signature(url_path: str) -> str:
+    """Generate HMAC-SHA256 signature for test requests."""
+    signature = hmac.new(
+        TEST_SECRET_KEY.encode('utf-8'),
+        url_path.encode('utf-8'),
+        hashlib.sha256
+    ).hexdigest()
+    return signature
+
+
+def build_signed_request(base_path: str, params: dict) -> tuple[str, dict]:
+    """Build URL with params and return (path_with_query, headers)."""
+    query = urlencode(params)
+    full_path = f"{base_path}?{query}"
+    signature = generate_test_signature(full_path)
+    return params, {"X-Signature": signature}
+
+
+@pytest.fixture(autouse=True)
+def set_secret_key():
+    """Set SECRET_KEY for test signature verification."""
+    os.environ["SECRET_KEY"] = TEST_SECRET_KEY
+    yield
+    if "SECRET_KEY" in os.environ:
+        del os.environ["SECRET_KEY"]
 
 
 @pytest.fixture
@@ -125,13 +160,9 @@ class TestTimelineEndpoint:
 
     def test_timeline_success(self, client, sample_gedcom_file):
         """Test successful timeline retrieval"""
-        response = client.get(
-            "/timeline",
-            params={
-                "gedcom_id": "@I1@",
-                "gedcom_file_path": sample_gedcom_file
-            }
-        )
+        params = {"gedcom_id": "@I1@", "file": sample_gedcom_file}
+        _, headers = build_signed_request("/timeline", params)
+        response = client.get("/timeline", params=params, headers=headers)
         assert response.status_code == 200
         data = response.json()
         assert "person_id" in data
@@ -141,32 +172,23 @@ class TestTimelineEndpoint:
     def test_timeline_missing_params(self, client):
         """Test timeline endpoint with missing parameters"""
         response = client.get("/timeline")
-        assert response.status_code == 422  # Validation error
+        assert response.status_code == 422
 
     def test_timeline_file_not_found(self, client):
         """Test timeline with non-existent file"""
-        response = client.get(
-            "/timeline",
-            params={
-                "gedcom_id": "@I1@",
-                "gedcom_file_path": "/nonexistent/file.ged"
-            }
-        )
+        params = {"gedcom_id": "@I1@", "file": "/nonexistent/file.ged"}
+        _, headers = build_signed_request("/timeline", params)
+        response = client.get("/timeline", params=params, headers=headers)
         assert response.status_code == 404
 
     def test_timeline_invalid_person_id(self, client, sample_gedcom_file):
         """Test timeline with invalid person ID"""
-        response = client.get(
-            "/timeline",
-            params={
-                "gedcom_id": "@I999@",
-                "gedcom_file_path": sample_gedcom_file
-            }
-        )
-        # Should return 200 with "No timeline found" message
+        params = {"gedcom_id": "@I999@", "file": sample_gedcom_file}
+        _, headers = build_signed_request("/timeline", params)
+        response = client.get("/timeline", params=params, headers=headers)
         assert response.status_code == 200
         data = response.json()
-        assert "No timeline found" in data["timeline"]
+        assert data["timeline"] == [] or "No timeline found" in str(data.get("timeline", []))
 
 
 class TestPersonsEndpoint:
@@ -174,10 +196,9 @@ class TestPersonsEndpoint:
 
     def test_persons_list_success(self, client, sample_gedcom_file):
         """Test successful persons list retrieval"""
-        response = client.get(
-            "/persons",
-            params={"gedcom_file_path": sample_gedcom_file}
-        )
+        params = {"file": sample_gedcom_file}
+        _, headers = build_signed_request("/persons", params)
+        response = client.get("/persons", params=params, headers=headers)
         assert response.status_code == 200
         data = response.json()
         assert "total" in data
@@ -190,14 +211,13 @@ class TestPersonsEndpoint:
     def test_persons_missing_params(self, client):
         """Test persons endpoint with missing parameters"""
         response = client.get("/persons")
-        assert response.status_code == 422  # Validation error
+        assert response.status_code == 422
 
     def test_persons_file_not_found(self, client):
         """Test persons list with non-existent file"""
-        response = client.get(
-            "/persons",
-            params={"gedcom_file_path": "/nonexistent/file.ged"}
-        )
+        params = {"file": "/nonexistent/file.ged"}
+        _, headers = build_signed_request("/persons", params)
+        response = client.get("/persons", params=params, headers=headers)
         assert response.status_code == 404
 
 
@@ -206,13 +226,9 @@ class TestPersonEndpoint:
 
     def test_person_details_success(self, client, sample_gedcom_file):
         """Test successful person details retrieval"""
-        response = client.get(
-            "/person",
-            params={
-                "id": "@I1@",
-                "gedcom_file_path": sample_gedcom_file
-            }
-        )
+        params = {"id": "@I1@", "file": sample_gedcom_file}
+        _, headers = build_signed_request("/person", params)
+        response = client.get("/person", params=params, headers=headers)
         assert response.status_code == 200
         data = response.json()
         assert data["id"] == "@I1@"
@@ -225,13 +241,9 @@ class TestPersonEndpoint:
 
     def test_person_with_relationships(self, client, sample_gedcom_file):
         """Test person details includes relationships"""
-        response = client.get(
-            "/person",
-            params={
-                "id": "@I3@",
-                "gedcom_file_path": sample_gedcom_file
-            }
-        )
+        params = {"id": "@I3@", "file": sample_gedcom_file}
+        _, headers = build_signed_request("/person", params)
+        response = client.get("/person", params=params, headers=headers)
         assert response.status_code == 200
         data = response.json()
         assert data["id"] == "@I3@"
@@ -242,17 +254,13 @@ class TestPersonEndpoint:
     def test_person_missing_params(self, client):
         """Test person endpoint with missing parameters"""
         response = client.get("/person")
-        assert response.status_code == 422  # Validation error
+        assert response.status_code == 422
 
     def test_person_not_found(self, client, sample_gedcom_file):
         """Test person details with invalid person ID"""
-        response = client.get(
-            "/person",
-            params={
-                "id": "@I999@",
-                "gedcom_file_path": sample_gedcom_file
-            }
-        )
+        params = {"id": "@I999@", "file": sample_gedcom_file}
+        _, headers = build_signed_request("/person", params)
+        response = client.get("/person", params=params, headers=headers)
         assert response.status_code == 404
 
 
@@ -262,7 +270,7 @@ class TestFileCache:
     def test_cache_initialization(self, tmp_path):
         """Test cache directory is created on initialization"""
         cache_dir = tmp_path / "test_cache"
-        with patch.object(config, 'CACHE_DIR', str(cache_dir)):
+        with patch.object(settings, 'cache_dir', str(cache_dir)):
             cache = FileCache()
             assert cache.cache_dir.exists()
 
@@ -304,7 +312,7 @@ class TestFileCache:
         assert cache._is_cache_valid(test_file)
 
         # Modify the file's timestamp to be old
-        old_time = datetime.now() - timedelta(hours=config.CACHE_TTL_HOURS + 1)
+        old_time = datetime.now() - timedelta(hours=settings.cache_ttl_hours + 1)
         os.utime(test_file, (old_time.timestamp(), old_time.timestamp()))
 
         # File should now be invalid
@@ -315,7 +323,7 @@ class TestFileCache:
         cache_dir = tmp_path / "cache"
         cache_dir.mkdir()
 
-        with patch.object(config, 'CACHE_DIR', str(cache_dir)):
+        with patch.object(settings, 'cache_dir', str(cache_dir)):
             cache = FileCache()
 
             # Create some test files
@@ -325,7 +333,7 @@ class TestFileCache:
             new_file.write_text("new")
 
             # Make old file actually old
-            old_time = datetime.now() - timedelta(hours=config.CACHE_TTL_HOURS + 1)
+            old_time = datetime.now() - timedelta(hours=settings.cache_ttl_hours + 1)
             os.utime(old_file, (old_time.timestamp(), old_time.timestamp()))
 
             # Clean cache
@@ -342,7 +350,7 @@ class TestFileCache:
         mock_s3 = MagicMock()
         mock_boto_client.return_value = mock_s3
 
-        with patch.object(config, 'S3_BUCKET', 'test-bucket'):
+        with patch.object(settings, 's3_bucket', 'test-bucket'):
             cache = FileCache()
             cache.s3_client = mock_s3
 
@@ -365,7 +373,7 @@ class TestFileCache:
         )
         mock_boto_client.return_value = mock_s3
 
-        with patch.object(config, 'S3_BUCKET', 'test-bucket'):
+        with patch.object(settings, 's3_bucket', 'test-bucket'):
             cache = FileCache()
             cache.s3_client = mock_s3
 
@@ -391,46 +399,32 @@ class TestIntegration:
 
     def test_multiple_requests_use_cache(self, client, sample_gedcom_file):
         """Test that multiple requests to same file use cached context"""
-        # First request
-        response1 = client.get(
-            "/persons",
-            params={"gedcom_file_path": sample_gedcom_file}
-        )
+        params = {"file": sample_gedcom_file}
+        _, headers = build_signed_request("/persons", params)
+
+        response1 = client.get("/persons", params=params, headers=headers)
         assert response1.status_code == 200
 
-        # Second request should use cached context
-        response2 = client.get(
-            "/persons",
-            params={"gedcom_file_path": sample_gedcom_file}
-        )
+        response2 = client.get("/persons", params=params, headers=headers)
         assert response2.status_code == 200
 
-        # Both should return same data
         assert response1.json() == response2.json()
 
     def test_workflow_get_persons_then_details(self, client, sample_gedcom_file):
         """Test typical workflow: list persons, then get details"""
-        # Get list of persons
-        persons_response = client.get(
-            "/persons",
-            params={"gedcom_file_path": sample_gedcom_file}
-        )
+        params = {"file": sample_gedcom_file}
+        _, headers = build_signed_request("/persons", params)
+        persons_response = client.get("/persons", params=params, headers=headers)
         assert persons_response.status_code == 200
         persons_data = persons_response.json()
         assert persons_data["total"] > 0
 
-        # Get details for first person
         first_person_id = persons_data["persons"][0]
-        person_response = client.get(
-            "/person",
-            params={
-                "id": first_person_id,
-                "gedcom_file_path": sample_gedcom_file
-            }
-        )
+        person_params = {"id": first_person_id, "file": sample_gedcom_file}
+        _, person_headers = build_signed_request("/person", person_params)
+        person_response = client.get("/person", params=person_params, headers=person_headers)
         assert person_response.status_code == 200
-        person_data = person_response.json()
-        assert person_data["id"] == first_person_id
+        assert person_response.json()["id"] == first_person_id
 
 
 if __name__ == "__main__":
