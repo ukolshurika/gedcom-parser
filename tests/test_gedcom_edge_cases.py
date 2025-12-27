@@ -8,11 +8,11 @@ from unittest.mock import patch, MagicMock
 # Add the parent directory to sys.path
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 
-from src.gedcom_mcp.gedcom_context import GedcomContext
-from src.gedcom_mcp.gedcom_data_access import load_gedcom_file
-from src.gedcom_mcp.gedcom_data_management import _find_next_available_id, _add_person_internal
-from src.gedcom_mcp.gedcom_search import find_shortest_relationship_path, _find_all_relationship_paths_internal, _get_person_neighbors_lazy
-from src.gedcom_mcp.gedcom_analysis import get_statistics_report, get_living_status
+from src.gedcom_mcp.parser.gedcom_context import GedcomContext
+from src.gedcom_mcp.parser.gedcom_data_access import load_gedcom_file
+from src.gedcom_mcp.parser.gedcom_data_management import _find_next_available_id, _add_person_internal
+from src.gedcom_mcp.parser.gedcom_search import find_shortest_relationship_path, _find_all_relationship_paths_internal, _get_person_neighbors_lazy
+from src.gedcom_mcp.parser.gedcom_analysis import get_statistics_report, get_living_status
 
 
 class TestGedcomEdgeCases(unittest.TestCase):
@@ -55,7 +55,7 @@ class TestGedcomEdgeCases(unittest.TestCase):
         else:
             name_str = str(name) if name else ""
         self.assertEqual(name_str, "")
-        self.assertEqual(person.get_child_value_by_tag("SEX"), "M")
+        self.assertEqual(person.get_gender(), "M")
 
     def test_search_with_invalid_person_ids(self):
         """Test search functions with invalid person IDs"""
@@ -168,7 +168,7 @@ class TestGedcomErrorHandling(unittest.TestCase):
         sample_ged_path = Path(__file__).parent / "sample.ged"
         load_gedcom_file(str(sample_ged_path), self.gedcom_ctx)
 
-    @patch('src.gedcom_mcp.gedcom_data_access.get_person_record')
+    @patch('src.gedcom_mcp.parser.gedcom_data_access.get_person_record')
     def test_search_with_person_details_exception(self, mock_get_person_details):
         """Test search functions when get_person_record raises an exception"""
         # Mock get_person_record to raise an exception

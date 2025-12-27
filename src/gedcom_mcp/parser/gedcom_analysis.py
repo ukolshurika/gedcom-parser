@@ -503,15 +503,18 @@ def _get_date_range_analysis_internal(gedcom_ctx: GedcomContext) -> str:
 
         # Process family elements for marriage years using family lookup dictionary
         for family_elem in gedcom_ctx.family_lookup.values():
-            # Extract marriage year
-            marriages = family_elem.get_marriages()
-            if marriages:
-                for marriage in marriages:
-                    marriage_date = marriage[0] if isinstance(marriage, tuple) else str(marriage)
-                    if marriage_date:
-                        year_match = re.search(r'\b(1[0-9]\d{2}|20\d{2})\b', str(marriage_date))
-                        if year_match:
-                            marriage_years.append(int(year_match.group(1)))
+            # Extract marriage year from MARR elements
+            for child in family_elem.get_child_elements():
+                if child.get_tag() == "MARR":
+                    # Find DATE in MARR element
+                    for marr_child in child.get_child_elements():
+                        if marr_child.get_tag() == "DATE":
+                            marriage_date = marr_child.get_value()
+                            if marriage_date:
+                                year_match = re.search(r'\b(1[0-9]\d{2}|20\d{2})\b', str(marriage_date))
+                                if year_match:
+                                    marriage_years.append(int(year_match.group(1)))
+                            break
 
         result = "Date Range Analysis:\n"
 

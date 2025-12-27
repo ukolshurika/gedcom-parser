@@ -8,8 +8,8 @@ from unittest.mock import patch, MagicMock
 # Add the parent directory to sys.path
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 
-from src.gedcom_mcp.gedcom_context import GedcomContext
-from src.gedcom_mcp.gedcom_data_management import batch_update_person_attributes
+from src.gedcom_mcp.parser.gedcom_context import GedcomContext
+from src.gedcom_mcp.parser.gedcom_data_management import batch_update_person_attributes
 
 class TestBatchUpdatePersonAttributesInternal(unittest.TestCase):
 
@@ -58,7 +58,7 @@ class TestBatchUpdatePersonAttributesInternal(unittest.TestCase):
         self.assertEqual(len(result["errors"]), 1)
         self.assertIn("Missing required fields", result["errors"][0]["error"])
     
-    @patch('src.gedcom_mcp.gedcom_data_management._update_person_attribute_internal')
+    @patch('src.gedcom_mcp.parser.gedcom_data_management._update_person_attribute_internal')
     def test_batch_update_success(self, mock_update_attr):
         """Test successful batch update"""
         self.gedcom_ctx.gedcom_parser = MagicMock()
@@ -86,7 +86,7 @@ class TestBatchUpdatePersonAttributesInternal(unittest.TestCase):
         self.assertEqual(len(result["errors"]), 0)
         self.assertEqual(mock_update_attr.call_count, 2)
     
-    @patch('src.gedcom_mcp.gedcom_data_management._update_person_attribute_internal')
+    @patch('src.gedcom_mcp.parser.gedcom_data_management._update_person_attribute_internal')
     def test_batch_update_partial_failure(self, mock_update_attr):
         """Test batch update with partial failure"""
         self.gedcom_ctx.gedcom_parser = MagicMock()

@@ -7,8 +7,8 @@ from unittest.mock import patch, MagicMock
 # Add the parent directory to sys.path
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 
-from src.gedcom_mcp.gedcom_context import GedcomContext
-from src.gedcom_mcp.gedcom_data_access import get_person_record, fuzzy_search_records
+from src.gedcom_mcp.parser.gedcom_context import GedcomContext
+from src.gedcom_mcp.parser.gedcom_data_access import get_person_record, fuzzy_search_records
 
 class TestFuzzySearchInternal(unittest.TestCase):
 
@@ -39,7 +39,7 @@ class TestFuzzySearchInternal(unittest.TestCase):
         ]
         self.assertIn(result[0]["error"], expected_errors)
 
-    @patch('src.gedcom_mcp.gedcom_data_access.get_person_record')
+    @patch('src.gedcom_mcp.parser.gedcom_data_access.get_person_record')
     def test_fuzzy_search_success(self, mock_get_person):
         """Test successful fuzzy search"""
         # Skip this test if fuzzywuzzy is not installed

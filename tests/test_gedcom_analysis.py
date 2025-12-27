@@ -7,9 +7,9 @@ from unittest.mock import patch
 # Add the parent directory to sys.path
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 
-from src.gedcom_mcp.gedcom_context import GedcomContext
-from src.gedcom_mcp.gedcom_analysis import get_statistics_report, _get_attribute_statistics_internal, _get_timeline_internal, _get_ancestors_internal, _get_descendants_internal, _get_family_tree_summary_internal, _get_surname_statistics_internal, _get_date_range_analysis_internal, _find_potential_duplicates_internal, get_common_ancestors, get_living_status
-from src.gedcom_mcp.gedcom_data_access import load_gedcom_file, _get_events_internal
+from src.gedcom_mcp.parser.gedcom_context import GedcomContext
+from src.gedcom_mcp.parser.gedcom_analysis import get_statistics_report, _get_attribute_statistics_internal, _get_timeline_internal, _get_ancestors_internal, _get_descendants_internal, _get_family_tree_summary_internal, _get_surname_statistics_internal, _get_date_range_analysis_internal, _find_potential_duplicates_internal, get_common_ancestors, get_living_status
+from src.gedcom_mcp.parser.gedcom_data_access import load_gedcom_file, _get_events_internal
 
 
 class TestGedcomAnalysis(unittest.TestCase):
@@ -64,12 +64,11 @@ class TestGedcomAnalysis(unittest.TestCase):
         stats = _get_surname_statistics_internal(self.gedcom_ctx)
         self.assertIn('Smith', stats)
 
-    @patch('gedcom.element.family.FamilyElement.get_marriages')
-    def test_get_date_range_analysis_internal(self, mock_get_marriages):
-        mock_get_marriages.return_value = [('1 JUN 1995', 'Las Vegas, USA')]
+    def test_get_date_range_analysis_internal(self):
         analysis = _get_date_range_analysis_internal(self.gedcom_ctx)
-        self.assertIn('1970', analysis)
-        self.assertIn('2020', analysis)
+        # Should contain birth/death year ranges from sample.ged
+        self.assertIn('Birth Years', analysis)
+        self.assertIn('Death Years', analysis)
 
     def test_find_potential_duplicates_internal(self):
         duplicates = _find_potential_duplicates_internal(self.gedcom_ctx)

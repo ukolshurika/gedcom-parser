@@ -463,7 +463,7 @@ def _get_events_internal(person_id: str, gedcom_ctx) -> List[Dict[str, Any]]:
 
         # Find the person with the given ID
         for element in root_child_elements:
-            if element.get_pointer() == f"@{person_id}@" and isinstance(element, IndividualElement):
+            if element.get_pointer() == person_id and isinstance(element, IndividualElement):
                 # Get person name for descriptions
                 raw_name = element.get_name()
                 if isinstance(raw_name, tuple):
@@ -618,17 +618,15 @@ def _get_places_internal(query: Optional[str] = None, gedcom_ctx = None) -> List
 
             # Check for family events (marriages)
             elif element.get_tag() == "FAM":
-                marriages = element.get_marriages()
-                if marriages:
-                    for marriage in marriages:
+                # Find MARR elements in family
+                for child in element.get_child_elements():
+                    if child.get_tag() == "MARR":
                         marriage_place = None
-                        if isinstance(marriage, tuple):
-                            marriage_place = marriage[1] if len(marriage) > 1 else None
-                        else:
-                            try:
-                                marriage_place = marriage.get_place()
-                            except AttributeError:
-                                marriage_place = None
+                        # Find PLAC in MARR element
+                        for marr_child in child.get_child_elements():
+                            if marr_child.get_tag() == "PLAC":
+                                marriage_place = marr_child.get_value()
+                                break
 
                         if marriage_place:
                             # Normalize place name using our helper
