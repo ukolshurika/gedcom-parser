@@ -12,10 +12,10 @@ from typing import Dict, List, Optional
 
 from fastapi import HTTPException, status
 
-from ..gedcom_context import GedcomContext
-from ..gedcom_data_access import get_person_record, load_gedcom_file
-from ..gedcom_analysis import _get_timeline_internal
-from ..gedcom_models import PersonDetails
+from ..parser.gedcom_context import GedcomContext
+from ..parser.gedcom_data_access import get_person_record, load_gedcom_file
+from ..parser.gedcom_analysis import _get_timeline_internal
+from ..parser.gedcom_models import PersonDetails
 from .file_cache import FileCache, get_file_cache
 
 logger = logging.getLogger(__name__)

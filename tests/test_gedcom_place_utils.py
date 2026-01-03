@@ -5,7 +5,7 @@ import unittest
 # Add the parent directory to sys.path
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 
-from src.gedcom_mcp.gedcom_place_utils import normalize_place_name, extract_geographic_hierarchy, NormalizedPlace
+from src.gedcom_mcp.parser.gedcom_place_utils import normalize_place_name, extract_geographic_hierarchy, NormalizedPlace
 
 class TestGedcomPlaceUtils(unittest.TestCase):
 

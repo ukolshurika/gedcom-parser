@@ -6,9 +6,9 @@ from pathlib import Path
 # Add the parent directory to sys.path
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 
-from src.gedcom_mcp.gedcom_context import GedcomContext
-from src.gedcom_mcp.gedcom_data_access import load_gedcom_file, get_person_record
-from src.gedcom_mcp.gedcom_data_management import _add_person_internal, _create_marriage_internal, _add_child_to_family_internal, _remove_child_from_family_internal, _remove_parent_from_family_internal, _remove_event_internal, _remove_parents_internal, _update_event_details_internal, _create_note_internal, _add_note_to_entity_internal, _update_person_attribute_internal, _remove_person_attribute_internal, _update_person_details_internal, _create_source_internal, _delete_note_entity_internal, _new_empty_gedcom_internal, _find_next_available_id
+from src.gedcom_mcp.parser.gedcom_context import GedcomContext
+from src.gedcom_mcp.parser.gedcom_data_access import load_gedcom_file, get_person_record
+from src.gedcom_mcp.parser.gedcom_data_management import _add_person_internal, _create_marriage_internal, _add_child_to_family_internal, _remove_child_from_family_internal, _remove_parent_from_family_internal, _remove_event_internal, _remove_parents_internal, _update_event_details_internal, _create_note_internal, _add_note_to_entity_internal, _update_person_attribute_internal, _remove_person_attribute_internal, _update_person_details_internal, _create_source_internal, _delete_note_entity_internal, _new_empty_gedcom_internal, _find_next_available_id
 
 
 class TestGedcomDataManagement(unittest.TestCase):

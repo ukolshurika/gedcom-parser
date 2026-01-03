@@ -5,7 +5,7 @@ import unittest
 # Add the parent directory to sys.path
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 
-from src.gedcom_mcp.gedcom_models import PersonDetails, PersonRelationships, NodePriority
+from src.gedcom_mcp.parser.gedcom_models import PersonDetails, PersonRelationships, NodePriority
 
 
 class TestGedcomModels(unittest.TestCase):

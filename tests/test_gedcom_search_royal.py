@@ -7,9 +7,9 @@ from pathlib import Path
 # Add the parent directory to sys.path
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 
-from src.gedcom_mcp.gedcom_context import GedcomContext
-from src.gedcom_mcp.gedcom_data_access import load_gedcom_file
-from src.gedcom_mcp.gedcom_search import find_shortest_relationship_path, _find_all_relationship_paths_internal
+from src.gedcom_mcp.parser.gedcom_context import GedcomContext
+from src.gedcom_mcp.parser.gedcom_data_access import load_gedcom_file
+from src.gedcom_mcp.parser.gedcom_search import find_shortest_relationship_path, _find_all_relationship_paths_internal
 
 
 class TestGedcomSearchComplex(unittest.TestCase):

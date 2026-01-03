@@ -5,7 +5,7 @@ import unittest
 # Add the parent directory to sys.path
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 
-from src.gedcom_mcp.gedcom_date_utils import parse_genealogy_date, validate_date_consistency, get_date_certainty_level, _month_to_number, GenealogyDate
+from src.gedcom_mcp.parser.gedcom_date_utils import parse_genealogy_date, validate_date_consistency, get_date_certainty_level, _month_to_number, GenealogyDate
 
 
 class TestGedcomDateUtils(unittest.TestCase):

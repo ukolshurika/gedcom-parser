@@ -5,7 +5,7 @@ import unittest
 # Add the parent directory to sys.path
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 
-from src.gedcom_mcp.gedcom_name_utils import parse_genealogy_name, normalize_name, find_name_variants, GenealogyName, format_gedcom_name, format_gedcom_name_from_string
+from src.gedcom_mcp.parser.gedcom_name_utils import parse_genealogy_name, normalize_name, find_name_variants, GenealogyName, format_gedcom_name, format_gedcom_name_from_string
 
 
 class TestGedcomNameUtils(unittest.TestCase):

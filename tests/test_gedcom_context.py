@@ -6,8 +6,8 @@ from pathlib import Path
 # Add the parent directory to sys.path
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 
-from src.gedcom_mcp.gedcom_context import GedcomContext, _rebuild_lookups, get_gedcom_context
-from src.gedcom_mcp.gedcom_data_access import load_gedcom_file
+from src.gedcom_mcp.parser.gedcom_context import GedcomContext, _rebuild_lookups, get_gedcom_context
+from src.gedcom_mcp.parser.gedcom_data_access import load_gedcom_file
 
 
 class TestGedcomContext(unittest.TestCase):

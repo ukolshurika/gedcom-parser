@@ -21,9 +21,9 @@ def __getattr__(name):
         from .app import app
         return app
     elif name == "GedcomContext":
-        from .gedcom_context import GedcomContext
+        from .parser.gedcom_context import GedcomContext
         return GedcomContext
     elif name == "get_gedcom_context":
-        from .gedcom_context import get_gedcom_context
+        from .parser.gedcom_context import get_gedcom_context
         return get_gedcom_context
     raise AttributeError(f"module {__name__!r} has no attribute {name!r}")

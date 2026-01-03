@@ -15,8 +15,8 @@ import httpx
 import boto3
 from botocore.exceptions import ClientError
 
-from .gedcom_context import GedcomContext
-from .gedcom_data_access import load_gedcom_file
+from .parser.gedcom_context import GedcomContext
+from .parser.gedcom_data_access import load_gedcom_file
 from .signature_utils import generate_signature
 
 

@@ -19,7 +19,7 @@ import re
 from typing import Optional, Tuple, Dict, Any
 
 try:
-    from .gedcom_date_utils import parse_genealogy_date, validate_date_consistency, get_date_certainty_level, GenealogyDate
+    from .parser.gedcom_date_utils import parse_genealogy_date, validate_date_consistency, get_date_certainty_level, GenealogyDate
     DATE_UTILS_AVAILABLE = True
 except ImportError:
     DATE_UTILS_AVAILABLE = False
@@ -27,7 +27,7 @@ except ImportError:
 
 # Import our new genealogy name utilities
 try:
-    from .gedcom_name_utils import parse_genealogy_name, normalize_name, find_name_variants, GenealogyName
+    from .parser.gedcom_name_utils import parse_genealogy_name, normalize_name, find_name_variants, GenealogyName
     NAME_UTILS_AVAILABLE = True
 except ImportError:
     NAME_UTILS_AVAILABLE = False
@@ -35,7 +35,7 @@ except ImportError:
 
 # Import our new genealogy place utilities
 try:
-    from .gedcom_place_utils import normalize_place_name, extract_geographic_hierarchy, NormalizedPlace
+    from .parser.gedcom_place_utils import normalize_place_name, extract_geographic_hierarchy, NormalizedPlace
     PLACE_UTILS_AVAILABLE = True
 except ImportError:
     PLACE_UTILS_AVAILABLE = False
@@ -50,16 +50,16 @@ try:
 except ImportError:
     print("Error: python-gedcom library not found. Please install it with: pip install python-gedcom")
     sys.exit(1)
-# Import our modularized components
-from .gedcom_context import GedcomContext, get_gedcom_context, _rebuild_lookups
-from .gedcom_models import PersonDetails, PersonRelationships, NodePriority
-from .gedcom_data_access import (
+# Import our modularized components from parser subpackage
+from .parser.gedcom_context import GedcomContext, get_gedcom_context, _rebuild_lookups
+from .parser.gedcom_models import PersonDetails, PersonRelationships, NodePriority
+from .parser.gedcom_data_access import (
     get_person_record, find_person_by_name, _get_relationships_internal,
     _get_events_internal, decode_event_details, _get_places_internal, _get_notes_internal, _get_sources_internal,
     search_gedcom, _extract_person_details, _get_person_relationships_internal, load_gedcom_file, save_gedcom_file, _get_person_attributes_internal,
     fuzzy_search_records
 )
-from .gedcom_data_management import (
+from .parser.gedcom_data_management import (
     _add_person_internal, _create_marriage_internal, _add_child_to_family_internal,
     _remove_child_from_family_internal, _remove_parent_from_family_internal,
     _remove_parents_internal, _update_event_details_internal,
@@ -68,19 +68,19 @@ from .gedcom_data_management import (
     _update_person_attribute_internal, _update_person_details_internal,
     batch_update_person_attributes
 )
-from .gedcom_search import (
+from .parser.gedcom_search import (
     _dijkstra_bidirectional_search, _get_person_neighbors_lazy, _get_person_neighbors_lazy_reverse,
     _generate_relationship_chain_lazy, _correct_relationship_direction, _generate_relationship_description,
     _format_relationship_with_gender, _format_relationship_description,
     find_shortest_relationship_path as compute_shortest_relationship_path, _find_all_relationship_paths_internal, _find_all_paths_to_ancestor_internal
 )
-from .gedcom_utils import (
+from .parser.gedcom_utils import (
     normalize_string, _get_gedcom_tag_from_event_type, _get_gedcom_tag_from_attribute_type,
     extract_birth_year, _extract_year_from_genealogy_date, _normalize_genealogy_name,
     _normalize_genealogy_date, _normalize_genealogy_place, _extract_year_from_date,
     _matches_criteria
 )
-from .gedcom_analysis import (
+from .parser.gedcom_analysis import (
     _get_attribute_statistics_internal, get_statistics_report, _get_timeline_internal, _get_ancestors_internal, _get_descendants_internal,
     _get_family_tree_summary_internal, _get_surname_statistics_internal, _get_date_range_analysis_internal,
     _find_potential_duplicates_internal, get_common_ancestors
