@@ -39,11 +39,17 @@ class TestGedcomAnalysis(unittest.TestCase):
 
     def test_get_timeline_internal(self):
         timeline = _get_timeline_internal('@I1@', self.gedcom_ctx)
-        self.assertEqual(len(timeline), 4)
+        # 4 personal events + 1 child birth event
+        self.assertEqual(len(timeline), 5)
         # Check that we have the expected event types, but order may vary due to sorting
         event_types = [event['type'] for event in timeline]
         self.assertIn('BIRT', event_types)
         self.assertIn('DEAT', event_types)
+        self.assertIn('CHILD_BIRTH', event_types)
+        # Verify child birth event details
+        child_birth_events = [e for e in timeline if e['type'] == 'CHILD_BIRTH']
+        self.assertEqual(len(child_birth_events), 1)
+        self.assertIn('Junior Smith', child_birth_events[0]['description'])
 
     def test_get_ancestors_internal(self):
         ancestors = _get_ancestors_internal('@I3@', self.gedcom_ctx, format='flat')

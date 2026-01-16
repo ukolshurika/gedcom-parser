@@ -197,9 +197,30 @@ def get_statistics_report(gedcom_ctx: GedcomContext) -> Dict[str, Any]:
     return dict(attribute_counts)
 
 def _get_timeline_internal(person_id: str, gedcom_ctx: GedcomContext) -> List[Dict[str, Any]]:
-    """Generate a chronological timeline of events for a person"""
+    """Generate a chronological timeline of events for a person, including children's births"""
     events = _get_events_internal(person_id, gedcom_ctx)
-    print(f"{events}")
+
+    # Get direct children (first generation descendants)
+    children = _get_descendants_internal(person_id, gedcom_ctx, generations=1, format='flat')
+
+    # Add birth events of children to the timeline
+    for child_id, level in children:
+        child_events = _get_events_internal(child_id, gedcom_ctx)
+        for event in child_events:
+            if event.get("type") == "BIRT":
+                # Create a child birth event for the parent's timeline
+                child_birth_event = {
+                    "type": "CHILD_BIRTH",
+                    "name": "Child's Birth",
+                    "description": f"Birth of child: {event.get('person_name', 'Unknown')}",
+                    "date": event.get("date"),
+                    "place": event.get("place"),
+                    "notes": event.get("notes", []),
+                    "sources": event.get("sources", []),
+                    "person_name": event.get("person_name"),
+                    "child_id": child_id
+                }
+                events.append(child_birth_event)
 
     # Sort events by date if possible
     # This is a simple implementation - a more robust solution would parse dates properly
