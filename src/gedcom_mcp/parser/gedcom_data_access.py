@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 
 import logging
+import os
+import tempfile
 from typing import List, Optional, Dict, Any
 from pathlib import Path
 from gedcom.element.individual import IndividualElement
@@ -64,16 +66,31 @@ def load_gedcom_file(file_path: str, gedcom_ctx: GedcomContext) -> bool:
                 logger.error("Failed to decode file with any known encoding")
                 return False
 
-        # Always write a clean UTF-8 version to ensure consistent parsing
-        utf8_path = file_path + '.utf8'
-        with open(utf8_path, 'w', encoding='utf-8') as f:
-            f.write(content)
-        file_path_to_parse = utf8_path
-        logger.info(f"Created clean UTF-8 file from {successful_encoding}: {utf8_path}")
+        # Parse from a temporary UTF-8 copy so read-only source directories and
+        # stale sidecar files cannot prevent loading.
+        temp_path = None
+        try:
+            with tempfile.NamedTemporaryFile(
+                mode='w',
+                encoding='utf-8',
+                suffix='.ged',
+                delete=False,
+            ) as temp_file:
+                temp_file.write(content)
+                temp_path = temp_file.name
 
-        # Parse the GEDCOM file
-        gedcom_ctx.gedcom_parser = Parser()
-        gedcom_ctx.gedcom_parser.parse_file(file_path_to_parse, False)
+            logger.info(f"Created temporary UTF-8 file from {successful_encoding}: {temp_path}")
+
+            # Parse the GEDCOM file
+            gedcom_ctx.gedcom_parser = Parser()
+            gedcom_ctx.gedcom_parser.parse_file(temp_path, False)
+        finally:
+            if temp_path:
+                try:
+                    os.unlink(temp_path)
+                except OSError as cleanup_error:
+                    logger.warning(f"Failed to remove temporary GEDCOM file {temp_path}: {cleanup_error}")
+
         gedcom_ctx.gedcom_file_path = file_path
 
         _rebuild_lookups(gedcom_ctx)
@@ -997,5 +1014,4 @@ def fuzzy_search_records(name: str, gedcom_ctx, threshold: int = 80, max_results
                 })
 
     return matches
-
 
