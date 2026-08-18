@@ -8,7 +8,7 @@ from __future__ import annotations
 
 from fastapi import APIRouter
 
-from .endpoints import cache, health, persons, timeline
+from .endpoints import cache, health, persons, relatives, timeline
 
 router = APIRouter()
 
@@ -16,4 +16,5 @@ router = APIRouter()
 router.include_router(health.router)
 router.include_router(timeline.router)
 router.include_router(persons.router)
+router.include_router(relatives.router)
 router.include_router(cache.router)

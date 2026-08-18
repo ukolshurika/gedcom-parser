@@ -117,6 +117,51 @@ def sample_gedcom_file(tmp_path):
     return str(gedcom_file)
 
 
+@pytest.fixture
+def sibling_gedcom_file(tmp_path):
+    """Create a GEDCOM file with two siblings for testing."""
+    gedcom_content = """0 HEAD
+1 SOUR Test
+1 GEDC
+2 VERS 5.5.1
+2 FORM LINEAGE-LINKED
+1 CHAR UTF-8
+0 @I1@ INDI
+1 NAME John /Doe/
+2 GIVN John
+2 SURN Doe
+1 SEX M
+1 FAMS @F1@
+0 @I2@ INDI
+1 NAME Jane /Smith/
+2 GIVN Jane
+2 SURN Smith
+1 SEX F
+1 FAMS @F1@
+0 @I3@ INDI
+1 NAME Bob /Doe/
+2 GIVN Bob
+2 SURN Doe
+1 SEX M
+1 FAMC @F1@
+0 @I4@ INDI
+1 NAME Alice /Doe/
+2 GIVN Alice
+2 SURN Doe
+1 SEX F
+1 FAMC @F1@
+0 @F1@ FAM
+1 HUSB @I1@
+1 WIFE @I2@
+1 CHIL @I3@
+1 CHIL @I4@
+0 TRLR
+"""
+    gedcom_file = tmp_path / "siblings.ged"
+    gedcom_file.write_text(gedcom_content)
+    return str(gedcom_file)
+
+
 @pytest.fixture(autouse=True)
 def clear_gedcom_contexts():
     """Clear GEDCOM contexts before each test"""
@@ -261,6 +306,53 @@ class TestPersonEndpoint:
         params = {"id": "@I999@", "file": sample_gedcom_file}
         _, headers = build_signed_request("/person", params)
         response = client.get("/person", params=params, headers=headers)
+        assert response.status_code == 404
+
+
+class TestRelativesEndpoint:
+    """Tests for relatives endpoint"""
+
+    def test_relatives_child_with_parents_and_sibling(self, client, sibling_gedcom_file):
+        """Child should have parents and a sibling, no children"""
+        params = {"id": "@I3@", "file": sibling_gedcom_file}
+        _, headers = build_signed_request("/relatives", params)
+        response = client.get("/relatives", params=params, headers=headers)
+        assert response.status_code == 200
+        data = response.json()
+        assert data["person_id"] == "@I3@"
+        assert {p["id"] for p in data["parents"]} == {"@I1@", "@I2@"}
+        assert [s["id"] for s in data["siblings"]] == ["@I4@"]
+        assert data["children"] == []
+
+    def test_relatives_parent_with_children(self, client, sibling_gedcom_file):
+        """Parent should have children but no parents or siblings"""
+        params = {"id": "@I1@", "file": sibling_gedcom_file}
+        _, headers = build_signed_request("/relatives", params)
+        response = client.get("/relatives", params=params, headers=headers)
+        assert response.status_code == 200
+        data = response.json()
+        assert data["person_id"] == "@I1@"
+        assert data["parents"] == []
+        assert [c["id"] for c in data["children"]] == ["@I3@", "@I4@"]
+        assert data["siblings"] == []
+
+    def test_relatives_missing_params(self, client):
+        """Test relatives endpoint with missing parameters"""
+        response = client.get("/relatives")
+        assert response.status_code == 422
+
+    def test_relatives_file_not_found(self, client):
+        """Test relatives with non-existent file"""
+        params = {"id": "@I1@", "file": "/nonexistent/file.ged"}
+        _, headers = build_signed_request("/relatives", params)
+        response = client.get("/relatives", params=params, headers=headers)
+        assert response.status_code == 404
+
+    def test_relatives_person_not_found(self, client, sibling_gedcom_file):
+        """Test relatives with invalid person ID"""
+        params = {"id": "@I999@", "file": sibling_gedcom_file}
+        _, headers = build_signed_request("/relatives", params)
+        response = client.get("/relatives", params=params, headers=headers)
         assert response.status_code == 404
 
 
