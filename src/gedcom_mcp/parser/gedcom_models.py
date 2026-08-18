@@ -32,6 +32,14 @@ class PersonRelationships(BaseModel):
     children: List[str] = Field(default_factory=list)
 
 
+class PersonRelatives(BaseModel):
+    """Model for a person's closest relatives (parents, children, siblings)."""
+    id: str
+    parents: List[str] = Field(default_factory=list)
+    children: List[str] = Field(default_factory=list)
+    siblings: List[str] = Field(default_factory=list)
+
+
 # --- Constants for Heuristics ---
 # These improve readability and make the logic easier to tune.
 BIRTH_YEAR_PROXIMITY_THRESHOLD = 500  # How close a birth year must be to be considered "relevant" for the heuristic.

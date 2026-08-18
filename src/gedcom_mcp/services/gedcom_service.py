@@ -13,9 +13,13 @@ from typing import Dict, List, Optional
 from fastapi import HTTPException, status
 
 from ..parser.gedcom_context import GedcomContext
-from ..parser.gedcom_data_access import get_person_record, load_gedcom_file
+from ..parser.gedcom_data_access import (
+    get_person_record,
+    get_person_relatives,
+    load_gedcom_file,
+)
 from ..parser.gedcom_analysis import _get_timeline_internal
-from ..parser.gedcom_models import PersonDetails
+from ..parser.gedcom_models import PersonDetails, PersonRelatives
 from .file_cache import FileCache, get_file_cache
 
 logger = logging.getLogger(__name__)
@@ -126,6 +130,39 @@ class GedcomService:
             )
 
         return person
+
+    def get_person_relatives(self, person_id: str, file_path: str) -> PersonRelatives:
+        """
+        Get a person's closest relatives: parents, children, and siblings.
+
+        Args:
+            person_id: Person ID (e.g., @I1@)
+            file_path: Path to GEDCOM file
+
+        Returns:
+            PersonRelatives object
+
+        Raises:
+            HTTPException: If person not found (404)
+        """
+        context = self.get_or_load_context(file_path)
+
+        # Ensure the person exists before computing relatives
+        person = get_person_record(person_id, context)
+        if not person:
+            raise HTTPException(
+                status_code=status.HTTP_404_NOT_FOUND,
+                detail=f"Person not found: {person_id}"
+            )
+
+        relatives = get_person_relatives(person_id, context)
+        if not relatives:
+            raise HTTPException(
+                status_code=status.HTTP_404_NOT_FOUND,
+                detail=f"Person not found: {person_id}"
+            )
+
+        return relatives
 
     def get_person_timeline(
         self,

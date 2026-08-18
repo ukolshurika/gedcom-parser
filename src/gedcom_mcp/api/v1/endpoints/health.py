@@ -31,6 +31,7 @@ async def root() -> RootResponse:
             "/timeline",
             "/persons",
             "/person",
+            "/relatives",
             "/cache/clean",
             "/health"
         ]

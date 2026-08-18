@@ -76,6 +76,24 @@ class PersonDetailResponse(BaseModel):
     )
 
 
+class RelativesResponse(BaseModel):
+    """Response model for relatives endpoint."""
+
+    person_id: str = Field(..., description="Person ID in GEDCOM format")
+    parents: List[PersonSummary] = Field(
+        default_factory=list,
+        description="List of the person's parents"
+    )
+    children: List[PersonSummary] = Field(
+        default_factory=list,
+        description="List of the person's children"
+    )
+    siblings: List[PersonSummary] = Field(
+        default_factory=list,
+        description="List of the person's siblings"
+    )
+
+
 class CacheCleanResponse(BaseModel):
     """Response model for cache clean operation."""
 

@@ -9,7 +9,7 @@ from gedcom.element.individual import IndividualElement
 from gedcom.parser import Parser
 import chardet
 from .gedcom_context import GedcomContext, _rebuild_lookups
-from .gedcom_models import PersonDetails, PersonRelationships
+from .gedcom_models import PersonDetails, PersonRelationships, PersonRelatives
 from .gedcom_utils import normalize_string, _normalize_genealogy_name, _normalize_genealogy_date, _normalize_genealogy_place, PLACE_UTILS_AVAILABLE
 from .gedcom_place_utils import normalize_place_name, extract_geographic_hierarchy
 from .gedcom_constants import EVENT_TYPES, ATTRIBUTE_TYPES
@@ -350,6 +350,56 @@ def _get_person_relationships_internal(person_id: str, gedcom_ctx) -> Optional[P
     except Exception as e:
         # We'll need to import logger when this function is used
         # logger.error(f"Error getting person relationships for {person_id}: {e}")
+        return None
+
+
+def get_person_relatives(person_id: str, gedcom_ctx) -> Optional[PersonRelatives]:
+    """
+    Get a person's closest relatives: parents, children, and siblings.
+
+    Parents and children are derived from the person's relationships.
+    Siblings are determined by collecting all children listed in the
+    person's FAMC (Family As Child) families, excluding the person.
+
+    Args:
+        person_id: Person ID (e.g., @I1@)
+        gedcom_ctx: GEDCOM context
+
+    Returns:
+        PersonRelatives instance, or None if the person is not found
+    """
+    relationships = _get_person_relationships_internal(person_id, gedcom_ctx)
+    if not relationships:
+        return None
+
+    try:
+        siblings = set()
+
+        individual_elem = gedcom_ctx.individual_lookup.get(person_id)
+        if individual_elem:
+            famc_families = [
+                child_elem.get_value()
+                for child_elem in individual_elem.get_child_elements()
+                if child_elem.get_tag() == "FAMC"
+            ]
+
+            for family_pointer in famc_families:
+                family_elem = gedcom_ctx.family_lookup.get(family_pointer)
+                if not family_elem:
+                    continue
+                for child_elem in family_elem.get_child_elements():
+                    if child_elem.get_tag() == "CHIL":
+                        child_pointer = child_elem.get_value()
+                        if child_pointer and child_pointer != person_id:
+                            siblings.add(child_pointer)
+
+        return PersonRelatives(
+            id=person_id,
+            parents=list(relationships.parents),
+            children=list(relationships.children),
+            siblings=sorted(siblings),
+        )
+    except Exception as e:
         return None
 
 
